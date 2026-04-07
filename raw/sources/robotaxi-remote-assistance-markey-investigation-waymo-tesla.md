@@ -1,0 +1,25 @@
+Autonomous vehicle companies are refusing to disclose key details about their use of remote assistance teams, including how often these workers are forced to intervene to help their self-driving cars.
+
+Sen. Ed Markey (D-MA) had asked robotaxi companies to disclose the information as part of [an investigation by his office into the use of remote assistance operators](https://www.markey.senate.gov/imo/media/doc/remote_assistance_investigation_report.pdf) (RAO). The senator’s office sent letters to seven robotaxi companies — Aurora, May Mobility, Motional, Nuro, Tesla, Waymo, and Amazon’s Zoox — seeking information about the use of remote workers to monitor the driverless vehicles and occasionally intervene when the vehicles need help. Their responses are then detailed in the report.
+
+The investigation stems from a February hearing during which [Markey grilled representatives from Waymo and Tesla](https://www.theverge.com/transportation/873891/senate-hearing-autonomous-vehicles-robotaxi-waymo-tesla-legislation) about their use of remote assistance operators. During the hearing, Waymo’s chief safety officer revealed that some of Waymo’s remote agents were based in the Philippines. In addition, there have been a handful of safety incidents related to remote agents, including one in Austin, Texas, in which [a Waymo vehicle drove past a school bus](https://www.theverge.com/transportation/874385/waymo-school-bus-austin-safety-robotaxi) with an extended stop sign after incorrect information from a remote assistant.
+
+[![A Waymo autonomous taxi on Bush Street in San Francisco, California, US, on Wednesday, Dec. 17, 2025. Waymo, Alphabet Inc.‘s autonomous driving unit, is in discussions to raise more than $15 billion at a valuation near $100 billion, in a financing round led by its parent company. Photographer: David Paul Morris/Bloomberg via Getty Images](https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/gettyimages-2251802888.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400)](https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/gettyimages-2251802888.jpg?quality=90&strip=all&crop=0,0,100,100)
+
+A Waymo autonomous taxi on Bush Street in San Francisco, California, US, on Wednesday, Dec. 17, 2025. Waymo, Alphabet Inc.‘s autonomous driving unit, is in discussions to raise more than $15 billion at a valuation near $100 billion, in a financing round led by its parent company. Photographer: David Paul Morris/Bloomberg via Getty Images
+
+Photo: David Paul Morris / Bloomberg via Getty Images
+
+Markey says there need to be strict rules around the use of remote assistants. But the robotaxi companies have [defended their use of remote agents](https://www.theverge.com/transportation/880583/waymo-remote-assistance-senate-letter-robotaxi-philippines), arguing they are an important backstop to the technology piloting the driverless vehicles.
+
+In their responses, the companies revealed a number of interesting details about their use of remote workers. Waymo, for example, is the only company to use remote agents based overseas. And it’s the only company in which a “substantial share” of its workers do not hold US driver’s licenses. Waymo said its remote workers in the Philippines are required to have driver’s licenses issued by that country.
+
+It also reveals new details about [Tesla’s use of remote operators](https://www.theverge.com/2024/11/25/24305498/tesla-is-building-an-ai-teleoperation-team). Last year, Tesla launched a limited robotaxi pilot in Austin. But unlike Waymo, most of the company’s vehicles still feature safety drivers in the front passenger seat. In its response to Markey’s inquiries, Tesla acknowledged occasionally using remote workers to pilot the vehicles at up to 10mph. By comparison, Waymo said its remote agents can send a prompt to move the vehicle at speeds of 2mph, but do not directly control it.
+
+“\[Remote assistance operator\] direct input is the last resort and is always limited in scope and duration,” Karen Steakley, Tesla’s director of public policy and business development, wrote in her response to the senator. “This capability enables Tesla to promptly move a vehicle that may be in a compromising position, thereby mitigating the need to wait for a first responder or Tesla field representative to manually recover the vehicle.”
+
+The tension around remote assistance for robotaxis has been building over a couple of weeks now. Markey called the refusal to disclose the number of remote interventions a “stunning lack of transparency from the AV companies,” concluding that regulatory changes would be required to ensure the system operates safely.
+
+**Follow topics and authors** from this story to see more like this in your personalized homepage feed and to receive email updates.
+
+<video aria-label="Connatix video player" role="application" title="" src="blob:https://www.theverge.com/a8adf025-e782-41d2-a0e3-d717cdba0bbc" controls=""></video>1/1

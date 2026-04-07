@@ -1,0 +1,55 @@
+---
+type: concept
+name: Agentic AI
+aliases: [AI agents, autonomous agents, agentic systems]
+tags: [ai, agents, robotics, manufacturing, llm]
+sources: 1
+---
+
+# Agentic AI
+
+## Definition
+
+AI systems that **reason, plan, and act** autonomously on large-scale processes — going beyond single-turn question answering to execute multi-step tasks, respond to changing conditions, and operate within broader systems with minimal human supervision.
+
+## In Manufacturing / Smart Factories
+
+In industrial contexts, agentic AI encompasses both physical and digital automation [[wiki/sources/robotics-trends-2026]]:
+- Managing supply chain disruptions in real time
+- Optimizing production flow and uptime
+- Coordinating customer experience and order fulfillment
+- Physical robots executing tasks within these pipelines
+
+The key distinction from earlier automation: agentic systems *reason* about their context rather than following fixed rules. A rule-based system handles the expected case; an agentic system adapts when conditions change.
+
+## Relation to Schema-Driven Agents
+
+This wiki is itself an example of agentic AI: Claude reads context, follows a schema (CLAUDE.md), reasons about which pages to update, plans the sequence of writes, and executes — all without turn-by-turn human instruction. The difference between this wiki agent and a factory agentic AI is the output medium (markdown files vs. physical processes), not the underlying architecture. [[wiki/concepts/schema-driven-agents]]
+
+## Relation to Physical AI
+
+Agentic AI is the *cognitive layer*; Physical AI is the *embodied layer*. In a smart factory:
+- Agentic AI plans and coordinates (supply chain, scheduling, quality decisions)
+- Physical AI executes (robots responding to the plan with sensorimotor action)
+
+Together they form the complete autonomous factory stack. [[wiki/concepts/physical-ai]]
+
+## In IoT Actor Networks
+
+IIoT actor nodes are a concrete, deployed form of agentic AI. A warehouse where AI robots negotiate task allocation and resolve routing conflicts in real time is a multi-agent agentic system operating in the physical world. The LLM layer enables structured communication between agents — expressing intentions and constraints — while each node acts autonomously within those bounds. [[wiki/concepts/industrial-iot]]
+
+The same pattern at different scales: this wiki agent (markdown files) → AI coding agents (codebases) → IIoT actor nodes (physical processes) → warehouse robot fleets (multi-agent physical systems). Each is agentic AI; the output medium and stakes differ.
+
+## Connections
+
+- [[wiki/concepts/physical-ai]] — agentic AI's physical embodiment in robotics.
+- [[wiki/concepts/ai-coding-agents]] — the most widely deployed consumer instance of agentic AI; AI coding tools like Claude Code and Cursor.
+- [[wiki/concepts/schema-driven-agents]] — the same agent architecture: schema defines context + rules; LLM reasons and acts. Smart factories use the same paradigm at industrial scale.
+- [[wiki/concepts/robotics-multidisciplinarity]] — agentic AI is raising the importance of CS/AI entry paths into robotics.
+- [[wiki/concepts/industrial-iot]] — IIoT actor nodes and warehouse robot fleets are agentic AI in deployed physical systems.
+
+## Sources
+
+- [[wiki/sources/robotics-trends-2026]] — identifies agentic AI as a key 2026 smart factory trend.
+- [[wiki/sources/ai-code-overload]] — AI coding agents as the most widely deployed real-world agentic AI application.
+- [[wiki/sources/the-intelligent-edge-how-ai-and-large]] — multi-agent actor node coordination in warehouses; LLM-mediated robot negotiation.
