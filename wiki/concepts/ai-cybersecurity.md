@@ -3,7 +3,7 @@ type: concept
 name: AI Cybersecurity
 aliases: [AI security, AI-enabled cyber operations, AI cyber offense and defense]
 tags: [ai, cybersecurity, security, llm, agents]
-sources: 2
+sources: 3
 ---
 
 # AI Cybersecurity
@@ -24,17 +24,23 @@ Defenders are leaning on the same tools to search for flaws at machine speed. Op
 
 This mirrors the internal enterprise version of the same problem described in [[wiki/sources/ai-code-overload]]: AI dramatically raises throughput, and security work has to scale with it or fall behind.
 
+The Mythos/Glasswing source radicalizes this claim. There, the problem is no longer just that AI helps defenders scan more code. It is that a single frontier model may reportedly be able to discover thousands of high-severity vulnerabilities across the software substrate of modern society, including every major operating system and web browser. The company response in that source is not a normal product launch but a restricted-release patching program. That suggests AI cybersecurity may be evolving from a race over tooling into a race over capability containment. [[wiki/sources/anthropic-ai-claude-mythos]]
+
 ## Balance, Guardrails, and Limits
 
 The article does not resolve whether AI advantages attackers or defenders overall. One side finds more holes faster; the other side can scan more surface area faster too. Safety guardrails further complicate the picture: they may block legitimate defensive use while determined attackers learn to route around them. At the same time, current systems are still error-prone enough that expert human oversight remains necessary.
 
 One plausible synthesis from the source: AI shifts cybersecurity less by making one side invincible than by collapsing response windows. Organizations now need AI simply to stay in the race.
 
+The new source adds a harsher possibility: some models may compress the offense-defense cycle so far that the first governance question becomes who should be allowed to access them at all.
+
 ## Connections
 
 - [[wiki/concepts/ai-coding-agents]] — coding agents are the immediate technical substrate for many AI-enabled cyber tasks.
+- [[wiki/concepts/ai-nonproliferation]] — when cyber capability scales sharply enough, the debate shifts from use policy to access control.
 - [[wiki/concepts/agentic-ai]] — AI cyber operations are agentic systems acting over digital infrastructure rather than physical environments.
 - [[wiki/entities/anthropic]] — both disclosed a largely AI-assisted attack and claimed major defensive vulnerability-finding results.
+- [[wiki/entities/claude-mythos-preview]] — current source's main example of a cyber-capable model managed via restricted release.
 - [[wiki/entities/openai]] — named alongside Anthropic as a frontier model provider increasing cyber capability.
 
 ## Open Questions
@@ -42,8 +48,10 @@ One plausible synthesis from the source: AI shifts cybersecurity less by making 
 - Does AI create a lasting structural advantage for attackers, or just a faster race for both sides?
 - Can safety guardrails be designed so they do not handicap legitimate defenders more than malicious users?
 - How should open source projects validate and prioritize the growing flood of AI-generated bug reports?
+- Can controlled release of cyber-capable models actually buy enough time to patch critical systems before comparable capability proliferates?
 
 ## Sources
 
 - [[wiki/sources/ai-cybersecurity-hackers]] — NYT report on AI accelerating both cyber offense and defense.
 - [[wiki/sources/ai-code-overload]] — shows the same security-throughput pattern inside software organizations.
+- [[wiki/sources/anthropic-ai-claude-mythos]] — extends the concept from dual-use acceleration into model containment and cyber nonproliferation.

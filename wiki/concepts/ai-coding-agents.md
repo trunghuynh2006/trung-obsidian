@@ -3,7 +3,7 @@ type: concept
 name: AI Coding Agents
 aliases: [AI code generation, vibe coding, coding agents, LLM coding tools]
 tags: [ai, software-engineering, agents, productivity, llm]
-sources: 2
+sources: 3
 ---
 
 # AI Coding Agents
@@ -25,6 +25,8 @@ Adoption data (Google/DORA 2025 survey):
 The newer generation of coding agents has expanded beyond software productivity into cybersecurity itself. The same systems that write and review code can now identify weak points in software, help build agents that probe for vulnerabilities, and in some cases assist with exploitation workflows. [[wiki/sources/ai-cybersecurity-hackers]]
 
 This matters because it changes the meaning of "coding agent." These tools are no longer just accelerators for legitimate software development; they are becoming general-purpose operators over digital systems.
+
+The Mythos/Glasswing source extends this to an even more consequential threshold. There, a frontier coding-capable model is presented not as a better copilot but as a system capable of finding vulnerabilities across core software infrastructure at such scale that broad public release is judged too risky. If that framing is correct, then "coding agent" is no longer mainly a developer-product category. It is becoming a strategic-security category. [[wiki/sources/anthropic-ai-claude-mythos]]
 
 ## The Code Overload Problem
 
@@ -52,9 +54,11 @@ The ironic solution: more agentic AI, this time for *review*. Cursor acquired Gr
 ## Connections
 
 - [[wiki/concepts/ai-cybersecurity]] — coding agents are increasingly part of both the offensive and defensive cyber toolchain.
+- [[wiki/concepts/ai-nonproliferation]] — once coding-capable models become cyber-significant enough, access control becomes part of their governance story.
 - [[wiki/concepts/agentic-ai]] — AI coding agents are the most widely deployed consumer instance of agentic AI.
 - [[wiki/concepts/deep-work]] — **tension**: AI accelerates code *production* but the review work it creates (security analysis, architectural understanding, debugging) is cognitively demanding deep work. AI tools may be increasing the total human deep work load, not reducing it.
 - [[wiki/entities/anthropic]] — Claude Code; one of the two tools credited with the November 2025 level-up.
+- [[wiki/entities/claude-mythos-preview]] — example of a coding-capable model presented as too cyber-powerful for general release.
 - [[wiki/entities/openai]] — Codex is the other tool most often paired with Claude Code in this transition.
 - [[wiki/entities/cursor]] — primary tool in the code overload story; acquired Graphite for code review.
 
@@ -68,3 +72,4 @@ The ironic solution: more agentic AI, this time for *review*. Cursor acquired Gr
 
 - [[wiki/sources/ai-code-overload]] — NYT investigation into code overload consequences.
 - [[wiki/sources/ai-cybersecurity-hackers]] — shows coding agents crossing from developer productivity into cyber offense and defense.
+- [[wiki/sources/anthropic-ai-claude-mythos]] — pushes the concept further: coding-capable models may become significant enough to trigger restricted-release governance.

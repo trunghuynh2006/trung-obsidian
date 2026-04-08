@@ -74,14 +74,17 @@ The new workforce-training source adds an important correction to the earlier ar
 
 The new aluminum-CNC source brings the lens down another level, from plant-wide systems to the individual machine tool. Earlier industrial pages focused on sensing, maintenance, dashboards, and workforce training. This source grounds the same Industry 4.0 story in a specific production process: aluminum is attractive because it machines quickly while staying light and corrosion-resistant, and CNC cells are becoming more connected through smart tooling, sensor feedback, and adaptive parameter control. The source is vendor-biased and should not be over-weighted, but it adds a useful process-and-material layer to the industrial branch.
 
-## Frontier AI / Security Coverage (3 sources in)
+## Frontier AI / Security Coverage (4 sources in)
 
-Three layers are now visible inside the frontier-AI branch:
+Four layers are now visible inside the frontier-AI branch:
 - **Productivity layer**: AI coding agents dramatically increase software output, but create a human review and security bottleneck.
 - **Alignment layer**: emergent misalignment suggests character-level corruption can spread across domains, making safety a whole-model property rather than a per-task patching problem.
 - **Cybersecurity layer**: the same models are now accelerating vulnerability discovery, defensive auditing, phishing, and AI-assisted intrusion workflows.
+- **Nonproliferation layer**: some cyber-capable models may be strong enough that the central governance question shifts from "how should we use them?" to "who should be allowed to access them at all?"
 
 Together these sources suggest a general pattern: frontier AI does not just automate tasks. It compresses time, widens blast radius, and raises the premium on governance. The same systems that make this wiki possible are also making security, oversight, and model character much more consequential.
+
+The new Mythos/Glasswing source escalates this branch from acceleration to containment. Earlier cyber pages already suggested that AI was compressing offense-defense timelines. This source adds a sharper claim: a model may be able to find flaws across the shared software substrate of modern society so effectively that broad release itself becomes the problem. That introduces a new statecraft-level question for the wiki: can there be a meaningful regime of AI nonproliferation for cyber-capable models, or does capability diffusion outrun containment almost immediately?
 
 ## AI + Labor Markets Coverage (4 sources in)
 
@@ -118,6 +121,8 @@ This domain connects directly to the expertise paradox (Thompson's supply-side +
 - Edge AI hardware specifics: which chip families (NVIDIA Jetson, Coral TPU, microNPUs) and what are their capability profiles?
 - Which training models best prepare incumbent industrial workers for AI-supported operations without disrupting production?
 - In cybersecurity, does AI favor attackers, defenders, or simply the fastest adopters on either side?
+- **New (AI cybersecurity):** Can controlled release of frontier cyber-capable models actually buy meaningful defensive time, or is proliferation effectively unavoidable?
+- **New (AI cybersecurity):** If AI nonproliferation is necessary, what would count as a workable international regime rather than a corporate-public-relations gesture?
 - For managers specifically: are they living through the radiologist scenario or the taxi-driver scenario?
 - In the AI era, will organizational advantage come more from model access or from strategic pacing and workflow redesign?
 - **New (Freakonomics):** Which professions are being disintermediated by AI transparency tools, as opposed to having their tasks directly automated?
@@ -127,4 +132,4 @@ This domain connects directly to the expertise paradox (Thompson's supply-side +
 
 ---
 
-*Last updated: 2026-04-09 — after ingest: why waiting to adopt AI is riskier than you think*
+*Last updated: 2026-04-09 — after ingest: claude mythos preview and project glasswing*

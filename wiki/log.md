@@ -5,6 +5,13 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-09] ingest | Untitled clipping on Anthropic's Claude Mythos Preview and Project Glasswing
+
+Processed raw/sources/anthropic-ai-claude-mythos.md (opinion/commentary piece relying heavily on Anthropic's own claims; analytically useful but not independently verified).
+Pages created: wiki/sources/anthropic-ai-claude-mythos, wiki/concepts/ai-nonproliferation, wiki/entities/claude-mythos-preview.
+Pages updated: wiki/entities/anthropic (+Mythos/Glasswing role, +4th source), wiki/concepts/ai-cybersecurity (+containment layer, +3rd source), wiki/concepts/ai-coding-agents (+strategic-security framing, +3rd source), wiki/index, wiki/overview.
+User focus: defaulted to frontier AI / cybersecurity lens. Key synthesis: this source pushes the cyber branch from dual-use acceleration into a nonproliferation question about whether some models are too cyber-capable for general release.
+
 ## [2026-04-09] ingest | There's No 'Right Time' to Adopt AI. Here's the Advantage You Gain By Starting Before You Feel Ready.
 
 Processed raw/sources/leadership/why-waiting-to-adopt-ai-is-riskier-than-you-think.md (Entrepreneur contributor opinion piece; anecdotal/self-referential; useful as a managerial pattern, but lightly evidenced and partly promotional).

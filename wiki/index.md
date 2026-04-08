@@ -5,6 +5,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 ---
 
 ## Sources
+- [[wiki/sources/anthropic-ai-claude-mythos]] — Opinion-driven frontier-AI warning: Anthropic's restricted Mythos release reframes cyber-capable models as a nonproliferation problem, not just a product launch.
 - [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]] — Entrepreneur contributor piece: early AI advantage compounds as judgment, shared standards, and learning-first leadership rather than tool access alone.
 - [[wiki/sources/the-growing-demand-for-aluminum-cnc-machining-in-modern-industries]] — Vendor-led manufacturing explainer: why aluminum works well with CNC, where demand is rising, and how smart tooling/Industry 4.0 are reframing machining cells.
 - [[wiki/sources/freakonomics-introduction]] — Levitt & Dubner intro: incentive misalignment, conventional wisdom failure, Roe v. Wade crime drop, applied microeconomics as method.
@@ -29,6 +30,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 
 ## Entities
 - [[wiki/entities/ai-officer-institute]] — External partner cited as helping DOXA Talent build AI confidence and capability through guided adoption.
+- [[wiki/entities/claude-mythos-preview]] — Anthropic preview model presented as a step-change cyber capability and released only to a restricted consortium.
 - [[wiki/entities/steven-levitt]] — University of Chicago economist; Freakonomics; canonical empiricist of expert incentive misalignment and conventional-wisdom debunking.
 - [[wiki/entities/stephen-dubner]] — NYT journalist; co-author of Freakonomics with Levitt.
 - [[wiki/entities/norma-mccorvey]] — Jane Roe; her 1970 pregnancy and Roe v. Wade (1973) are the causal root of the 1990s US crime drop.
@@ -59,6 +61,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 
 ## Concepts
 - [[wiki/concepts/expert-incentive-misalignment]] — Levitt's framework: experts exploit informational asymmetry against clients; empirically measured via real estate data; demand-side complement to the expertise paradox.
+- [[wiki/concepts/ai-nonproliferation]] — Restricting access to frontier models whose cyber capabilities may be dangerous enough that broad release sharply raises infrastructure and national-security risk.
 - [[wiki/concepts/conventional-wisdom]] — Beliefs accepted as true by repetition and authority without measurement; the primary epistemological adversary in Freakonomics.
 - [[wiki/concepts/correlation-vs-causation]] — Methodological spine of Freakonomics; reverse causation, confounding, and distant causation as three failure modes.
 - [[wiki/concepts/cnc-machining]] — Computer-controlled subtractive manufacturing; now linked in the wiki to aluminum's material advantages and to connected-factory/adaptive-control trends.
