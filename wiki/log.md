@@ -5,6 +5,13 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-09] ingest | There's No 'Right Time' to Adopt AI. Here's the Advantage You Gain By Starting Before You Feel Ready.
+
+Processed raw/sources/leadership/why-waiting-to-adopt-ai-is-riskier-than-you-think.md (Entrepreneur contributor opinion piece; anecdotal/self-referential; useful as a managerial pattern, but lightly evidenced and partly promotional).
+Pages created: wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think, wiki/concepts/experimentation-culture, wiki/entities/doxa-talent, wiki/entities/ai-officer-institute.
+Pages updated: wiki/concepts/strategic-pacing (+2nd source, +team-level adoption lens), wiki/concepts/ai-governance (+practice-layer governance, +2nd source, owner-vs-committee tension), wiki/concepts/ai-workforce-readiness (+knowledge-work generalization, +3rd source), wiki/index, wiki/overview.
+User focus: defaulted to leadership/adoption lens. Key synthesis: early AI advantage compounds mainly as judgment, confidence, and shared standards; leadership's job is to make experimentation safe, visible, and governed before informal habits harden.
+
 ## [2026-04-09] ingest | Companies That Fail to Align These 3 Things Will Lose the AI Race
 
 Processed raw/sources/whats-ais-real-failure-no-ones-actually-in-charge.md (Entrepreneur/Visier; vendor bias flagged; organizational design angle strong and well-supported independently).

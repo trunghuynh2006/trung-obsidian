@@ -5,6 +5,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 ---
 
 ## Sources
+- [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]] — Entrepreneur contributor piece: early AI advantage compounds as judgment, shared standards, and learning-first leadership rather than tool access alone.
 - [[wiki/sources/the-growing-demand-for-aluminum-cnc-machining-in-modern-industries]] — Vendor-led manufacturing explainer: why aluminum works well with CNC, where demand is rising, and how smart tooling/Industry 4.0 are reframing machining cells.
 - [[wiki/sources/freakonomics-introduction]] — Levitt & Dubner intro: incentive misalignment, conventional wisdom failure, Roe v. Wade crime drop, applied microeconomics as method.
 - [[wiki/sources/llm-wiki-idea]] — Foundational idea doc: LLMs incrementally build/maintain a persistent wiki instead of doing RAG at query time.
@@ -27,6 +28,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/whats-ais-real-failure-no-ones-actually-in-charge]] — Entrepreneur/Visier (⚠ vendor bias): 60% of companies have no AI owner; AI transformation is an org design problem; HR+IT+Finance alignment and Moderna's merged-role model.
 
 ## Entities
+- [[wiki/entities/ai-officer-institute]] — External partner cited as helping DOXA Talent build AI confidence and capability through guided adoption.
 - [[wiki/entities/steven-levitt]] — University of Chicago economist; Freakonomics; canonical empiricist of expert incentive misalignment and conventional-wisdom debunking.
 - [[wiki/entities/stephen-dubner]] — NYT journalist; co-author of Freakonomics with Levitt.
 - [[wiki/entities/norma-mccorvey]] — Jane Roe; her 1970 pregnancy and Roe v. Wade (1973) are the causal root of the 1990s US crime drop.
@@ -37,6 +39,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/anthropic]] — Creator of Claude and Claude Code; grounding Claude's alignment in virtue ethics via Amanda Askell.
 - [[wiki/entities/cal-newport]] — Author of *Deep Work*; applied flow and deliberate practice to knowledge work.
 - [[wiki/entities/cursor]] — AI coding tool; acquired Graphite (code review bots); central to the code overload story.
+- [[wiki/entities/doxa-talent]] — Distributed organization used as an anecdotal case study for committee-based, learning-first AI adoption.
 - [[wiki/entities/james-clear]] — Author of *Atomic Habits*; 1% daily improvement compounds to 37× over a year; habit stacking.
 - [[wiki/entities/scott-young]] — Author associated with Ultralearning; self-directed, intense skill-acquisition framework.
 - [[wiki/entities/tiago-forte]] — Author of *Building a Second Brain*; PARA/CODE framework; progressive summarization.
@@ -66,6 +69,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/ai-workforce-readiness]] — Workforce preparedness for AI-supported operations: role-specific training, AI literacy, data discipline, and supervised adoption.
 - [[wiki/concepts/predictive-maintenance]] — Sensor-based AI analysis of vibration/thermal/acoustic signatures to predict equipment failures weeks ahead; from reactive to proactive maintenance.
 - [[wiki/concepts/emergent-misalignment]] — Fine-tuning on 6K subtly bad examples corrupts full model character; computational evidence for virtue ethics' unity-of-virtues thesis.
+- [[wiki/concepts/experimentation-culture]] — Learning-first AI adoption: make experimentation safe, visible, and social so judgment compounds before habits harden.
 - [[wiki/concepts/virtue-ethics]] — Character-centered moral philosophy (Plato, Aristotle, Stoics); virtues are unified; revived by LLM alignment research.
 - [[wiki/concepts/ai-coding-agents]] — LLM coding tools (Claude Code, Cursor, Codex); triggered a 2025 inflection; now creating a code review/security bottleneck.
 - [[wiki/concepts/ai-cybersecurity]] — AI is now part of both cyber offense and cyber defense, compressing vulnerability discovery and response timelines.
