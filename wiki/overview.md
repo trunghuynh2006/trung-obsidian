@@ -59,13 +59,16 @@ The three layers complement each other. The philosophy tells you *how to learn*;
 
 This new layer sharpens the meaning of [[wiki/concepts/physical-ai]]. The missing ingredient is not always "more intelligence." Sometimes it is a better representation of the world: captured environments, reusable 3D assets, and localization systems that let robots stay oriented once they leave simulation. That connects the robotics domain more tightly to the AI+IoT domain, where physical deployment constraints already mattered.
 
-## AI+IoT Coverage (1 source in)
+## AI+IoT Coverage (2 sources in)
 
 A new domain now established around the edge/on-device AI architecture and industrial applications:
 - **Architecture layer**: edge AI (model quantization, pruning, distillation, edge chips), federated learning, the edge-cloud continuum
 - **Application layer**: predictive maintenance, industrial QC, supply chain, energy arbitrage, multi-agent actor coordination
+- **Workforce layer**: AI workforce readiness — role-specific training, AI literacy, data discipline, simulation practice, and adoption measurement as the human bottleneck in industrial deployment
 
 This domain connects strongly to robotics (sensor/actuator nodes as AI-enhanced robot components) and to agentic AI (IIoT actor networks as deployed multi-agent physical systems). The LLM-as-interface pattern here — natural language queries to sensor networks, explainable actuator decisions — mirrors the LLM Wiki pattern: LLMs democratizing access to complex structured data.
+
+The new workforce-training source adds an important correction to the earlier architecture-heavy picture: industrial AI adoption does not fail only at the model or systems level. It also fails at the workflow and skills level. Predictive dashboards, machine-vision outputs, and scheduling systems only matter if workers understand when to trust them, how to act on them, and who owns the resulting decisions. This creates a direct bridge between the AI+IoT domain and the AI + labor domain.
 
 ## Frontier AI / Security Coverage (3 sources in)
 
@@ -102,6 +105,7 @@ This domain connects directly to the expertise paradox (Thompson's supply-side +
 - Career path specifics: what skills are needed for each role beyond the high-level taxonomy?
 - At what point does this wiki need a search tool beyond index.md?
 - Edge AI hardware specifics: which chip families (NVIDIA Jetson, Coral TPU, microNPUs) and what are their capability profiles?
+- Which training models best prepare incumbent industrial workers for AI-supported operations without disrupting production?
 - In cybersecurity, does AI favor attackers, defenders, or simply the fastest adopters on either side?
 - For managers specifically: are they living through the radiologist scenario or the taxi-driver scenario?
 - In the AI era, will organizational advantage come more from model access or from strategic pacing and workflow redesign?
@@ -110,4 +114,4 @@ This domain connects directly to the expertise paradox (Thompson's supply-side +
 
 ---
 
-*Last updated: 2026-04-08 — after ingest: this-is-the-biggest-risk-a-company-can-take-during-the-age-of-ai*
+*Last updated: 2026-04-08 — after ingest: how-manufacturers-are-training-their-workforce-for-ai-powered-operations*

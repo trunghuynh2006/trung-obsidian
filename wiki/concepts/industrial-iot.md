@@ -3,7 +3,7 @@ type: concept
 name: Industrial IoT
 aliases: [IIoT, Industrial Internet of Things, smart factory, Industry 4.0]
 tags: [iot, manufacturing, ai, automation, industry]
-sources: 1
+sources: 2
 ---
 
 # Industrial IoT
@@ -51,6 +51,18 @@ LLMs are democratizing access to complex industrial systems:
 - Actuator decisions explained in natural language builds operator trust
 - Augmented reality overlays project AI-derived insights (temperature gradients, stress patterns) onto physical equipment during maintenance
 
+## Workforce Readiness as Adoption Bottleneck
+
+As industrial AI moves from pilots into daily operations, the bottleneck is no longer only technical architecture. It is increasingly workforce readiness: whether operators, technicians, supervisors, and engineers know how to interpret outputs, trust alerts appropriately, and act inside AI-supported workflows.
+
+The manufacturing workforce-training source adds a practical adoption pattern:
+- **Role-specific training** — operators, maintenance teams, quality teams, supervisors, and engineers each need different AI-related skills
+- **AI literacy** — workers need to understand what a system is doing, what outputs mean, and when to escalate
+- **Data discipline** — bad logging and weak workflow adherence degrade even technically sound systems
+- **Hands-on practice** — simulation environments, digital twins, labs, shadowing, and supervised use outperform one-time demos
+
+This fills a gap in the existing IIoT picture. The architecture can be correct and the models can perform well, yet value still fails to materialize if the workforce treats dashboards as noise or reverts to manual habits. [[wiki/concepts/ai-workforce-readiness]]
+
 ## Connections
 
 - [[wiki/concepts/edge-ai]] — the computational architecture that enables low-latency, privacy-preserving IIoT
@@ -59,7 +71,9 @@ LLMs are democratizing access to complex industrial systems:
 - [[wiki/concepts/agentic-ai]] — actor nodes with multi-agent coordination (e.g., warehouse robots negotiating task allocation) are agentic AI in physical form
 - [[wiki/concepts/physical-ai]] — IIoT is the industrial instantiation of Physical AI
 - [[wiki/concepts/robot-components]] — IIoT sensor and actor nodes are AI-enhanced extensions of the classic sensor/actuator taxonomy
+- [[wiki/concepts/ai-workforce-readiness]] — workforce training and operational AI literacy determine whether IIoT systems are adopted effectively
 
 ## Sources
 
 - [[wiki/sources/the-intelligent-edge-how-ai-and-large]] — comprehensive IIoT survey covering QC, predictive maintenance, energy management, supply chain, and multi-agent coordination
+- [[wiki/sources/how-manufacturers-are-training-their-workforce-for-ai-powered-operations]] — adds the workforce layer: role-specific training, AI literacy, data discipline, and hands-on practice as adoption bottlenecks

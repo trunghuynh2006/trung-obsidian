@@ -11,6 +11,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/robotics-trends-2026]] — RoboDK blog (⚠ vendor bias): 7 trends — Physical AI, humanoids, cobots/RaaS, agentic AI, lights-out factories, nearshoring, high-precision machining.
 - [[wiki/sources/niantic-spatial-launches-two-new-world-models-to-support-real-world-ai-deployment]] — Spatial AI infrastructure: Scaniverse + VPS 2.0 as mapping/localization substrate for physical AI and robotics.
 - [[wiki/sources/this-is-the-biggest-risk-a-company-can-take-during-the-age-of-ai]] — Fast Company / KPMG argument: in the AI era, strategic waiting is costly; disciplined transformation under uncertainty outperforms caution.
+- [[wiki/sources/how-manufacturers-are-training-their-workforce-for-ai-powered-operations]] — Manufacturing AI adoption lens: the bottleneck has shifted from tool choice to workforce readiness, role-specific training, and operational AI literacy.
 - [[wiki/sources/ai-code-overload]] — NYT (2026): AI coding agents created a code review/security bottleneck; 25K→250K lines/month; not enough security engineers; "the factory broke."
 - [[wiki/sources/ai-chatbots-virtue-vice]] — NYT essay (2026): emergent misalignment in LLMs as evidence for virtue ethics; character is unified; Anthropic bets on Aristotelian practical wisdom.
 - [[wiki/sources/robotics-for-beginners-playtolabs]] — Encyclopedic beginner guide: career paths, robot types, hardware components, skills, learning resources.
@@ -41,6 +42,8 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/niantic-spatial]] — Spatial-computing company building mapping + localization infrastructure for physical AI deployment.
 - [[wiki/entities/coco-robotics]] — Delivery robotics company cited as a live VPS deployment example.
 - [[wiki/entities/kpmg]] — Advisory and research firm; source of the “strategic pacing” / transformation-under-volatility framing.
+- [[wiki/entities/bosch]] — Industrial company cited as building internal AI training pathways for manufacturing workers.
+- [[wiki/entities/siemens]] — Industrial company cited as scaling workforce training alongside AI and automation adoption.
 - [[wiki/entities/ros2]] — Robot Operating System 2; industry-standard robotics middleware; commonly debated as a starting point.
 - [[wiki/entities/vannevar-bush]] — 1945 Memex visionary; intellectual ancestor of LLM Wiki.
 - [[wiki/entities/neil-thompson]] — MIT research scientist; originator of the expertise paradox framework; studies how AI capability evolves across job tasks.
@@ -53,6 +56,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/edge-ai]] — On-device AI inference via model quantization/pruning/distillation; runs at milliwatts on constrained hardware; enables local intelligence without cloud dependency.
 - [[wiki/concepts/federated-learning]] — Collaborative ML training across distributed nodes sharing only weight updates, not raw data; privacy-preserving collective learning.
 - [[wiki/concepts/industrial-iot]] — AI+IoT in manufacturing/industrial settings; covers predictive maintenance, QC, supply chain, energy management, multi-agent coordination.
+- [[wiki/concepts/ai-workforce-readiness]] — Workforce preparedness for AI-supported operations: role-specific training, AI literacy, data discipline, and supervised adoption.
 - [[wiki/concepts/predictive-maintenance]] — Sensor-based AI analysis of vibration/thermal/acoustic signatures to predict equipment failures weeks ahead; from reactive to proactive maintenance.
 - [[wiki/concepts/emergent-misalignment]] — Fine-tuning on 6K subtly bad examples corrupts full model character; computational evidence for virtue ethics' unity-of-virtues thesis.
 - [[wiki/concepts/virtue-ethics]] — Character-centered moral philosophy (Plato, Aristotle, Stoics); virtues are unified; revived by LLM alignment research.

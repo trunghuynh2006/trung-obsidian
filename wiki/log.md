@@ -5,6 +5,13 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-08] ingest | How manufacturers are training their workforce for AI-powered operations
+
+Processed raw/sources/how-manufacturers-are-training-their-workforce-for-ai-powered-operations.md (manufacturing/automation blog; moderate-to-low credibility; practical but lightly evidenced and somewhat content-marketing in tone).
+Pages created: wiki/sources/how-manufacturers-are-training-their-workforce-for-ai-powered-operations, wiki/concepts/ai-workforce-readiness, wiki/entities/bosch, wiki/entities/siemens.
+Pages updated: wiki/concepts/industrial-iot (+workforce readiness layer, +2nd source), wiki/index, wiki/overview.
+User focus: workforce upskilling angle assumed. Key synthesis: in manufacturing, the AI bottleneck has shifted from selecting tools to preparing incumbent workers to interpret, trust, and act on AI outputs inside real workflows.
+
 ## [2026-04-08] ingest | This is the biggest risk a company can take in the age of AI
 
 Processed the first article section only from raw/sources/this-is-the-biggest-risk-a-company-can-take-during-the-age-of-ai.md (Fast Company opinion/strategy piece citing KPMG research; moderate credibility; strong managerial/institutional bias). The raw file also contains an unrelated appended Palantir article, which was intentionally excluded from this ingest.
