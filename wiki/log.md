@@ -5,6 +5,13 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-09] ingest | Companies That Fail to Align These 3 Things Will Lose the AI Race
+
+Processed raw/sources/whats-ais-real-failure-no-ones-actually-in-charge.md (Entrepreneur/Visier; vendor bias flagged; organizational design angle strong and well-supported independently).
+Pages created: wiki/sources/whats-ais-real-failure-no-ones-actually-in-charge, wiki/concepts/ai-governance, wiki/concepts/cross-functional-alignment, wiki/entities/moderna.
+Pages updated: wiki/concepts/ai-workforce-readiness (+governance layer, +2nd source), wiki/index, wiki/overview.
+User focus: organizational design — who owns AI, the governance vacuum, HR+IT+Finance alignment, Moderna's merged-role model. Key synthesis: the AI ownership vacuum is a structural consequence of AI's cross-cutting nature; consistent with a broader wiki pattern where AI capability speed outpaces governance speed.
+
 ## [2026-04-09] ingest | The Growing Demand for Aluminum CNC Machining in Modern Industries
 
 Processed raw/sources/the-growing-demand-for-aluminum-cnc-machining-in-modern-industries.md (vendor-led manufacturing article; moderate-to-low credibility; conceptually useful, but strongly promotional and centered on Yijin Solution).

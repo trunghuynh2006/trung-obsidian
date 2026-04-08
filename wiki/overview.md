@@ -83,15 +83,18 @@ Three layers are now visible inside the frontier-AI branch:
 
 Together these sources suggest a general pattern: frontier AI does not just automate tasks. It compresses time, widens blast radius, and raises the premium on governance. The same systems that make this wiki possible are also making security, oversight, and model character much more consequential.
 
-## AI + Labor Markets Coverage (2 sources in)
+## AI + Labor Markets Coverage (3 sources in)
 
 New domain established around the expertise paradox and organizational restructuring:
 - **Structural layer**: span-of-control inflation — the megamanager era, average US manager now overseeing 12 reports (up from ~6), Meta at 50:1.
 - **Analytical layer**: Neil Thompson's expertise paradox — the decisive question for every AI-affected profession is whether the automated tasks were administrative scaffolding or the expert core.
 - **Historical layer**: Morgan Stanley analysis of five prior US innovation waves; gains materialize years after disruption; distribution depends on policy (Great Compression vs. post-1980 inequality).
 - **Strategic layer**: transformation under uncertainty — in AI-accelerated markets, waiting for clarity is itself a costly choice; firms need strategic pacing, clear ownership, and AI-native workflow redesign.
+- **Governance layer**: the AI ownership vacuum — 60% of senior leaders report no one in their organization has clear ownership of AI. This is a structural consequence of AI's cross-cutting nature (people + systems + finance), not a failure of awareness. The fix is organizational design: either a cross-functional HR+IT+Finance alignment (three-step framework), or structural merger of roles (Moderna's CHRO+CIO combined into one executive).
 
 This domain connects to frontier AI (same capability wave driving coding agents and cybersecurity is restructuring management) and to deep work/flow (span-of-control inflation is a structural attacker of the conditions needed for expert-level work). The KPMG/Fast Company source adds a management-governance angle: beyond what AI does to jobs, there is the separate question of how organizations should move while those changes are unfolding. The article's answer is not "faster at all costs" but "trade certainty-seeking for disciplined maneuverability."
+
+The new governance source sharpens a recurring tension in the wiki: AI capability consistently arrives faster than the institutions designed to govern it. This is visible in cybersecurity (AI compresses offense/defense timelines), in code review (AI raises output faster than security engineers can review it), and now in organizational design (AI restructures management before companies have decided who is responsible for managing that restructuring). The pattern is consistent: speed of capability > speed of governance.
 
 ## Behavioral Economics / Applied Microeconomics Coverage (1 source in)
 
@@ -116,7 +119,9 @@ This domain connects directly to the expertise paradox (Thompson's supply-side +
 - In the AI era, will organizational advantage come more from model access or from strategic pacing and workflow redesign?
 - **New (Freakonomics):** Which professions are being disintermediated by AI transparency tools, as opposed to having their tasks directly automated?
 - **New (Freakonomics):** As more Freakonomics chapters are ingested, which of the five theses gets the most empirical weight?
+- **New (AI governance):** Which governance model actually produces better AI outcomes — dedicated CAIO, merged HR+IT, cross-functional committee, or something else? No source yet compares models empirically.
+- **New (AI governance):** Is the "cultural barrier" framing accurate, or is it a reframing that conveniently positions HR (and HR software vendors) as the solution?
 
 ---
 
-*Last updated: 2026-04-09 — after ingest: the growing demand for aluminum CNC machining in modern industries*
+*Last updated: 2026-04-09 — after ingest: what's AI's real failure — no one's actually in charge*

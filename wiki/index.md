@@ -24,6 +24,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/the-intelligent-edge-how-ai-and-large]] — Survey of AI+IoT stack: edge AI architecture (quantization, federated learning, edge chips), IIoT applications (predictive maintenance, QC, energy management, supply chain).
 - [[wiki/sources/ai-cybersecurity-hackers]] — NYT (2026): frontier AI compresses cyber offense and defense timelines; Anthropic reports AI-assisted intrusion and 500+ zero-days found.
 - [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]] — Long-form (2026): AI-driven middle management elimination; avg manager now oversees 12 reports; expertise paradox as the key analytical lens.
+- [[wiki/sources/whats-ais-real-failure-no-ones-actually-in-charge]] — Entrepreneur/Visier (⚠ vendor bias): 60% of companies have no AI owner; AI transformation is an org design problem; HR+IT+Finance alignment and Moderna's merged-role model.
 
 ## Entities
 - [[wiki/entities/steven-levitt]] — University of Chicago economist; Freakonomics; canonical empiricist of expert incentive misalignment and conventional-wisdom debunking.
@@ -51,6 +52,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/ros2]] — Robot Operating System 2; industry-standard robotics middleware; commonly debated as a starting point.
 - [[wiki/entities/vannevar-bush]] — 1945 Memex visionary; intellectual ancestor of LLM Wiki.
 - [[wiki/entities/neil-thompson]] — MIT research scientist; originator of the expertise paradox framework; studies how AI capability evolves across job tasks.
+- [[wiki/entities/moderna]] — Pharmaceutical company; cited as structural example of AI governance: merged CHRO + CIO into Chief People and Digital Technology Officer.
 
 ## Concepts
 - [[wiki/concepts/expert-incentive-misalignment]] — Levitt's framework: experts exploit informational asymmetry against clients; empirically measured via real estate data; demand-side complement to the expertise paradox.
@@ -94,6 +96,8 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/schema-driven-agents]] — Using CLAUDE.md/AGENTS.md to give an LLM consistent, disciplined behavior across sessions.
 - [[wiki/concepts/time-blocking]] — Protecting deep work by scheduling it as fixed calendar commitments; can improve productivity up to 80%.
 - [[wiki/concepts/visual-positioning-systems]] — Camera-based localization for robots and devices, especially where GPS is unreliable.
+- [[wiki/concepts/ai-governance]] — Who owns AI in the organization; the accountability vacuum (60% of senior leaders report no clear AI owner); structural responses including merged executive roles.
+- [[wiki/concepts/cross-functional-alignment]] — HR+IT+Finance unified front as the organizational remedy for the AI governance vacuum; three-step framework: break silos, connect data, solve last-mile.
 
 ## Analyses
 - [[wiki/analyses/how-to-use-this-wiki]] — Operations reference: ingest/query/lint commands, session start checklist, key file locations.
