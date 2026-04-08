@@ -3,7 +3,7 @@ type: concept
 name: Expertise Paradox
 aliases: [expert automation paradox, administrative vs expert automation]
 tags: [ai, labor-economics, future-of-work, automation]
-sources: 1
+sources: 2
 ---
 
 # Expertise Paradox
@@ -37,17 +37,32 @@ But if span-of-control is so severe that managers can no longer perform the expe
 - Managers + AI coordination tools: open question — scenario A (augmented leaders) or scenario B (hollowed coordinators)? [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]]
 - Goldman Sachs: AI-substituted roles contracting; AI-augmented roles growing — macro-level evidence consistent with the paradox [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]]
 
+## The Freakonomics Extension
+
+Levitt and Dubner (*Freakonomics*, 2005) add a demand-side dimension the paradox does not address: **expert incentive misalignment** [[wiki/concepts/expert-incentive-misalignment]]. Thompson's framework asks what happens to expert *labor* when AI automates expert *tasks*. Levitt's framework asks what experts do with their informational monopoly over *clients* — regardless of automation.
+
+The two are complementary and now intersecting:
+- Thompson: AI changes the composition of expert work → admin automation augments, expert-core automation hollows
+- Levitt: AI erodes the informational monopoly that enables expert exploitation → clients gain transparency; the exploitation premium shrinks
+
+This creates a third scenario Thompson's framework does not capture: **transparency automation** — AI tools that don't touch the expert's tasks but give clients the ability to benchmark, verify, or substitute expert judgment. Real estate platforms, second-opinion diagnostic AIs, and election-spending databases all reduce the informational gap without automating the expert's work. The expert's skills remain intact; their leverage over clients does not.
+
+**Convergence question for this wiki:** As AI compresses informational asymmetry and automates administrative scaffolding simultaneously, which effect dominates for a given profession — augmentation, hollowing, or disintermediation?
+
 ## Connections
 
 - [[wiki/entities/neil-thompson]] — originator of the framework
+- [[wiki/entities/steven-levitt]] — demand-side complement via expert incentive misalignment
+- [[wiki/concepts/expert-incentive-misalignment]] — Levitt's framework; the demand-side view of expertise
 - [[wiki/concepts/span-of-control]] — the megamanager era is the primary test case for this concept in this wiki
 - [[wiki/concepts/agentic-ai]] — AI agents automating workplace coordination tasks are the proximate mechanism triggering the paradox for managers
 - [[wiki/concepts/ai-coding-agents]] — a parallel domain: the same question applies to software developers; are AI coding tools automating the boilerplate or the craft?
 
 ## Contradictions
 
-None yet. The paradox framework is internally consistent. The unresolved empirical question is which scenario managers are currently in — the answer is not yet in the data.
+> **Tension (Freakonomics vs. Expertise Paradox):** Levitt's framework implies experts are adversarial to clients; Thompson's implies experts are victims of automation. Both can be true simultaneously — an expert can exploit informational advantage *while also* being vulnerable to AI automating their core skills. The two threats are independent and can compound: automation hollows expert identity while transparency erodes the rents they once extracted from ignorant clients.
 
 ## Sources
 
 - [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]] — primary source; introduces Thompson's research and the taxi/radiologist contrast cases
+- [[wiki/sources/freakonomics-introduction]] — demand-side complement; expert incentive misalignment + transparency as a third automation vector

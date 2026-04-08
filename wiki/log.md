@@ -5,6 +5,27 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-08] ingest | This is the biggest risk a company can take in the age of AI
+
+Processed the first article section only from raw/sources/this-is-the-biggest-risk-a-company-can-take-during-the-age-of-ai.md (Fast Company opinion/strategy piece citing KPMG research; moderate credibility; strong managerial/institutional bias). The raw file also contains an unrelated appended Palantir article, which was intentionally excluded from this ingest.
+Pages created: wiki/sources/this-is-the-biggest-risk-a-company-can-take-during-the-age-of-ai, wiki/entities/kpmg, wiki/concepts/strategic-pacing.
+Pages updated: wiki/index, wiki/overview.
+User focus: first article only. Key synthesis: in the AI era, the organizational risk is not merely technological lag but certainty-seeking paralysis; "strategic pacing" is the article's operational answer to volatility.
+
+## [2026-04-08] ingest | Niantic Spatial launches two new world models to support real-world AI deployment
+
+Processed raw/sources/niantic-spatial-launches-two-new-world-models-to-support-real-world-ai-deployment.md (product/company report on spatial AI infrastructure; moderate credibility; mostly vendor claims, but useful for concept framing).
+Pages created: wiki/sources/niantic-spatial-launches-two-new-world-models-to-support-real-world-ai-deployment, wiki/entities/niantic-spatial, wiki/entities/coco-robotics, wiki/concepts/large-geospatial-models, wiki/concepts/visual-positioning-systems.
+Pages updated: wiki/concepts/physical-ai (+spatial grounding layer, +3rd source), wiki/entities/ros2 (+Niantic SDK support, +2nd source), wiki/index, wiki/overview.
+User focus: spatial/robotics angle. Key synthesis: physical AI needs a deployment substrate, not just cognition — mapped environments and localization systems are emerging as the missing infrastructure between simulation and real-world operation.
+
+## [2026-04-08] ingest | Freakonomics (Expanded Edition) — Introduction: The Hidden Side of Everything
+
+Processed raw/sources/Freakonomics expanded.pdf pp. 17–29 (Levitt & Dubner; introduction; high credibility; empirical data from 100,000 Chicago home sales, US congressional races since 1972, BLS crime statistics).
+Pages created: wiki/sources/freakonomics-introduction, wiki/entities/steven-levitt, wiki/entities/stephen-dubner, wiki/entities/norma-mccorvey, wiki/entities/adam-smith, wiki/concepts/expert-incentive-misalignment, wiki/concepts/conventional-wisdom, wiki/concepts/correlation-vs-causation.
+Pages updated: wiki/concepts/expertise-paradox (+Freakonomics extension, demand-side complement, transparency automation as third scenario, +2nd source), wiki/index, wiki/overview (+7th domain: behavioral economics/applied microeconomics, +6th thesis point).
+User focus: expert incentive misalignment as demand-side complement to Thompson's expertise paradox. Key synthesis: Thompson (supply-side, what happens to expert tasks under automation) + Levitt (demand-side, what experts do with informational monopoly) = complete theory of expertise under AI pressure. Third scenario identified: transparency automation — AI that erodes client ignorance without touching expert tasks.
+
 ## [2026-04-08] ingest | The Megamanager Era: How Many Direct Reports Can AI Handle?
 
 Processed raw/sources/megamanager-era-how-many-direct-reports-ai-middle-management.md (long-form journalism, 2026; high credibility; cites BLS, Gallup, Gartner, Morgan Stanley, Goldman Sachs, and MIT research).

@@ -11,10 +11,14 @@
             "id": "7e4bdac0575badb5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/concepts/schema-driven-agents.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "schema-driven-agents"
             }
           }
         ]
@@ -181,6 +185,23 @@
   },
   "active": "7e4bdac0575badb5",
   "lastOpenFiles": [
+    "wiki/concepts/physical-ai.md",
+    "wiki/concepts/visual-positioning-systems.md",
+    "wiki/concepts/large-geospatial-models.md",
+    "wiki/entities/coco-robotics.md",
+    "wiki/entities/niantic-spatial.md",
+    "wiki/sources/niantic-spatial-launches-two-new-world-models-to-support-real-world-ai-deployment.md",
+    "raw/sources/this-is-the-biggest-risk-a-company-can-take-during-the-age-of-ai.md",
+    "raw/sources/niantic-spatial-launches-two-new-world-models-to-support-real-world-ai-deployment.md",
+    "wiki/entities/neil-thompson.md",
+    "wiki/entities/norma-mccorvey.md",
+    "wiki/entities/norma-mccorvey.md.tmp.3862347.1775627777384",
+    "wiki/entities/stephen-dubner.md",
+    "wiki/entities/stephen-dubner.md.tmp.3862347.1775627766502",
+    "wiki/entities/steven-levitt.md",
+    "wiki/entities/steven-levitt.md.tmp.3862347.1775627762252",
+    "wiki/sources/freakonomics-introduction.md",
+    "wiki/sources/freakonomics-introduction.md.tmp.3862347.1775627746020",
     "raw/sources/Freakonomics expanded.pdf",
     "wiki/concepts/expertise-paradox.md",
     "wiki/concepts/span-of-control.md",
@@ -195,27 +216,10 @@
     "wiki/concepts/deep-work.md",
     "wiki/sources/robotics-getting-started.md",
     "wiki/entities/first-robotics.md",
-    "wiki/entities/cal-newport.md",
-    "wiki/sources/deep-work-vs-shallow-work.md",
-    "wiki/index.md",
     "wiki/log.md.tmp.3266762.1775503068406",
     "wiki/index.md.tmp.3266762.1775503052147",
     "wiki/index.md.tmp.3266762.1775503043658",
     "wiki/concepts/robotics-simulation.md.tmp.3266762.1775503036493",
-    "wiki/concepts/robotics-simulation.md.tmp.3266762.1775503024976",
-    "wiki/concepts/robot-types.md.tmp.3266762.1775503017964",
-    "wiki/concepts/robot-types.md.tmp.3266762.1775503009030",
-    "wiki/concepts/robot-types.md.tmp.3266762.1775502996782",
-    "wiki/concepts/agentic-ai.md.tmp.3266762.1775502990779",
-    "wiki/concepts/physical-ai.md",
-    "wiki/concepts/physical-ai.md.tmp.3266762.1775502975668",
-    "wiki/sources/robotics-trends-2026.md",
-    "raw/sources/top-robotics-trends-2026.md",
-    "wiki/concepts/shallow-work.md",
-    "wiki/entities/arduino.md",
-    "wiki/entities/mihaly-csikszentmihalyi.md",
-    "wiki/concepts/attention-economy.md",
-    "wiki/concepts/attention-residue.md",
-    "wiki/sources/deep-work-flow-state.md"
+    "wiki/concepts/robotics-simulation.md.tmp.3266762.1775503024976"
   ]
 }
