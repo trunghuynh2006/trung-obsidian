@@ -16,6 +16,8 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/daily-productivity-rituals]] — lifeminnt.com (⚠ content marketing): 10-ritual system with full-day blueprint; ultradian rhythm; micro-task batching; energy-matched design; 80% consistency rule.
 - [[wiki/sources/building-a-second-brain-and-zettelkasten]] — Zettelkasten.de: BASB (PARA/CODE) vs. ZKM comparison; they address different parts of the knowledge value chain and combine naturally.
 - [[wiki/sources/the-intelligent-edge-how-ai-and-large]] — Survey of AI+IoT stack: edge AI architecture (quantization, federated learning, edge chips), IIoT applications (predictive maintenance, QC, energy management, supply chain).
+- [[wiki/sources/ai-cybersecurity-hackers]] — NYT (2026): frontier AI compresses cyber offense and defense timelines; Anthropic reports AI-assisted intrusion and 500+ zero-days found.
+- [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]] — Long-form (2026): AI-driven middle management elimination; avg manager now oversees 12 reports; expertise paradox as the key analytical lens.
 
 ## Entities
 - [[wiki/entities/arduino]] — Open-source microcontroller platform; canonical beginner hardware starting point for robotics.
@@ -28,8 +30,10 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/first-robotics]] — High school competition org (FIRST, VEX, RoboFest); best shortcut for young beginners. (2 sources)
 - [[wiki/entities/mihaly-csikszentmihalyi]] — Psychologist; originator of flow state research; *Flow* (1990).
 - [[wiki/entities/obsidian]] — Local-first markdown PKM app; the recommended reading/browsing interface for LLM Wiki.
+- [[wiki/entities/openai]] — Frontier AI company behind GPT and Codex; paired with Anthropic in the coding-agent and AI-cybersecurity shifts.
 - [[wiki/entities/ros2]] — Robot Operating System 2; industry-standard robotics middleware; commonly debated as a starting point.
 - [[wiki/entities/vannevar-bush]] — 1945 Memex visionary; intellectual ancestor of LLM Wiki.
+- [[wiki/entities/neil-thompson]] — MIT research scientist; originator of the expertise paradox framework; studies how AI capability evolves across job tasks.
 
 ## Concepts
 - [[wiki/concepts/agentic-ai]] — AI that reasons, plans, and acts on multi-step processes autonomously; powers smart factories, coding tools, IIoT actor networks, and this wiki agent alike.
@@ -40,6 +44,9 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/emergent-misalignment]] — Fine-tuning on 6K subtly bad examples corrupts full model character; computational evidence for virtue ethics' unity-of-virtues thesis.
 - [[wiki/concepts/virtue-ethics]] — Character-centered moral philosophy (Plato, Aristotle, Stoics); virtues are unified; revived by LLM alignment research.
 - [[wiki/concepts/ai-coding-agents]] — LLM coding tools (Claude Code, Cursor, Codex); triggered a 2025 inflection; now creating a code review/security bottleneck.
+- [[wiki/concepts/ai-cybersecurity]] — AI is now part of both cyber offense and cyber defense, compressing vulnerability discovery and response timelines.
+- [[wiki/concepts/expertise-paradox]] — Thompson's thesis: automating administrative scaffolding raises wages; automating the expert core hollows the profession. Key lens for AI+labor.
+- [[wiki/concepts/span-of-control]] — Reports per manager; US average has doubled to 12 since 2013; Meta at 50:1; the structural metric of the megamanager era.
 - [[wiki/concepts/attention-economy]] — Platforms engineered to maximize engagement at the cost of user focus; structural adversary of deep work.
 - [[wiki/concepts/daily-productivity-rituals]] — 10-ritual full-day system; morning alignment, deep work block, communication windows, micro-task batch, evening review, shutdown ritual.
 - [[wiki/concepts/micro-task-batching]] — Queue all tiny tasks; process in two 25–30 min daily batch windows; eliminates constant context-switching from micro-interruptions.

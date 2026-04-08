@@ -5,6 +5,22 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-08] ingest | The Megamanager Era: How Many Direct Reports Can AI Handle?
+
+Processed raw/sources/megamanager-era-how-many-direct-reports-ai-middle-management.md (long-form journalism, 2026; high credibility; cites BLS, Gallup, Gartner, Morgan Stanley, Goldman Sachs, and MIT research).
+Pages created: wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management, wiki/entities/neil-thompson, wiki/concepts/expertise-paradox, wiki/concepts/span-of-control.
+Pages updated: wiki/concepts/agentic-ai (+workplace section, +5th source), wiki/index, wiki/overview (+new AI+labor domain, +5th thesis point).
+User focus: expertise paradox — Thompson's thesis that automating administrative scaffolding vs. the expert core of a role has opposite labor market effects.
+Notable: the expertise paradox is the sharpest analytical tool in this wiki for predicting AI's labor market effects on any specific profession. The megamanager era is currently the primary empirical test case. The radiologist vs. taxi-driver contrast is now a canonical example pair for the wiki.
+
+## [2026-04-07] ingest | AI and Cybersecurity: Hackers Attack Faster, Defense Turns to More AI
+
+Processed raw/sources/ai-cybersecurity-hackers.md (NYT report, high credibility).
+Pages created: wiki/sources/ai-cybersecurity-hackers, wiki/concepts/ai-cybersecurity, wiki/entities/openai.
+Pages updated: wiki/concepts/ai-coding-agents (+security-tool expansion, +2nd source), wiki/concepts/agentic-ai (+cybersecurity operating environment, +4th source), wiki/entities/anthropic (+cybersecurity role, +3rd source), wiki/index, wiki/overview.
+User focus assumed: broad ingest, centered on AI as both cyber offense and defense.
+Notable: this source extends the AI coding story outward into cybersecurity. The same frontier models that created code-review bottlenecks are now compressing breach, exploit, and defensive auditing timelines. The emerging pattern across the wiki is capability acceleration paired with governance lag.
+
 ## [2026-04-07] ingest | The Intelligent Edge: How AI and LLMs Are Revolutionizing IoT
 
 Processed raw/sources/the-intelligent-edge-how-ai-and-large.md (blog/survey article; no named author or publication; moderate credibility — well-structured but unverified claims).
