@@ -5,6 +5,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 ---
 
 ## Sources
+- [[wiki/sources/the-growing-demand-for-aluminum-cnc-machining-in-modern-industries]] — Vendor-led manufacturing explainer: why aluminum works well with CNC, where demand is rising, and how smart tooling/Industry 4.0 are reframing machining cells.
 - [[wiki/sources/freakonomics-introduction]] — Levitt & Dubner intro: incentive misalignment, conventional wisdom failure, Roe v. Wade crime drop, applied microeconomics as method.
 - [[wiki/sources/llm-wiki-idea]] — Foundational idea doc: LLMs incrementally build/maintain a persistent wiki instead of doing RAG at query time.
 - [[wiki/sources/robotics-getting-started]] — Practitioner guide: robotics has no single entry point; follow problems not roadmaps; build iteratively.
@@ -12,6 +13,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/niantic-spatial-launches-two-new-world-models-to-support-real-world-ai-deployment]] — Spatial AI infrastructure: Scaniverse + VPS 2.0 as mapping/localization substrate for physical AI and robotics.
 - [[wiki/sources/this-is-the-biggest-risk-a-company-can-take-during-the-age-of-ai]] — Fast Company / KPMG argument: in the AI era, strategic waiting is costly; disciplined transformation under uncertainty outperforms caution.
 - [[wiki/sources/how-manufacturers-are-training-their-workforce-for-ai-powered-operations]] — Manufacturing AI adoption lens: the bottleneck has shifted from tool choice to workforce readiness, role-specific training, and operational AI literacy.
+- [[wiki/sources/ultralearning]] — Self-directed learning framework summary: metalearning, directness, drill, retrieval, feedback, retention, intuition, and experimentation.
 - [[wiki/sources/ai-code-overload]] — NYT (2026): AI coding agents created a code review/security bottleneck; 25K→250K lines/month; not enough security engineers; "the factory broke."
 - [[wiki/sources/ai-chatbots-virtue-vice]] — NYT essay (2026): emergent misalignment in LLMs as evidence for virtue ethics; character is unified; Anthropic bets on Aristotelian practical wisdom.
 - [[wiki/sources/robotics-for-beginners-playtolabs]] — Encyclopedic beginner guide: career paths, robot types, hardware components, skills, learning resources.
@@ -28,12 +30,14 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/stephen-dubner]] — NYT journalist; co-author of Freakonomics with Levitt.
 - [[wiki/entities/norma-mccorvey]] — Jane Roe; her 1970 pregnancy and Roe v. Wade (1973) are the causal root of the 1990s US crime drop.
 - [[wiki/entities/adam-smith]] — Founder of classical economics; moral philosopher; Freakonomics' intellectual ancestor.
+- [[wiki/entities/yijin-solution]] — Manufacturing vendor example for aluminum CNC machining, adaptive machining, and Industry 4.0-style shop-floor automation claims.
 - [[wiki/entities/arduino]] — Open-source microcontroller platform; canonical beginner hardware starting point for robotics.
 - [[wiki/entities/amanda-askell]] — Anthropic's house philosopher; designed Claude's character around Aristotelian virtue ethics / practical wisdom.
 - [[wiki/entities/anthropic]] — Creator of Claude and Claude Code; grounding Claude's alignment in virtue ethics via Amanda Askell.
 - [[wiki/entities/cal-newport]] — Author of *Deep Work*; applied flow and deliberate practice to knowledge work.
 - [[wiki/entities/cursor]] — AI coding tool; acquired Graphite (code review bots); central to the code overload story.
 - [[wiki/entities/james-clear]] — Author of *Atomic Habits*; 1% daily improvement compounds to 37× over a year; habit stacking.
+- [[wiki/entities/scott-young]] — Author associated with Ultralearning; self-directed, intense skill-acquisition framework.
 - [[wiki/entities/tiago-forte]] — Author of *Building a Second Brain*; PARA/CODE framework; progressive summarization.
 - [[wiki/entities/first-robotics]] — High school competition org (FIRST, VEX, RoboFest); best shortcut for young beginners. (2 sources)
 - [[wiki/entities/mihaly-csikszentmihalyi]] — Psychologist; originator of flow state research; *Flow* (1990).
@@ -52,6 +56,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/expert-incentive-misalignment]] — Levitt's framework: experts exploit informational asymmetry against clients; empirically measured via real estate data; demand-side complement to the expertise paradox.
 - [[wiki/concepts/conventional-wisdom]] — Beliefs accepted as true by repetition and authority without measurement; the primary epistemological adversary in Freakonomics.
 - [[wiki/concepts/correlation-vs-causation]] — Methodological spine of Freakonomics; reverse causation, confounding, and distant causation as three failure modes.
+- [[wiki/concepts/cnc-machining]] — Computer-controlled subtractive manufacturing; now linked in the wiki to aluminum's material advantages and to connected-factory/adaptive-control trends.
 - [[wiki/concepts/agentic-ai]] — AI that reasons, plans, and acts on multi-step processes autonomously; powers smart factories, coding tools, IIoT actor networks, and this wiki agent alike.
 - [[wiki/concepts/edge-ai]] — On-device AI inference via model quantization/pruning/distillation; runs at milliwatts on constrained hardware; enables local intelligence without cloud dependency.
 - [[wiki/concepts/federated-learning]] — Collaborative ML training across distributed nodes sharing only weight updates, not raw data; privacy-preserving collective learning.
@@ -65,6 +70,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/expertise-paradox]] — Thompson's thesis: automating administrative scaffolding raises wages; automating the expert core hollows the profession. Key lens for AI+labor.
 - [[wiki/concepts/span-of-control]] — Reports per manager; US average has doubled to 12 since 2013; Meta at 50:1; the structural metric of the megamanager era.
 - [[wiki/concepts/strategic-pacing]] — Disciplined movement under uncertainty; trade perfection for maneuverability in AI-accelerated markets.
+- [[wiki/concepts/ultralearning]] — Self-directed skill-acquisition framework combining metalearning, directness, drill, retrieval, feedback, and experimentation.
 - [[wiki/concepts/attention-economy]] — Platforms engineered to maximize engagement at the cost of user focus; structural adversary of deep work.
 - [[wiki/concepts/daily-productivity-rituals]] — 10-ritual full-day system; morning alignment, deep work block, communication windows, micro-task batch, evening review, shutdown ritual.
 - [[wiki/concepts/micro-task-batching]] — Queue all tiny tasks; process in two 25–30 min daily batch windows; eliminates constant context-switching from micro-interruptions.

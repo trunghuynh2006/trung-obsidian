@@ -3,7 +3,7 @@ type: concept
 name: Industrial IoT
 aliases: [IIoT, Industrial Internet of Things, smart factory, Industry 4.0]
 tags: [iot, manufacturing, ai, automation, industry]
-sources: 2
+sources: 3
 ---
 
 # Industrial IoT
@@ -25,6 +25,11 @@ Smart factories track every component from raw material delivery to final shipme
 
 ### Energy Management
 AI analyzes production schedules, equipment power profiles, and real-time electricity pricing to minimize energy costs while maintaining output targets. Example: automotive assembly plants shift energy-intensive processes (paint curing) to off-peak hours when electricity rates are lowest — potentially saving millions annually. [[wiki/sources/the-intelligent-edge-how-ai-and-large]]
+
+### Connected CNC Machining
+Networked CNC machine tools extend IIoT from monitoring and planning into the material-removal process itself. Sensors and control software can track cutting conditions, tool wear, throughput, and quality signals; in more advanced setups, feed rates and spindle speeds can be adjusted during the run rather than left fixed from the original program.
+
+The aluminum-CNC source frames this as part of the move toward adaptive machining, smart tooling, and Industry 4.0 integration. Because that source is promotional, the maturity claims should be treated as industry direction rather than strongly validated evidence. [[wiki/sources/the-growing-demand-for-aluminum-cnc-machining-in-modern-industries]]
 
 ## Architecture Layers
 
@@ -68,6 +73,7 @@ This fills a gap in the existing IIoT picture. The architecture can be correct a
 - [[wiki/concepts/edge-ai]] — the computational architecture that enables low-latency, privacy-preserving IIoT
 - [[wiki/concepts/federated-learning]] — enables collective ML improvement across industrial sensor fleets without data sharing
 - [[wiki/concepts/predictive-maintenance]] — IIoT's highest-value AI application
+- [[wiki/concepts/cnc-machining]] — connected machine tools bring IIoT into direct production-process optimization, not just monitoring and maintenance
 - [[wiki/concepts/agentic-ai]] — actor nodes with multi-agent coordination (e.g., warehouse robots negotiating task allocation) are agentic AI in physical form
 - [[wiki/concepts/physical-ai]] — IIoT is the industrial instantiation of Physical AI
 - [[wiki/concepts/robot-components]] — IIoT sensor and actor nodes are AI-enhanced extensions of the classic sensor/actuator taxonomy
@@ -77,3 +83,4 @@ This fills a gap in the existing IIoT picture. The architecture can be correct a
 
 - [[wiki/sources/the-intelligent-edge-how-ai-and-large]] — comprehensive IIoT survey covering QC, predictive maintenance, energy management, supply chain, and multi-agent coordination
 - [[wiki/sources/how-manufacturers-are-training-their-workforce-for-ai-powered-operations]] — adds the workforce layer: role-specific training, AI literacy, data discipline, and hands-on practice as adoption bottlenecks
+- [[wiki/sources/the-growing-demand-for-aluminum-cnc-machining-in-modern-industries]] — adds a process-level example: connected CNC machining, adaptive control, and material-specific manufacturing constraints

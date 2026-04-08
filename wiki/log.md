@@ -5,6 +5,20 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-09] ingest | The Growing Demand for Aluminum CNC Machining in Modern Industries
+
+Processed raw/sources/the-growing-demand-for-aluminum-cnc-machining-in-modern-industries.md (vendor-led manufacturing article; moderate-to-low credibility; conceptually useful, but strongly promotional and centered on Yijin Solution).
+Pages created: wiki/sources/the-growing-demand-for-aluminum-cnc-machining-in-modern-industries, wiki/concepts/cnc-machining, wiki/entities/yijin-solution.
+Pages updated: wiki/concepts/industrial-iot (+connected CNC machining / adaptive control layer, +3rd source), wiki/index, wiki/overview.
+User focus: defaulted to materials/manufacturing + automation/Industry 4.0. Key synthesis: this source extends the wiki's industrial branch from plant-wide AI systems into a concrete process-level example where material choice (aluminum), precision manufacturing (CNC), and smart-factory automation meet.
+
+## [2026-04-08] ingest | Ultralearning
+
+Processed raw/sources/ultralearning.md (secondary summary of Scott Young's framework; moderate-to-low credibility as evidence source, but useful as a compact conceptual digest).
+Pages created: wiki/sources/ultralearning, wiki/entities/scott-young, wiki/concepts/ultralearning.
+Pages updated: wiki/concepts/problem-driven-learning (+ultralearning extension, +2nd source), wiki/index, wiki/overview.
+User focus: self-directed-learning angle assumed. Key synthesis: ultralearning generalizes the wiki's existing "follow problems, not roadmaps" stance into a broader framework that adds metalearning, drill, retrieval, feedback, and experimentation.
+
 ## [2026-04-08] ingest | How manufacturers are training their workforce for AI-powered operations
 
 Processed raw/sources/how-manufacturers-are-training-their-workforce-for-ai-powered-operations.md (manufacturing/automation blog; moderate-to-low credibility; practical but lightly evidenced and somewhat content-marketing in tone).

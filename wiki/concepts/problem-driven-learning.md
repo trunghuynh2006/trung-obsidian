@@ -3,7 +3,7 @@ type: concept
 name: Problem-Driven Learning
 aliases: [follow problems not roadmaps, project-based learning]
 tags: [learning, robotics, education, pedagogy]
-sources: 1
+sources: 2
 ---
 
 # Problem-Driven Learning
@@ -24,6 +24,12 @@ Problem-driven learning has several properties:
 
 The failure mode of roadmap-driven learning: students spend months "completing" a roadmap, preparing exhaustively, and never building anything. They stall, overprepare, and quit.
 
+## Ultralearning Extension
+
+The [[wiki/concepts/ultralearning]] framework extends this idea beyond robotics and adds a useful nuance. Scott Young's principle of **directness** is almost the same core insight: if you want to code, write programs; if you want to speak a language, use it in realistic conditions. The overlap is strong.
+
+But ultralearning adds something this page did not previously emphasize: **metalearning**. Spend some time upfront mapping the subject, the common resources, the likely bottlenecks, and the balance of concepts/facts/procedures before plunging in. That is a useful corrective to the failure mode of pure anti-roadmap thinking. The point is not to replace problem-driven learning with a fixed curriculum; it is to start with a provisional map, then let real problems take over.
+
 > "Each problem creates its own learning path. That path is personal. No diagram can predict it." [[wiki/sources/robotics-getting-started]]
 
 ## Evidence & Examples
@@ -35,6 +41,7 @@ The failure mode of roadmap-driven learning: students spend months "completing" 
 
 - [[wiki/concepts/robotics-multidisciplinarity]] — problem-driven learning is *necessary* in robotics because the field is too broad to learn linearly.
 - [[wiki/concepts/flow-state]] — building real problems naturally creates challenge-skill balance (problems calibrate to current ability); explains why project work induces flow more reliably than passive study.
+- [[wiki/concepts/ultralearning]] — general-purpose self-directed learning framework; directness strongly overlaps, while metalearning adds a map-first refinement.
 - [[wiki/sources/robotics-getting-started]] — source that articulates this as the central thesis.
 
 ## Contradictions
@@ -44,3 +51,4 @@ The failure mode of roadmap-driven learning: students spend months "completing" 
 ## Sources
 
 - [[wiki/sources/robotics-getting-started]] — central argument of the piece; contrasted against roadmap-driven failure patterns.
+- [[wiki/sources/ultralearning]] — extends the concept beyond robotics; adds directness, metalearning, drill, retrieval, and feedback as tactical complements.

@@ -14,7 +14,7 @@ Four compounding ideas, now converging:
 
 1. **LLM Wiki pattern** — LLMs can maintain a persistent, compounding knowledge base better than RAG or human bookkeeping alone. The schema (CLAUDE.md) is the key: it gives the LLM discipline across sessions.
 
-2. **Problem-driven learning** — In fields like robotics, where knowledge is vast and multidisciplinary, the only workable path is following problems rather than roadmaps. Deep expertise is built through iteration on real builds, not pre-specified curricula.
+2. **Problem-driven learning** — In fields like robotics, where knowledge is vast and multidisciplinary, the only workable path is following problems rather than roadmaps. Deep expertise is built through iteration on real builds, not pre-specified curricula. The new ultralearning source generalizes this beyond robotics and adds tactical machinery around it: map the terrain first, practice directly, isolate bottlenecks, retrieve from memory, and use feedback aggressively.
 
 3. **Deep work and flow** — Sustained focus is a learnable skill under systemic attack from the attention economy. Flow (Csikszentmihalyi) emerges when challenge matches skill; deep work (Newport) is the deliberate practice that creates those conditions.
 
@@ -38,6 +38,7 @@ Four compounding ideas, now converging:
 - **Schema as discipline** — CLAUDE.md / AGENTS.md; also skill trees in robotics.
 - **Human + LLM division of labor** — in the wiki; and in robotics (humans set goals, systems handle execution).
 - **Iteration over perfection** — "Build something. Break it. Fix it. Document it. Repeat."
+- **Directness over abstraction** — real skill comes fastest from doing the thing itself, not studying proxies for it too long.
 - **Acceleration vs. control** — AI increases throughput in code and cybersecurity faster than institutions can review, secure, or govern it.
 
 ## Major Entities
@@ -59,16 +60,19 @@ The three layers complement each other. The philosophy tells you *how to learn*;
 
 This new layer sharpens the meaning of [[wiki/concepts/physical-ai]]. The missing ingredient is not always "more intelligence." Sometimes it is a better representation of the world: captured environments, reusable 3D assets, and localization systems that let robots stay oriented once they leave simulation. That connects the robotics domain more tightly to the AI+IoT domain, where physical deployment constraints already mattered.
 
-## AI+IoT Coverage (2 sources in)
+## AI+IoT Coverage (3 sources in)
 
 A new domain now established around the edge/on-device AI architecture and industrial applications:
 - **Architecture layer**: edge AI (model quantization, pruning, distillation, edge chips), federated learning, the edge-cloud continuum
 - **Application layer**: predictive maintenance, industrial QC, supply chain, energy arbitrage, multi-agent actor coordination
 - **Workforce layer**: AI workforce readiness — role-specific training, AI literacy, data discipline, simulation practice, and adoption measurement as the human bottleneck in industrial deployment
+- **Process/material layer**: CNC machining as a concrete production process where material choice, tolerances, tooling, and adaptive control meet the smart-factory story
 
 This domain connects strongly to robotics (sensor/actuator nodes as AI-enhanced robot components) and to agentic AI (IIoT actor networks as deployed multi-agent physical systems). The LLM-as-interface pattern here — natural language queries to sensor networks, explainable actuator decisions — mirrors the LLM Wiki pattern: LLMs democratizing access to complex structured data.
 
 The new workforce-training source adds an important correction to the earlier architecture-heavy picture: industrial AI adoption does not fail only at the model or systems level. It also fails at the workflow and skills level. Predictive dashboards, machine-vision outputs, and scheduling systems only matter if workers understand when to trust them, how to act on them, and who owns the resulting decisions. This creates a direct bridge between the AI+IoT domain and the AI + labor domain.
+
+The new aluminum-CNC source brings the lens down another level, from plant-wide systems to the individual machine tool. Earlier industrial pages focused on sensing, maintenance, dashboards, and workforce training. This source grounds the same Industry 4.0 story in a specific production process: aluminum is attractive because it machines quickly while staying light and corrosion-resistant, and CNC cells are becoming more connected through smart tooling, sensor feedback, and adaptive parameter control. The source is vendor-biased and should not be over-weighted, but it adds a useful process-and-material layer to the industrial branch.
 
 ## Frontier AI / Security Coverage (3 sources in)
 
@@ -103,6 +107,7 @@ This domain connects directly to the expertise paradox (Thompson's supply-side +
 - Which robotics subfield will be the focus? (perception, manipulation, mobile robotics, a specific industry?)
 - Which spatial-data and localization platforms will matter most for real-world robotics deployment?
 - Career path specifics: what skills are needed for each role beyond the high-level taxonomy?
+- How should ultralearning's metalearning step be balanced against the wiki's strong anti-roadmap stance?
 - At what point does this wiki need a search tool beyond index.md?
 - Edge AI hardware specifics: which chip families (NVIDIA Jetson, Coral TPU, microNPUs) and what are their capability profiles?
 - Which training models best prepare incumbent industrial workers for AI-supported operations without disrupting production?
@@ -114,4 +119,4 @@ This domain connects directly to the expertise paradox (Thompson's supply-side +
 
 ---
 
-*Last updated: 2026-04-08 — after ingest: how-manufacturers-are-training-their-workforce-for-ai-powered-operations*
+*Last updated: 2026-04-09 — after ingest: the growing demand for aluminum CNC machining in modern industries*
