@@ -168,7 +168,8 @@ Main content.
 6. Update `wiki/index.md` — add the new source page and any new entity/concept pages.
 7. Update `wiki/overview.md` to reflect how this source changes or reinforces the big picture.
 8. Append to `wiki/log.md`: `## [YYYY-MM-DD] ingest | <Title>`
-9. Report to user: pages created, pages updated, notable connections found.
+9. Commit and push: `git add -A && git commit -m "ingest: <Title>" && git push origin master`
+10. Report to user: pages created, pages updated, notable connections found.
 
 **Rules:**
 - Read every page you're about to update *before* editing it.
