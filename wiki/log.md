@@ -5,6 +5,13 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-09] ingest | Gen Z AI Attitudes Survey — Gallup / Walton Family Foundation / GSV Ventures (2026)
+
+Processed raw/sources/gen-z-ai-gallup-study.md (NYT summary of a Gallup survey; no direct access to methodology or crosstabs; useful as public-sentiment and labor-anxiety evidence, not as precision measurement).
+Pages created: wiki/sources/gen-z-ai-gallup-study, wiki/entities/gallup, wiki/concepts/ai-public-sentiment.
+Pages updated: wiki/concepts/expertise-paradox (+Gen Z sentiment as Scenario B evidence, +3rd source), wiki/concepts/ai-workforce-readiness (+incoming workforce trust gap, +4th source), wiki/index, wiki/overview.
+User focus: labor/career anxiety lens. Key synthesis: Gen Z is the first workforce cohort entering careers with high AI usage and high AI skepticism simultaneously — the expertise paradox is not just a framework for them but a felt anticipatory reality. Flat adoption despite wider access establishes that sentiment, not skill availability, is the next readiness bottleneck.
+
 ## [2026-04-09] ingest | Untitled clipping on Anthropic's Claude Mythos Preview and Project Glasswing
 
 Processed raw/sources/anthropic-ai-claude-mythos.md (opinion/commentary piece relying heavily on Anthropic's own claims; analytically useful but not independently verified).

@@ -27,6 +27,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/ai-cybersecurity-hackers]] — NYT (2026): frontier AI compresses cyber offense and defense timelines; Anthropic reports AI-assisted intrusion and 500+ zero-days found.
 - [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]] — Long-form (2026): AI-driven middle management elimination; avg manager now oversees 12 reports; expertise paradox as the key analytical lens.
 - [[wiki/sources/whats-ais-real-failure-no-ones-actually-in-charge]] — Entrepreneur/Visier (⚠ vendor bias): 60% of companies have no AI owner; AI transformation is an org design problem; HR+IT+Finance alignment and Moderna's merged-role model.
+- [[wiki/sources/gen-z-ai-gallup-study]] — Gallup/Walton/GSV survey (2026): Gen Z hope fell 27%→18%, ~1/3 feel angry; flat adoption despite wider access; labor/career anxiety dominates.
 
 ## Entities
 - [[wiki/entities/ai-officer-institute]] — External partner cited as helping DOXA Talent build AI confidence and capability through guided adoption.
@@ -58,6 +59,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/vannevar-bush]] — 1945 Memex visionary; intellectual ancestor of LLM Wiki.
 - [[wiki/entities/neil-thompson]] — MIT research scientist; originator of the expertise paradox framework; studies how AI capability evolves across job tasks.
 - [[wiki/entities/moderna]] — Pharmaceutical company; cited as structural example of AI governance: merged CHRO + CIO into Chief People and Digital Technology Officer.
+- [[wiki/entities/gallup]] — Research and polling firm; conducted the 2026 Gen Z AI attitudes survey with Walton Family Foundation and GSV Ventures.
 
 ## Concepts
 - [[wiki/concepts/expert-incentive-misalignment]] — Levitt's framework: experts exploit informational asymmetry against clients; empirically measured via real estate data; demand-side complement to the expertise paradox.
@@ -105,6 +107,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/visual-positioning-systems]] — Camera-based localization for robots and devices, especially where GPS is unreliable.
 - [[wiki/concepts/ai-governance]] — Who owns AI in the organization; the accountability vacuum (60% of senior leaders report no clear AI owner); structural responses including merged executive roles.
 - [[wiki/concepts/cross-functional-alignment]] — HR+IT+Finance unified front as the organizational remedy for the AI governance vacuum; three-step framework: break silos, connect data, solve last-mile.
+- [[wiki/concepts/ai-public-sentiment]] — Public and generational attitudes toward AI; Gen Z data (2026) shows high use + souring sentiment; credible-threat recognition without compensatory trust.
 
 ## Analyses
 - [[wiki/analyses/how-to-use-this-wiki]] — Operations reference: ingest/query/lint commands, session start checklist, key file locations.

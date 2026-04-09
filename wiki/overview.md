@@ -86,7 +86,7 @@ Together these sources suggest a general pattern: frontier AI does not just auto
 
 The new Mythos/Glasswing source escalates this branch from acceleration to containment. Earlier cyber pages already suggested that AI was compressing offense-defense timelines. This source adds a sharper claim: a model may be able to find flaws across the shared software substrate of modern society so effectively that broad release itself becomes the problem. That introduces a new statecraft-level question for the wiki: can there be a meaningful regime of AI nonproliferation for cyber-capable models, or does capability diffusion outrun containment almost immediately?
 
-## AI + Labor Markets Coverage (4 sources in)
+## AI + Labor Markets Coverage (5 sources in)
 
 New domain established around the expertise paradox and organizational restructuring:
 - **Structural layer**: span-of-control inflation — the megamanager era, average US manager now overseeing 12 reports (up from ~6), Meta at 50:1.
@@ -101,6 +101,8 @@ This domain connects to frontier AI (same capability wave driving coding agents 
 The new governance source sharpens a recurring tension in the wiki: AI capability consistently arrives faster than the institutions designed to govern it. This is visible in cybersecurity (AI compresses offense/defense timelines), in code review (AI raises output faster than security engineers can review it), and now in organizational design (AI restructures management before companies have decided who is responsible for managing that restructuring). The pattern is consistent: speed of capability > speed of governance.
 
 The newer leadership/adoption source adds the missing behavioral layer beneath the org-chart discussion. Governance is not only about naming an executive owner. It is also about whether everyday AI use is visible, trained, and bounded by shared guardrails. That source also introduces a useful tension in the current wiki: one article pushes toward explicit ownership because "no one owns AI," while another says early progress became possible through committees and shared learning. The likely synthesis is accountable ownership plus structured learning forums, but the current sources do not test governance models empirically.
+
+The Gallup/Walton/GSV Gen Z survey (2026) adds a **sentiment and generational layer** to the labor domain. The most important finding is that sentiment and adoption are diverging: ~50% of Gen Z uses AI daily or weekly (flat year-over-year), while hope fell from 27% to 18% and ~1/3 report anger. This is not ignorance-driven rejection — the youngest members are the most frequent users; the skeptics are older working adults with direct workplace experience. Their fears are overwhelmingly concentrated on the *expert-core automation* scenario: job replacement, creativity atrophy, deskilling. This is the taxi-driver scenario as lived experience. The data suggests that the expertise paradox is not just an academic framework but an accurate map of how a generation of workers *perceives* their own professional risk. The implication for workforce readiness is sharp: organizations cannot assume access drives adoption. Gen Z is arriving in the labor market already using AI, already skeptical, and already expecting to need AI fluency — but not yet trusting that AI will work in their favor. That is a new kind of readiness gap.
 
 ## Behavioral Economics / Applied Microeconomics Coverage (1 source in)
 
@@ -129,7 +131,9 @@ This domain connects directly to the expertise paradox (Thompson's supply-side +
 - **New (Freakonomics):** As more Freakonomics chapters are ingested, which of the five theses gets the most empirical weight?
 - **New (AI governance):** Which governance model actually produces better AI outcomes — dedicated CAIO, merged HR+IT, cross-functional committee, or something else? No source yet compares models empirically.
 - **New (AI governance):** Is the "cultural barrier" framing accurate, or is it a reframing that conveniently positions HR (and HR software vendors) as the solution?
+- **New (Gen Z sentiment):** Is high usage + souring sentiment a transitional state that resolves as AI tools improve and labor market fears diminish — or is the expert-core threat real enough that Gen Z skepticism is a rational forward-looking signal?
+- **New (Gen Z sentiment):** Can workforce readiness programs be designed to build *trust* as well as skill, given that the incoming cohort is already technically capable but motivationally skeptical?
 
 ---
 
-*Last updated: 2026-04-09 — after ingest: claude mythos preview and project glasswing*
+*Last updated: 2026-04-09 — after ingest: Gen Z AI Attitudes Survey (Gallup/Walton/GSV, 2026)*

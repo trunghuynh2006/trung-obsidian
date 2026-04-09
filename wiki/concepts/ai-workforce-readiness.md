@@ -3,7 +3,7 @@ type: concept
 name: AI Workforce Readiness
 aliases: [AI upskilling, AI reskilling, operational AI literacy]
 tags: [ai, workforce, training, manufacturing, operations, organizational-design]
-sources: 3
+sources: 4
 ---
 
 # AI Workforce Readiness
@@ -35,6 +35,7 @@ The leadership/adoption source generalizes this beyond manufacturing. Its claim 
 - Siemens is cited as planning to train large numbers of technical and manufacturing workers as AI adoption accelerates [[wiki/sources/how-manufacturers-are-training-their-workforce-for-ai-powered-operations]]
 - The DOXA source argues that the real learning curve is judgment: when to trust AI, when to challenge it, and how to ask better questions [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]]
 - Leaders using AI openly, plus peer-to-peer learning communities, are presented as practical ways to build readiness in everyday work [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]]
+- **Gen Z as the incoming workforce cohort:** A 2026 Gallup survey finds Gen Z usage is flat at ~50% despite wider access, while sentiment has soured (hope fell from 27% → 18%; ~1/3 feel angry). This introduces a new dimension to workforce readiness: the next wave of workers are arriving in the labor market with significant AI experience *and* significant distrust. Readiness programs designed around skill gaps may miss the harder problem — building trust and agency among workers who already use AI tools but don't believe the tools serve their professional interests. [[wiki/sources/gen-z-ai-gallup-study]]
 
 ## Connections
 
@@ -45,8 +46,10 @@ The leadership/adoption source generalizes this beyond manufacturing. Its claim 
 - [[wiki/concepts/ai-governance]] — readiness and governance are two dimensions of the same problem; without clear AI ownership, readiness programs are inconsistent and unaccountable
 - [[wiki/concepts/cross-functional-alignment]] — effective workforce readiness requires HR, IT, and finance to share data and accountabilities, not just coordinate
 - [[wiki/concepts/experimentation-culture]] — readiness grows through repeated, visible experimentation, not one-time enablement alone
+- [[wiki/concepts/ai-public-sentiment]] — Gen Z sentiment data shows the readiness gap is now bidirectional: orgs train up for AI while the incoming workforce arrives already skeptical
 - [[wiki/entities/bosch]] — named example of internal AI upskilling pathways
 - [[wiki/entities/siemens]] — named example of large-scale workforce training
+- [[wiki/entities/gallup]] — source of Gen Z workforce sentiment survey data
 
 ## Contradictions
 
@@ -57,3 +60,4 @@ None yet in the current source set, though the current source is thinly evidence
 - [[wiki/sources/how-manufacturers-are-training-their-workforce-for-ai-powered-operations]] — introduces workforce readiness as the practical bottleneck in manufacturing AI adoption
 - [[wiki/sources/whats-ais-real-failure-no-ones-actually-in-charge]] — extends the concept from skills gaps to organizational design gaps; governance vacuum as a structural cause of readiness failure
 - [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]] — generalizes readiness into knowledge-work: judgment, visible leader modeling, and peer learning as adoption muscle
+- [[wiki/sources/gen-z-ai-gallup-study]] — Gen Z angle: incoming workforce has high usage and high skepticism; trust, not skill access, is the next readiness bottleneck

@@ -36,6 +36,7 @@ But if span-of-control is so severe that managers can no longer perform the expe
 - Radiologists + AI imaging tools: throughput/review scaffolding was automated; headcount and pay increased since Hinton's 2016 prediction [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]]
 - Managers + AI coordination tools: open question — scenario A (augmented leaders) or scenario B (hollowed coordinators)? [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]]
 - Goldman Sachs: AI-substituted roles contracting; AI-augmented roles growing — macro-level evidence consistent with the paradox [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]]
+- **Gen Z as a leading indicator (sentiment data):** A 2026 Gallup survey of 1,500+ Americans ages 14–29 found that close to half of working Gen Z say AI risks outweigh workplace benefits (+11 points YoY), with only 15% calling AI a net benefit. In interviews, respondents articulated specifically the *expert-core* fear: "anything I'm interested in has the potential to get replaced." This is consistent with Scenario B — workers perceive their professional core as the target, not administrative scaffolding. Notably, sentiment soured sharpest among older working members of Gen Z who have direct workplace experience, suggesting exposure to AI in professional contexts is driving the fear rather than abstract media anxiety. [[wiki/sources/gen-z-ai-gallup-study]]
 
 ## The Freakonomics Extension
 
@@ -57,6 +58,7 @@ This creates a third scenario Thompson's framework does not capture: **transpare
 - [[wiki/concepts/span-of-control]] — the megamanager era is the primary test case for this concept in this wiki
 - [[wiki/concepts/agentic-ai]] — AI agents automating workplace coordination tasks are the proximate mechanism triggering the paradox for managers
 - [[wiki/concepts/ai-coding-agents]] — a parallel domain: the same question applies to software developers; are AI coding tools automating the boilerplate or the craft?
+- [[wiki/concepts/ai-public-sentiment]] — Gen Z sentiment data shows workers perceive Scenario B (expert-core hollowing) as their likely fate, independent of whether it is empirically occurring
 
 ## Contradictions
 
@@ -66,3 +68,4 @@ This creates a third scenario Thompson's framework does not capture: **transpare
 
 - [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]] — primary source; introduces Thompson's research and the taxi/radiologist contrast cases
 - [[wiki/sources/freakonomics-introduction]] — demand-side complement; expert incentive misalignment + transparency as a third automation vector
+- [[wiki/sources/gen-z-ai-gallup-study]] — sentiment evidence; Gen Z workers' expressed fears map onto the expert-core hollowing scenario
