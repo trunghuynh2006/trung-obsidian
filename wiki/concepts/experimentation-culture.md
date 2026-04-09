@@ -1,4 +1,5 @@
 ---
+date: 2026-04-09
 type: concept
 name: Experimentation Culture
 aliases: [learning-first adoption, progress over perfection]

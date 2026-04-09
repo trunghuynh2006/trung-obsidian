@@ -1,4 +1,5 @@
 ---
+date: 2026-04-09
 type: concept
 name: CNC Machining
 aliases: [computer numerical control machining, CNC milling, CNC turning]

@@ -1,4 +1,5 @@
 ---
+date: 2026-04-06
 type: source
 title: Deep Work — Ultimate Guide to Time Focus in 2026
 source_file: raw/sources/deep-work-vs-shallow-work.md

@@ -1,4 +1,5 @@
 ---
+date: 2026-04-08
 type: entity
 name: OpenAI
 aliases: []

@@ -1,4 +1,5 @@
 ---
+date: 2026-04-06
 type: source
 title: 10 Proven Daily Productivity Rituals to Skyrocket Output in 2026
 source_file: raw/sources/10-proven-daily-productivity-rituals-skyrocket-2026.md

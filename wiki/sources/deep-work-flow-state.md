@@ -1,4 +1,5 @@
 ---
+date: 2026-04-06
 type: source
 title: Deep Work, Flow State, and Focus in a Distracted World
 source_file: raw/sources/deep-work-flow-state-focus-distracted-world.md

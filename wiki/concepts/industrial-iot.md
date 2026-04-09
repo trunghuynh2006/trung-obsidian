@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: Industrial IoT
 aliases: [IIoT, Industrial Internet of Things, smart factory, Industry 4.0]

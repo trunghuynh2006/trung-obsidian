@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: Robot Components
 aliases: [robot hardware, robot anatomy]

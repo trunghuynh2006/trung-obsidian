@@ -1,4 +1,5 @@
 ---
+date: 2026-04-08
 type: concept
 name: AI Workforce Readiness
 aliases: [AI upskilling, AI reskilling, operational AI literacy]

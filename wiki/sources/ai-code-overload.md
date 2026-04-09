@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: source
 title: AI Code Overload — The Glut Nobody Planned For
 source_file: raw/sources/ai-code-overload.md

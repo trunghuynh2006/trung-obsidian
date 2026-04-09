@@ -1,4 +1,5 @@
 ---
+date: 2026-04-08
 type: concept
 name: Span of Control
 aliases: [megamanager era, span-of-control inflation, direct reports ratio]

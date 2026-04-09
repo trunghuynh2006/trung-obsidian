@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: Schema-Driven Agents
 aliases: [agent schema, CLAUDE.md, AGENTS.md]

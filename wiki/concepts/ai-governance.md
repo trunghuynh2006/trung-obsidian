@@ -1,4 +1,5 @@
 ---
+date: 2026-04-09
 type: concept
 name: AI Governance
 aliases: [AI ownership, AI accountability, AI leadership structure]

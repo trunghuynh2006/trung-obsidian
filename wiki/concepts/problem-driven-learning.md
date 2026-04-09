@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: Problem-Driven Learning
 aliases: [follow problems not roadmaps, project-based learning]

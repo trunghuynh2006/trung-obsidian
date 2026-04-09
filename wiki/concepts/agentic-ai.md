@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: Agentic AI
 aliases: [AI agents, autonomous agents, agentic systems]

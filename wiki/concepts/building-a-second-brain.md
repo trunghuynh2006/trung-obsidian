@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: Building a Second Brain
 aliases: [BASB, PARA, second brain, CODE]

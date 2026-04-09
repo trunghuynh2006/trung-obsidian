@@ -1,4 +1,5 @@
 ---
+date: 2026-04-09
 type: source
 title: "There's No 'Right Time' to Adopt AI. Here's the Advantage You Gain By Starting Before You Feel Ready."
 source_file: raw/sources/leadership/why-waiting-to-adopt-ai-is-riskier-than-you-think.md

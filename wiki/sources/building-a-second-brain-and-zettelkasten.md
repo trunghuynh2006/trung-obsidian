@@ -1,4 +1,5 @@
 ---
+date: 2026-04-06
 type: source
 title: Building a Second Brain and the Zettelkasten Method — A Comparison
 source_file: raw/sources/building-a-second-brain-and-zettelkasten.md

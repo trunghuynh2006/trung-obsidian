@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: source
 title: AI and Cybersecurity: Hackers Attack Faster, Defense Turns to More AI
 source_file: raw/sources/ai-cybersecurity-hackers.md

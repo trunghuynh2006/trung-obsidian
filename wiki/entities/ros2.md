@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: entity
 name: ROS 2
 aliases: [ROS2, Robot Operating System 2]

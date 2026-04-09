@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: Federated Learning
 aliases: [federated ML, distributed learning]

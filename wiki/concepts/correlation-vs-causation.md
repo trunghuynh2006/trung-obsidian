@@ -1,4 +1,5 @@
 ---
+date: 2026-04-08
 type: concept
 name: Correlation vs. Causation
 aliases: [spurious correlation, reverse causation, confounding]

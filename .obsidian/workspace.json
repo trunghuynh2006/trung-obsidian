@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "dbb493520b2ea86f",
+        "id": "e2343c506154170b",
         "type": "tabs",
         "children": [
           {
-            "id": "7e4bdac0575badb5",
+            "id": "e721efe8cec69416",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/concepts/physical-ai.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "physical-ai"
+              "title": "New tab"
             }
           }
         ]
@@ -183,43 +179,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "7e4bdac0575badb5",
+  "active": "e721efe8cec69416",
   "lastOpenFiles": [
-    "wiki/log.md.tmp.4008597.1775689821371",
-    "wiki/overview.md.tmp.4008597.1775689812051",
-    "wiki/overview.md.tmp.4008597.1775689807434",
-    "wiki/overview.md.tmp.4008597.1775689799394",
-    "wiki/index.md.tmp.4008597.1775689778267",
-    "wiki/index.md.tmp.4008597.1775689771493",
-    "wiki/index.md.tmp.4008597.1775689766296",
-    "wiki/concepts/ai-workforce-readiness.md.tmp.4008597.1775689757881",
-    "wiki/concepts/ai-workforce-readiness.md.tmp.4008597.1775689751933",
+    "CLAUDE.md.tmp.59055.1775712704196",
+    "CLAUDE.md.tmp.59055.1775712699763",
+    "CLAUDE.md.tmp.59055.1775712694046",
+    "2026-04-09.md",
+    "wiki/log.md.tmp.59055.1775711366170",
+    "wiki/overview.md.tmp.59055.1775711354359",
+    "wiki/overview.md.tmp.59055.1775711349468",
+    "wiki/overview.md.tmp.59055.1775711337250",
+    "wiki/overview.md.tmp.59055.1775711321747",
+    "wiki/index.md.tmp.59055.1775711317483",
+    "wiki/index.md.tmp.59055.1775711314232",
+    "wiki/index.md.tmp.59055.1775711310568",
+    "wiki/concepts/ai-public-sentiment.md",
+    "wiki/entities/gallup.md",
+    "wiki/sources/gen-z-ai-gallup-study.md",
+    "raw/sources/gen-z-ai-gallup-study.md",
+    "wiki/entities/ai-officer-institute.md",
+    "wiki/sources/deep-work-vs-shallow-work.md",
+    "wiki/concepts/ai-workforce-readiness.md",
+    "wiki/entities/claude-mythos-preview.md",
+    "wiki/concepts/ai-nonproliferation.md",
+    "wiki/sources/anthropic-ai-claude-mythos.md",
+    "raw/sources/anthropic-ai-claude-mythos.md",
+    "wiki/entities/doxa-talent.md",
+    "wiki/concepts/experimentation-culture.md",
+    "wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think.md",
+    "raw/sources/leadership/why-waiting-to-adopt-ai-is-riskier-than-you-think.md",
+    "wiki/sources/whats-ais-real-failure-no-ones-actually-in-charge.md",
+    "wiki/concepts/physical-ai.md",
     "wiki/concepts/micro-task-batching.md",
-    "wiki/concepts/ai-workforce-readiness.md.tmp.4008597.1775689742820",
-    "wiki/concepts/ai-workforce-readiness.md.tmp.4008597.1775689736364",
     "wiki/concepts/daily-productivity-rituals.md",
     "wiki/entities/moderna.md",
     "wiki/concepts/cross-functional-alignment.md",
     "wiki/concepts/ai-governance.md",
-    "wiki/sources/whats-ais-real-failure-no-ones-actually-in-charge.md",
     "wiki/concepts/problem-driven-learning.md",
-    "wiki/concepts/ultralearning.md",
-    "wiki/entities/scott-young.md",
-    "wiki/sources/ultralearning.md",
-    "raw/sources/ultralearning.md",
-    "raw/sources/learn-faster-and-better-with-these-9-principles-from-ultralearning.md",
-    "wiki/concepts/robot-components.md",
-    "wiki/concepts/industrial-iot.md",
-    "wiki/sources/how-manufacturers-are-training-their-workforce-for-ai-powered-operations.md",
-    "wiki/concepts/schema-driven-agents.md",
-    "wiki/entities/siemens.md",
-    "wiki/entities/bosch.md",
-    "wiki/concepts/ai-workforce-readiness.md",
-    "raw/sources/how-manufacturers-are-training-their-workforce-for-ai-powered-operations.md",
-    "wiki/concepts/zettelkasten.md",
-    "wiki/concepts/knowledge-compounding.md",
-    "wiki/concepts/physical-ai.md",
-    "wiki/concepts/visual-positioning-systems.md",
-    "wiki/concepts/large-geospatial-models.md"
+    "wiki/concepts/ultralearning.md"
   ]
 }

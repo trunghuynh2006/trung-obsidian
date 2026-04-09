@@ -1,4 +1,5 @@
 ---
+date: 2026-04-08
 type: source
 title: "Freakonomics (Expanded Edition) — Introduction: The Hidden Side of Everything"
 source_file: raw/sources/Freakonomics expanded.pdf

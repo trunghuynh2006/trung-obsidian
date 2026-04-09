@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: Knowledge Compounding
 aliases: [compounding knowledge, accumulating synthesis]

@@ -1,4 +1,5 @@
 ---
+date: 2026-04-08
 type: concept
 name: Expertise Paradox
 aliases: [expert automation paradox, administrative vs expert automation]

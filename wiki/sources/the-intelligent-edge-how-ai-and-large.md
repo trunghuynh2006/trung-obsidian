@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: source
 title: "The Intelligent Edge: How AI and Large Language Models Are Revolutionizing IoT"
 source_file: raw/sources/the-intelligent-edge-how-ai-and-large.md

@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: RAG (Retrieval-Augmented Generation)
 aliases: [RAG, retrieval-augmented generation]

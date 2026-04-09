@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: Robot Types
 aliases: [robot taxonomy, types of robots, robot categories]

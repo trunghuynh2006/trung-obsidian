@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: Physical AI
 aliases: [embodied AI, AI-powered robots]

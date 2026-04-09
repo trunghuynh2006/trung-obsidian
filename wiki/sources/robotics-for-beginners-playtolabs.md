@@ -1,4 +1,5 @@
 ---
+date: 2026-04-06
 type: source
 title: Robotics for Beginners — A Comprehensive Guide
 source_file: raw/sources/robotics-for-beginners-playtolabs.md

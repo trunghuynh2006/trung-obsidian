@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: Time Blocking
 aliases: [calendar blocking, focus blocks, time boxing]

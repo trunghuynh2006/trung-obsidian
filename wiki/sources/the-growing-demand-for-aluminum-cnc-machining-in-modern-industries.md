@@ -1,4 +1,5 @@
 ---
+date: 2026-04-09
 type: source
 title: "The Growing Demand for Aluminum CNC Machining in Modern Industries"
 source_file: raw/sources/the-growing-demand-for-aluminum-cnc-machining-in-modern-industries.md

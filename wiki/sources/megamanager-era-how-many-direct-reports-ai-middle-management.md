@@ -1,4 +1,5 @@
 ---
+date: 2026-04-08
 type: source
 title: "The Megamanager Era: How Many Direct Reports Can AI Handle?"
 source_file: raw/sources/megamanager-era-how-many-direct-reports-ai-middle-management.md

@@ -1,4 +1,5 @@
 ---
+date: 2026-04-08
 type: source
 title: "This is the biggest risk a company can take in the age of AI"
 source_file: raw/sources/this-is-the-biggest-risk-a-company-can-take-during-the-age-of-ai.md

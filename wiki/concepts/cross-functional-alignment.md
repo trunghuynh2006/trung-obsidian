@@ -1,4 +1,5 @@
 ---
+date: 2026-04-09
 type: concept
 name: Cross-Functional Alignment
 aliases: [HR-IT-Finance alignment, departmental silos, organizational integration]

@@ -1,4 +1,5 @@
 ---
+date: 2026-04-09
 type: source
 title: Untitled clipping on Anthropic's Claude Mythos Preview and Project Glasswing
 source_file: raw/sources/anthropic-ai-claude-mythos.md

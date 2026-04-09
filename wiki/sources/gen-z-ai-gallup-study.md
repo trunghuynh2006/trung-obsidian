@@ -1,4 +1,5 @@
 ---
+date: 2026-04-09
 type: source
 title: "Gen Z AI Attitudes Survey: Gallup / Walton Family Foundation / GSV Ventures (2026)"
 source_file: raw/sources/gen-z-ai-gallup-study.md

@@ -1,4 +1,5 @@
 ---
+date: 2026-04-08
 type: source
 title: "Niantic Spatial launches two new world models to support real-world AI deployment"
 source_file: raw/sources/niantic-spatial-launches-two-new-world-models-to-support-real-world-ai-deployment.md

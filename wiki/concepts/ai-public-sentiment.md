@@ -1,4 +1,5 @@
 ---
+date: 2026-04-09
 type: concept
 name: AI Public Sentiment
 aliases: [generational AI attitudes, Gen Z AI sentiment, public attitudes toward AI]

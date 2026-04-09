@@ -1,4 +1,5 @@
 ---
+date: 2026-04-09
 type: entity
 name: Moderna
 aliases: []

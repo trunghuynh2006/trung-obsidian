@@ -1,4 +1,5 @@
 ---
+date: 2026-04-08
 type: concept
 name: AI Cybersecurity
 aliases: [AI security, AI-enabled cyber operations, AI cyber offense and defense]

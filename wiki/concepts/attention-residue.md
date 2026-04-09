@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: Attention Residue
 aliases: [cognitive residue, task-switching cost]

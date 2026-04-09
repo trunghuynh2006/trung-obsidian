@@ -1,4 +1,5 @@
 ---
+date: 2026-04-09
 type: entity
 name: Claude Mythos Preview
 aliases: [Mythos Preview, Claude Mythos]

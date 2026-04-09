@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: Flow State
 aliases: [flow, in the zone, optimal experience]

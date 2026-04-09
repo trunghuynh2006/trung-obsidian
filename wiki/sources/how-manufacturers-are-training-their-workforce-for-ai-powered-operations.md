@@ -1,4 +1,5 @@
 ---
+date: 2026-04-08
 type: source
 title: "How manufacturers are training their workforce for AI-powered operations"
 source_file: raw/sources/how-manufacturers-are-training-their-workforce-for-ai-powered-operations.md

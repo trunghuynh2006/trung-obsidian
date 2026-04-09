@@ -1,4 +1,5 @@
 ---
+date: 2026-04-06
 type: source
 title: This is What Getting Started in Robotics Really Looks Like
 source_file: raw/sources/the-complete-guide-to-getting-started.md

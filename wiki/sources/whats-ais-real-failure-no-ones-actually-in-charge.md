@@ -1,4 +1,5 @@
 ---
+date: 2026-04-09
 type: source
 title: "Companies That Fail to Align These 3 Things Will Lose the AI Race"
 source_file: raw/sources/whats-ais-real-failure-no-ones-actually-in-charge.md

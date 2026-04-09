@@ -30,6 +30,7 @@ Every session starts by reading this file. Every operation follows the rules her
 ### Source Summary Page (`wiki/sources/<slug>.md`)
 ```markdown
 ---
+date: YYYY-MM-DD
 type: source
 title: <full title>
 source_file: raw/sources/<filename>
@@ -61,6 +62,7 @@ Notable verbatim excerpts worth preserving.
 ### Entity Page (`wiki/entities/<slug>.md`)
 ```markdown
 ---
+date: YYYY-MM-DD
 type: entity
 name: <canonical name>
 aliases: [<alt name>, ...]
@@ -97,6 +99,7 @@ sources: <count>
 ### Concept Page (`wiki/concepts/<slug>.md`)
 ```markdown
 ---
+date: YYYY-MM-DD
 type: concept
 name: <canonical name>
 aliases: []

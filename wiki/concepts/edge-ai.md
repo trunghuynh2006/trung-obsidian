@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: Edge AI
 aliases: [on-device AI, edge inference, TinyML]

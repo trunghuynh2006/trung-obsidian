@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: source
 title: AI Chatbots, Virtue and Vice
 source_file: raw/sources/ai-chatbots-virtue-vice.md

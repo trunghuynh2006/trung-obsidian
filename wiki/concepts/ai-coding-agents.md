@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: AI Coding Agents
 aliases: [AI code generation, vibe coding, coding agents, LLM coding tools]

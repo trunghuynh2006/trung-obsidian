@@ -1,4 +1,5 @@
 ---
+date: 2026-04-09
 type: concept
 name: AI Nonproliferation
 aliases: [controlled model release, frontier model containment]

@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: source
 title: Top Robotics Trends in 2026
 source_file: raw/sources/top-robotics-trends-2026.md

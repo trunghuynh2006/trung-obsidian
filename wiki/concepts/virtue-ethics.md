@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: concept
 name: Virtue Ethics
 aliases: [virtue theory, aretaic ethics, unity of virtues]

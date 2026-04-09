@@ -1,4 +1,5 @@
 ---
+date: 2026-04-07
 type: entity
 name: Mihaly Csikszentmihalyi
 aliases: [Csikszentmihalyi]

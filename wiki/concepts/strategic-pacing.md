@@ -1,4 +1,5 @@
 ---
+date: 2026-04-08
 type: concept
 name: Strategic Pacing
 aliases: [pacing vs perfection, transformation under uncertainty]
