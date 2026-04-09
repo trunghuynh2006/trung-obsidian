@@ -18,6 +18,13 @@ Every session starts by reading this file. Every operation follows the rules her
 │   ├── entities/          ← people, organizations, products, places
 │   ├── concepts/          ← ideas, frameworks, methodologies, terms
 │   └── analyses/          ← comparisons, deep-dives, answers saved as pages
+├── projects/              ← user's side projects (first-person, living docs)
+│   ├── index.md           ← catalog of all projects
+│   └── <project-slug>/
+│       ├── README.md      ← project overview, goals, status, next actions
+│       ├── log.md         ← append-only dev journal for this project
+│       ├── decisions/     ← architecture / design decision records
+│       └── notes/         ← scratchpad, research, experiments
 └── raw/                   ← user-owned source material (READ ONLY — never modify)
     ├── sources/           ← raw source files: .md, .pdf, .txt, .html, etc.
     └── assets/            ← images and attachments downloaded from articles
@@ -130,6 +137,57 @@ Note any claims across sources that conflict, with citations.
 - [[wiki/sources/slug]] — what this source adds
 ```
 
+### Project README (`projects/<slug>/README.md`)
+```markdown
+---
+date: YYYY-MM-DD
+type: project
+title: <title>
+status: active | paused | completed | archived
+tags: []
+---
+
+# <Title>
+
+**Status:** active | paused | completed | archived
+**Started:** YYYY-MM-DD
+**Last Updated:** YYYY-MM-DD
+
+## Goal
+What this project is trying to achieve.
+
+## Current Focus
+What is actively being worked on right now.
+
+## Next Actions
+- Concrete next steps, ordered by priority.
+
+## Stack / Decisions
+- Key technology and design choices with brief rationale.
+
+## Wiki Connections
+Links to relevant wiki knowledge pages.
+- [[wiki/concepts/foo]] — why relevant
+- [[wiki/entities/bar]] — why relevant
+
+## Log
+[[projects/<slug>/log]]
+```
+
+### Project Log (`projects/<slug>/log.md`)
+```markdown
+# <Project Name> — Dev Log
+
+Append-only. Most recent entries at top.
+
+---
+
+## [YYYY-MM-DD] <type> | <summary>
+Detail of what happened, decided, or learned.
+```
+
+Log entry types: `update`, `decision`, `research`, `blocker`, `milestone`
+
 ### Analysis Page (`wiki/analyses/<slug>.md`)
 ```markdown
 ---
@@ -190,6 +248,30 @@ Main content.
 3. Synthesize an answer with inline citations to wiki pages.
 4. Ask: "Should I save this as an analysis page?" — if yes, create `wiki/analyses/<slug>.md`.
 5. If saved, update `wiki/index.md` and append to `wiki/log.md`.
+
+### PROJECT — Managing side projects
+
+**Trigger:** User says "new project <name>", "update project <name>", "log <project>", or pastes project notes.
+
+**Creating a new project:**
+1. Create `projects/<slug>/README.md` using the Project README format.
+2. Create `projects/<slug>/log.md` with an initial entry.
+3. Add to `projects/index.md` under the correct status section.
+4. Append to `wiki/log.md`: `## [YYYY-MM-DD] project | <Title> — created`
+5. Commit: `git add -A && git commit -m "project: add <Title>" && git push origin master`
+
+**Updating an existing project:**
+1. Read `projects/<slug>/README.md` before editing.
+2. Update `Current Focus`, `Next Actions`, `Stack / Decisions` as needed.
+3. Update `Last Updated` date in frontmatter.
+4. Append an entry to `projects/<slug>/log.md`.
+5. Commit: `git add -A && git commit -m "project: update <Title>" && git push origin master`
+
+**Rules:**
+- Projects are first-person and opinionated — do not rewrite the user's intent, only help structure it.
+- Cross-link to wiki pages whenever a concept or entity is relevant.
+- Never delete log entries — append only.
+- If the user asks a question about a project, read the README and log before answering.
 
 ### LINT — Health check
 
@@ -255,7 +337,8 @@ At the start of every session:
 1. Read this file (CLAUDE.md).
 2. Read `wiki/index.md` (full).
 3. Read `wiki/log.md` (top 20 lines — most recent entries).
-4. Greet the user with a 1-line status: how many sources, entities, concepts are indexed.
+4. Read `projects/index.md` (full).
+5. Greet the user with a 1-line status: how many sources, entities, concepts are indexed, and how many active projects.
 
 ---
 
@@ -265,4 +348,4 @@ At the start of every session:
 
 ---
 
-*Schema version: 1.0 — 2026-04-06*
+*Schema version: 1.1 — 2026-04-09 (added projects/ directory and PROJECT operation)*

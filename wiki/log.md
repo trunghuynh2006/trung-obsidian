@@ -5,6 +5,11 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-09] update | Schema v1.1 — added projects/ directory and PROJECT operation
+
+CLAUDE.md updated to schema v1.1. Added projects/ to directory layout, Project README and Log page formats, PROJECT operation, and projects/index.md to Session Start Checklist.
+First project scaffolded: Build Learning Platform (build-learning-platform).
+
 ## [2026-04-09] ingest | Gen Z AI Attitudes Survey — Gallup / Walton Family Foundation / GSV Ventures (2026)
 
 Processed raw/sources/gen-z-ai-gallup-study.md (NYT summary of a Gallup survey; no direct access to methodology or crosstabs; useful as public-sentiment and labor-anxiety evidence, not as precision measurement).
