@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-11] query | Applying Ultralearning to AWS Certified Developer – Associate exam preparation
+
+Synthesized ultralearning framework against DVA-C02 exam structure.
+Pages created: wiki/entities/aws-certified-developer-associate, wiki/analyses/ultralearning-for-aws-developer-associate.
+Pages updated: wiki/index. Key synthesis: DVA-C02 is a developer-depth exam centered on the serverless stack (Lambda + DynamoDB + SQS/SNS + API Gateway); directness (trigger failure modes, not just happy-path labs) is the highest-leverage principle; 9 high-complexity drill clusters identified including Lambda concurrency, DynamoDB indexing, and CodeDeploy deployment types; estimated 6-week sprint similar to PL-400.
+
 ## [2026-04-11] query | Applying Ultralearning to AWS Certified Cloud Practitioner exam preparation
 
 Synthesized ultralearning framework against CLF-C02 exam structure.
