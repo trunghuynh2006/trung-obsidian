@@ -5,6 +5,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 ---
 
 ## Sources
+- [[wiki/sources/how-to-run-llm-evaluation-for-better-ai-performance]] — Enterprise-AI governance lens: LLM evaluation is lifecycle control infrastructure, not a one-time benchmark or QA phase.
 - [[wiki/sources/why-automation-systems-fail-without-weather-intelligence]] — Automation-resilience lens: external weather context is a first-class input for robots, logistics systems, and outdoor industrial operations.
 - [[wiki/sources/do-robotics-firms-need-microsoft-365-backups]] — Robotics-resilience lens on Microsoft 365: backup is about restoring decision context, not just retaining files for compliance.
 - [[wiki/sources/anthropic-ai-claude-mythos]] — Opinion-driven frontier-AI warning: Anthropic's restricted Mythos release reframes cyber-capable models as a nonproliferation problem, not just a product launch.
@@ -69,6 +70,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/gallup]] — Research and polling firm; conducted the 2026 Gen Z AI attitudes survey with Walton Family Foundation and GSV Ventures.
 
 ## Concepts
+- [[wiki/concepts/llm-evaluation]] — Task-grounded, versioned, human-reviewed, continuously monitored measurement of whether model behavior stays inside operational and policy bounds.
 - [[wiki/concepts/weather-intelligence]] — Structured, localized, low-latency environmental data and forecasts used as live operational input for automation systems.
 - [[wiki/concepts/shared-responsibility-model]] — Cloud principle: provider runs the platform; customer still owns data protection, recoverability, and governance inside it.
 - [[wiki/concepts/retention-vs-recovery]] — Compliance retention and version history do not automatically reconstruct a usable working state with context intact.

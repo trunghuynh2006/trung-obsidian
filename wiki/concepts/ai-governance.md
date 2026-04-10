@@ -4,7 +4,7 @@ type: concept
 name: AI Governance
 aliases: [AI ownership, AI accountability, AI leadership structure]
 tags: [ai, organizational-design, governance, management, strategy]
-sources: 2
+sources: 3
 ---
 
 # AI Governance
@@ -29,6 +29,8 @@ The deeper insight is that AI governance is not primarily a technology governanc
 
 The newer leadership/adoption source adds a practice-layer view of governance. AI is already embedded in the tools people use every day, so governance cannot mean only an executive org chart. It also means deciding whether everyday AI usage will be visible, trained, and bounded by guardrails, or whether it will drift informally until habits harden without leadership input. In that framing, governance is partly about creating safe learning structures, not just assigning formal ownership.
 
+The new LLM-evaluation source adds another layer: governance also needs operating controls for model behavior over time. Even if ownership is clear and experimentation is bounded, a model is not meaningfully governed unless the organization can define task-specific performance criteria, score outputs against versioned benchmarks, involve human reviewers where automated metrics are weak, and monitor for regressions or policy drift after release. This extends governance from org-chart design into release discipline and auditability.
+
 ## Evidence & Examples
 
 - 60% of senior leaders report AI has no clear owner in their organization [[wiki/sources/whats-ais-real-failure-no-ones-actually-in-charge]]
@@ -37,6 +39,7 @@ The newer leadership/adoption source adds a practice-layer view of governance. A
 - Gartner (2024): 1 in 5 companies plan to use AI to flatten organizational layers by 2026 — yet the governance structures to manage that restructuring are largely absent [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]]
 - The DOXA source frames the practical governance question this way: AI is already in daily tools, so will its use be governed or left to run without structure? [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]]
 - DOXA reportedly used a committee, explicit guardrails, and training to make AI experimentation shared and bounded rather than hidden and ad hoc [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]]
+- The LLM-evaluation source argues that task-grounded criteria, versioned datasets, human review, and continuous monitoring are governance controls rather than optional QA steps [[wiki/sources/how-to-run-llm-evaluation-for-better-ai-performance]]
 
 ## Connections
 
@@ -44,6 +47,7 @@ The newer leadership/adoption source adds a practice-layer view of governance. A
 - [[wiki/concepts/ai-workforce-readiness]] — governance determines who is accountable for readiness programs, not just what skills workers need
 - [[wiki/concepts/strategic-pacing]] — KPMG/Fast Company source frames AI governance as inseparable from strategic decision-making under uncertainty
 - [[wiki/concepts/experimentation-culture]] — governance is the guardrail layer that makes experimentation safe enough to become normal work
+- [[wiki/concepts/llm-evaluation]] — evaluation infrastructure turns governance from declared ownership into measurable behavioral control
 - [[wiki/concepts/span-of-control]] — span-of-control inflation is partly a governance failure: no owner for AI means managers absorb the consequences of AI restructuring without structural support
 - [[wiki/concepts/expertise-paradox]] — without governance clarity, organizations cannot make intentional choices about which expert tasks to automate vs. which to protect
 - [[wiki/entities/moderna]] — structural example: merged people and digital leadership to resolve the governance vacuum
@@ -56,3 +60,4 @@ The newer leadership/adoption source adds a practice-layer view of governance. A
 
 - [[wiki/sources/whats-ais-real-failure-no-ones-actually-in-charge]] — primary evidence for the AI ownership vacuum and structural governance responses
 - [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]] — extends governance into everyday AI practice: guardrails, training, and shared learning structures
+- [[wiki/sources/how-to-run-llm-evaluation-for-better-ai-performance]] — extends governance into lifecycle controls: evaluation datasets, human review, monitoring, and auditable release records

@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-11] ingest | How to run LLM evaluation for better AI performance
+
+Processed raw/sources/how-to-run-llm-evaluation-for-better-ai-performance.md (enterprise-marketing style article; conceptually useful, but lightly evidenced and more framework-oriented than empirical).
+Pages created: wiki/sources/how-to-run-llm-evaluation-for-better-ai-performance, wiki/concepts/llm-evaluation.
+Pages updated: wiki/concepts/ai-governance (+lifecycle-control layer, +3rd source), wiki/index, wiki/overview. User focus assumed: measurement, auditability, and operational discipline for LLM systems. Key synthesis: AI governance is not only about who owns AI or what policies exist; it also requires evaluation infrastructure that makes behavioral quality and risk visible across model versions.
+
 ## [2026-04-11] ingest | Why automation systems fail without weather intelligence
 
 Processed raw/sources/why-automation-systems-fail-without-weather-intelligence.md (promotional/vendor-shaped article; lightly evidenced, but useful as a conceptual extension of real-world automation into environmental awareness and forecast-aware adaptation).
