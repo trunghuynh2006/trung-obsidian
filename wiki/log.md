@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-11] query | Applying Ultralearning to AWS Certified Cloud Practitioner exam preparation
+
+Synthesized ultralearning framework against CLF-C02 exam structure.
+Pages created: wiki/entities/aws-certified-cloud-practitioner, wiki/analyses/ultralearning-for-aws-cloud-practitioner.
+Pages updated: wiki/index. Key synthesis: CLF-C02 is a breadth exam with a larger service catalog than PL-900; security (30%) is the dominant domain and most precisely tested; drill on 12 high-confusion service pairs and retrieval via scenario-to-service mapping are the highest-leverage principles; shared-responsibility-model concept page already in wiki maps directly to AWS exam content. Estimated 3-week sprint for candidates with general IT background.
+
 ## [2026-04-11] query | Applying Ultralearning to Microsoft PL-900 exam preparation
 
 Synthesized ultralearning framework against PL-900 (Power Platform Fundamentals) exam structure.
