@@ -5,6 +5,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 ---
 
 ## Sources
+- [[wiki/sources/why-automation-systems-fail-without-weather-intelligence]] — Automation-resilience lens: external weather context is a first-class input for robots, logistics systems, and outdoor industrial operations.
 - [[wiki/sources/do-robotics-firms-need-microsoft-365-backups]] — Robotics-resilience lens on Microsoft 365: backup is about restoring decision context, not just retaining files for compliance.
 - [[wiki/sources/anthropic-ai-claude-mythos]] — Opinion-driven frontier-AI warning: Anthropic's restricted Mythos release reframes cyber-capable models as a nonproliferation problem, not just a product launch.
 - [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]] — Entrepreneur contributor piece: early AI advantage compounds as judgment, shared standards, and learning-first leadership rather than tool access alone.
@@ -31,6 +32,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/gen-z-ai-gallup-study]] — Gallup/Walton/GSV survey (2026): Gen Z hope fell 27%→18%, ~1/3 feel angry; flat adoption despite wider access; labor/career anxiety dominates.
 
 ## Entities
+- [[wiki/entities/visual-crossing]] — Weather-data vendor cited as an example of structured API delivery for production automation systems.
 - [[wiki/entities/microsoft-365]] — Productive-looking office suite reframed here as a robotics firm's operational memory layer: email, file history, and decision context.
 - [[wiki/entities/acronis]] — Backup/security vendor cited for ransomware-aware Microsoft 365 recovery and immutable storage.
 - [[wiki/entities/veeam]] — Backup vendor cited for storage flexibility and tighter recovery-control choices.
@@ -67,6 +69,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/gallup]] — Research and polling firm; conducted the 2026 Gen Z AI attitudes survey with Walton Family Foundation and GSV Ventures.
 
 ## Concepts
+- [[wiki/concepts/weather-intelligence]] — Structured, localized, low-latency environmental data and forecasts used as live operational input for automation systems.
 - [[wiki/concepts/shared-responsibility-model]] — Cloud principle: provider runs the platform; customer still owns data protection, recoverability, and governance inside it.
 - [[wiki/concepts/retention-vs-recovery]] — Compliance retention and version history do not automatically reconstruct a usable working state with context intact.
 - [[wiki/concepts/restore-testing]] — Recovery readiness is only proven by end-to-end restore drills that measure speed, completeness, and usability.

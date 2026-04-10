@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-11] ingest | Why automation systems fail without weather intelligence
+
+Processed raw/sources/why-automation-systems-fail-without-weather-intelligence.md (promotional/vendor-shaped article; lightly evidenced, but useful as a conceptual extension of real-world automation into environmental awareness and forecast-aware adaptation).
+Pages created: wiki/sources/why-automation-systems-fail-without-weather-intelligence, wiki/entities/visual-crossing, wiki/concepts/weather-intelligence.
+Pages updated: wiki/concepts/physical-ai (+environmental-awareness layer, +4th source), wiki/concepts/industrial-iot (+external-environment layer, +4th source), wiki/index, wiki/overview. User focus assumed: operational robustness for physical automation. Key synthesis: automation systems do not fail only because of bad models or poor mechanics; they also fail when external conditions such as weather are missing from the live decision context.
+
 ## [2026-04-11] ingest | Do robotics firms need Microsoft 365 backups?
 
 Processed raw/sources/do-robotics-firms-need-microsoft-365-backups.md (commercial/marketing-style article; lightly evidenced, but conceptually useful as an operational-resilience framing for collaboration data in robotics).

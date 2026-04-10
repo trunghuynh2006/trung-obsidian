@@ -4,7 +4,7 @@ type: concept
 name: Industrial IoT
 aliases: [IIoT, Industrial Internet of Things, smart factory, Industry 4.0]
 tags: [iot, manufacturing, ai, automation, industry]
-sources: 3
+sources: 4
 ---
 
 # Industrial IoT
@@ -50,6 +50,18 @@ Each layer has distinct AI capabilities. The edge handles real-time, latency-sen
 
 A distinctive IIoT concern: proprietary manufacturing processes cannot leave facility premises. Edge AI makes this tractable — process data is analyzed locally; only aggregated, anonymized performance metrics are shared externally. Federated learning extends this: even model training can be distributed without sharing raw data. [[wiki/concepts/federated-learning]]
 
+## Environmental Intelligence for Outdoor Automation
+
+The new weather-intelligence source adds a useful correction to the current IIoT picture: not all critical operational inputs come from internal sensors, production databases, or asset telemetry. In outdoor and semi-controlled environments, automation also depends on structured external data about changing conditions.
+
+This matters especially in logistics, energy, construction, mining, and other exposed operations:
+- **Routing and timing** — weather shifts can make a previously efficient route unsafe or slow
+- **Equipment behavior** — wind, rain, and temperature affect traction, stability, battery efficiency, and hardware stress
+- **Safety and continuity** — systems may need to delay tasks, change thresholds, or enter fallback modes before conditions worsen
+- **Maintenance planning** — environmental conditions shape wear, downtime risk, and safe operating windows
+
+The source's key point is not simply that weather matters. It is that weather has to arrive as structured operational input rather than as a vague background variable. That expands IIoT from machine-state awareness toward broader environment-state awareness. [[wiki/concepts/weather-intelligence]]
+
 ## Human-Machine Interfaces
 
 LLMs are democratizing access to complex industrial systems:
@@ -79,9 +91,11 @@ This fills a gap in the existing IIoT picture. The architecture can be correct a
 - [[wiki/concepts/physical-ai]] — IIoT is the industrial instantiation of Physical AI
 - [[wiki/concepts/robot-components]] — IIoT sensor and actor nodes are AI-enhanced extensions of the classic sensor/actuator taxonomy
 - [[wiki/concepts/ai-workforce-readiness]] — workforce training and operational AI literacy determine whether IIoT systems are adopted effectively
+- [[wiki/concepts/weather-intelligence]] — external environmental data becomes another live operational input for exposed industrial systems
 
 ## Sources
 
 - [[wiki/sources/the-intelligent-edge-how-ai-and-large]] — comprehensive IIoT survey covering QC, predictive maintenance, energy management, supply chain, and multi-agent coordination
 - [[wiki/sources/how-manufacturers-are-training-their-workforce-for-ai-powered-operations]] — adds the workforce layer: role-specific training, AI literacy, data discipline, and hands-on practice as adoption bottlenecks
 - [[wiki/sources/the-growing-demand-for-aluminum-cnc-machining-in-modern-industries]] — adds a process-level example: connected CNC machining, adaptive control, and material-specific manufacturing constraints
+- [[wiki/sources/why-automation-systems-fail-without-weather-intelligence]] — adds environmental-awareness requirements for outdoor automation, logistics, energy, construction, and other exposed operations

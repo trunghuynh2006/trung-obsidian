@@ -4,7 +4,7 @@ type: concept
 name: Physical AI
 aliases: [embodied AI, AI-powered robots]
 tags: [robotics, ai, llm, trends, manufacturing]
-sources: 3
+sources: 4
 ---
 
 # Physical AI
@@ -32,6 +32,17 @@ The source's key addition is a paired infrastructure model:
 - **Localization** — systems like VPS determine position and orientation inside those spaces, especially where GPS fails
 
 This pushes Physical AI one step closer to deployment reality. Simulation explains how to train and test systems before the world; geospatial mapping and visual positioning explain how those systems stay oriented once they enter the world. [[wiki/concepts/large-geospatial-models]] [[wiki/concepts/visual-positioning-systems]]
+
+## Environmental Awareness as Operating Context
+
+Spatial grounding answers *where a system is*. The new weather-intelligence source adds a different question: *what is changing in the environment around it right now, and what will that imply in the next hour?* A delivery robot, drone, or outdoor machine can be well-localized and still perform badly if it cannot account for rain, wind, temperature shifts, or forecasted changes that alter traction, stability, visibility, travel time, or energy use.
+
+This adds an environmental-awareness layer to Physical AI:
+- **Current conditions** — live weather and environment inputs affecting immediate behavior
+- **Short-horizon forecasts** — predictive signals that support rerouting, delay, or threshold changes before conditions deteriorate
+- **Operational translation** — system logic that maps weather values into action rather than treating them as abstract measurements
+
+Together, these layers extend the wiki's physical-AI picture. Simulation handles predeployment testing, spatial grounding handles orientation, and weather intelligence helps systems adapt once the world starts changing under them. [[wiki/concepts/weather-intelligence]]
 
 ## Why LLMs Matter for Robotics
 
@@ -63,9 +74,11 @@ Key additions from IoT architecture:
 - [[wiki/concepts/industrial-iot]] — IIoT is the industrial-scale deployment of Physical AI principles.
 - [[wiki/concepts/large-geospatial-models]] — shared machine-readable maps provide the spatial substrate physical systems act within.
 - [[wiki/concepts/visual-positioning-systems]] — localization layer that keeps physical AI oriented in GPS-poor environments.
+- [[wiki/concepts/weather-intelligence]] — environmental-awareness layer that lets physical systems adapt to changing outdoor conditions in real time.
 
 ## Sources
 
 - [[wiki/sources/robotics-trends-2026]] — identifies Physical AI as the headline 2026 robotics trend; cites Deloitte report.
 - [[wiki/sources/the-intelligent-edge-how-ai-and-large]] — IoT sensor/actor node architecture as concrete Physical AI infrastructure; edge AI, LLM explainability, data sovereignty.
 - [[wiki/sources/niantic-spatial-launches-two-new-world-models-to-support-real-world-ai-deployment]] — adds spatial grounding as deployment infrastructure: environment capture, shared geospatial models, and camera-based localization.
+- [[wiki/sources/why-automation-systems-fail-without-weather-intelligence]] — adds environmental awareness and forecast-aware adaptation as another deployment requirement for real-world automation.

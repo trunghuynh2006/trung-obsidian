@@ -49,33 +49,39 @@ Four compounding ideas, now converging:
 - [[wiki/entities/arduino]] — canonical beginner hardware platform
 - [[wiki/entities/ros2]] — industry-standard robotics middleware
 
-## Robotics Coverage (5 sources in)
+## Robotics Coverage (6 sources in)
 
-Four layers now established:
+Five layers now established:
 - **Philosophy layer**: problem-driven learning, why roadmaps fail, the multidisciplinary trap — from the practitioner guide.
 - **Reference layer**: career paths + industry stats, robot types taxonomy, hardware component anatomy — from the Playto Labs guide.
 - **Spatial infrastructure layer**: machine-readable maps, visual localization, and geospatial world models as deployment substrate for physical AI — from the Niantic Spatial source.
 - **Operational-memory layer**: email, cloud files, and collaboration trails as part of robotics continuity, auditability, and recovery readiness — from the Microsoft 365 backup source.
+- **Environmental-awareness layer**: weather and forecast inputs as live decision context for robots and outdoor automation — from the weather-intelligence source.
 
-The four layers complement each other. The philosophy tells you *how to learn*; the reference tells you *what the landscape looks like*; the infrastructure layer tells you what real-world deployment still requires after reasoning and control are in place; the operational-memory layer explains why recoverable decision context matters once real teams, vendors, audits, and incidents enter the picture.
+The five layers complement each other. The philosophy tells you *how to learn*; the reference tells you *what the landscape looks like*; the infrastructure layer tells you what real-world deployment still requires after reasoning and control are in place; the operational-memory layer explains why recoverable decision context matters once real teams, vendors, audits, and incidents enter the picture; the environmental-awareness layer explains why even well-localized systems still need structured external data once the world starts changing around them.
 
 This new layer sharpens the meaning of [[wiki/concepts/physical-ai]]. The missing ingredient is not always "more intelligence." Sometimes it is a better representation of the world: captured environments, reusable 3D assets, and localization systems that let robots stay oriented once they leave simulation. That connects the robotics domain more tightly to the AI+IoT domain, where physical deployment constraints already mattered.
 
 The Microsoft 365 backup source adds a quieter but important correction to the robotics branch: the data substrate of robotics is not only CAD, code, and machine telemetry. It is also the collaboration layer that stores approvals, vendor coordination, test discussion, and rationale. In practice, recovery gaps there become operational gaps. That ties robotics more tightly to security and governance concerns: resilience in industrial settings depends on restoring decision context, not just files in isolation.
 
-## AI+IoT Coverage (3 sources in)
+The weather-intelligence source adds a complementary correction: perception and localization are not enough by themselves. Real-world automation also needs external environmental awareness. A robot may know where it is and still make poor choices if it cannot account for wind, rain, temperature shifts, or short-horizon forecasts. That pushes the robotics branch toward a fuller deployment model: simulation, spatial grounding, operational memory, and environment-aware adaptation.
+
+## AI+IoT Coverage (4 sources in)
 
 A new domain now established around the edge/on-device AI architecture and industrial applications:
 - **Architecture layer**: edge AI (model quantization, pruning, distillation, edge chips), federated learning, the edge-cloud continuum
 - **Application layer**: predictive maintenance, industrial QC, supply chain, energy arbitrage, multi-agent actor coordination
 - **Workforce layer**: AI workforce readiness — role-specific training, AI literacy, data discipline, simulation practice, and adoption measurement as the human bottleneck in industrial deployment
 - **Process/material layer**: CNC machining as a concrete production process where material choice, tolerances, tooling, and adaptive control meet the smart-factory story
+- **External-environment layer**: weather intelligence as live operational input for exposed automation systems in logistics, energy, construction, mining, and delivery
 
 This domain connects strongly to robotics (sensor/actuator nodes as AI-enhanced robot components) and to agentic AI (IIoT actor networks as deployed multi-agent physical systems). The LLM-as-interface pattern here — natural language queries to sensor networks, explainable actuator decisions — mirrors the LLM Wiki pattern: LLMs democratizing access to complex structured data.
 
 The new workforce-training source adds an important correction to the earlier architecture-heavy picture: industrial AI adoption does not fail only at the model or systems level. It also fails at the workflow and skills level. Predictive dashboards, machine-vision outputs, and scheduling systems only matter if workers understand when to trust them, how to act on them, and who owns the resulting decisions. This creates a direct bridge between the AI+IoT domain and the AI + labor domain.
 
 The new aluminum-CNC source brings the lens down another level, from plant-wide systems to the individual machine tool. Earlier industrial pages focused on sensing, maintenance, dashboards, and workforce training. This source grounds the same Industry 4.0 story in a specific production process: aluminum is attractive because it machines quickly while staying light and corrosion-resistant, and CNC cells are becoming more connected through smart tooling, sensor feedback, and adaptive parameter control. The source is vendor-biased and should not be over-weighted, but it adds a useful process-and-material layer to the industrial branch.
+
+The new weather-intelligence source adds an outside-the-factory correction to that picture. Earlier IIoT pages mostly emphasized internal telemetry, plant systems, and asset data. This source argues that once automation leaves tightly controlled indoor settings, a system may need structured external environment data as much as it needs internal sensor data. That is an important broadening of the automation stack: reliable action depends not only on knowing machine state, but also on knowing changing world state.
 
 ## Frontier AI / Security Coverage (4 sources in)
 
@@ -126,6 +132,7 @@ This domain connects directly to the expertise paradox (Thompson's supply-side +
 - Edge AI hardware specifics: which chip families (NVIDIA Jetson, Coral TPU, microNPUs) and what are their capability profiles?
 - Which training models best prepare incumbent industrial workers for AI-supported operations without disrupting production?
 - For robotics firms, how should broad traceability/integrity expectations (for example IEC 62443 or NIS2) be translated into concrete backup and recovery standards for collaboration systems?
+- How should real-world automation systems combine local sensor fusion with third-party weather intelligence without creating new failure modes or overdependence on external providers?
 - In cybersecurity, does AI favor attackers, defenders, or simply the fastest adopters on either side?
 - **New (AI cybersecurity):** Can controlled release of frontier cyber-capable models actually buy meaningful defensive time, or is proliferation effectively unavoidable?
 - **New (AI cybersecurity):** If AI nonproliferation is necessary, what would count as a workable international regime rather than a corporate-public-relations gesture?
@@ -140,4 +147,4 @@ This domain connects directly to the expertise paradox (Thompson's supply-side +
 
 ---
 
-*Last updated: 2026-04-11 — after ingest: Do robotics firms need Microsoft 365 backups?*
+*Last updated: 2026-04-11 — after ingest: Why automation systems fail without weather intelligence*
