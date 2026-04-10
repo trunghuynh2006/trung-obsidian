@@ -33,6 +33,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/gen-z-ai-gallup-study]] — Gallup/Walton/GSV survey (2026): Gen Z hope fell 27%→18%, ~1/3 feel angry; flat adoption despite wider access; labor/career anxiety dominates.
 
 ## Entities
+- [[wiki/entities/microsoft-pl400]] — Microsoft Power Platform Developer associate exam; seven domains covering Dataverse, plugins, PCF, Power Apps, Power Automate, custom connectors, and integrations.
 - [[wiki/entities/visual-crossing]] — Weather-data vendor cited as an example of structured API delivery for production automation systems.
 - [[wiki/entities/microsoft-365]] — Productive-looking office suite reframed here as a robotics firm's operational memory layer: email, file history, and decision context.
 - [[wiki/entities/acronis]] — Backup/security vendor cited for ransomware-aware Microsoft 365 recovery and immutable storage.
@@ -123,6 +124,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/ai-public-sentiment]] — Public and generational attitudes toward AI; Gen Z data (2026) shows high use + souring sentiment; credible-threat recognition without compensatory trust.
 
 ## Analyses
+- [[wiki/analyses/ultralearning-for-pl400]] — Full study plan applying Scott Young's nine ultralearning principles to the Microsoft PL-400 Power Platform Developer exam, with a 6-week sprint schedule.
 - [[wiki/analyses/how-to-use-this-wiki]] — Operations reference: ingest/query/lint commands, session start checklist, key file locations.
 
 ## Meta

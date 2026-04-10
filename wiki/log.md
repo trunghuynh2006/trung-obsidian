@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-11] query | Applying Ultralearning to Microsoft PL-400 exam preparation
+
+Synthesized ultralearning framework from existing wiki knowledge against PL-400 exam structure.
+Pages created: wiki/entities/microsoft-pl400, wiki/analyses/ultralearning-for-pl400.
+Pages updated: wiki/index. Key synthesis: PL-400 is a strong ultralearning candidate because it rewards applied developer skill over memorization; directness (build real plugins and PCF controls), retrieval (practice assessments cold), and drill (isolate plugin pipeline and Dataverse security) are the highest-leverage principles for this exam.
+
 ## [2026-04-11] ingest | How to run LLM evaluation for better AI performance
 
 Processed raw/sources/how-to-run-llm-evaluation-for-better-ai-performance.md (enterprise-marketing style article; conceptually useful, but lightly evidenced and more framework-oriented than empirical).
