@@ -5,6 +5,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 ---
 
 ## Sources
+- [[wiki/sources/do-robotics-firms-need-microsoft-365-backups]] — Robotics-resilience lens on Microsoft 365: backup is about restoring decision context, not just retaining files for compliance.
 - [[wiki/sources/anthropic-ai-claude-mythos]] — Opinion-driven frontier-AI warning: Anthropic's restricted Mythos release reframes cyber-capable models as a nonproliferation problem, not just a product launch.
 - [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]] — Entrepreneur contributor piece: early AI advantage compounds as judgment, shared standards, and learning-first leadership rather than tool access alone.
 - [[wiki/sources/the-growing-demand-for-aluminum-cnc-machining-in-modern-industries]] — Vendor-led manufacturing explainer: why aluminum works well with CNC, where demand is rising, and how smart tooling/Industry 4.0 are reframing machining cells.
@@ -30,6 +31,10 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/gen-z-ai-gallup-study]] — Gallup/Walton/GSV survey (2026): Gen Z hope fell 27%→18%, ~1/3 feel angry; flat adoption despite wider access; labor/career anxiety dominates.
 
 ## Entities
+- [[wiki/entities/microsoft-365]] — Productive-looking office suite reframed here as a robotics firm's operational memory layer: email, file history, and decision context.
+- [[wiki/entities/acronis]] — Backup/security vendor cited for ransomware-aware Microsoft 365 recovery and immutable storage.
+- [[wiki/entities/veeam]] — Backup vendor cited for storage flexibility and tighter recovery-control choices.
+- [[wiki/entities/avepoint]] — SaaS-oriented backup vendor cited for automated backups, search, and bulk restore.
 - [[wiki/entities/ai-officer-institute]] — External partner cited as helping DOXA Talent build AI confidence and capability through guided adoption.
 - [[wiki/entities/claude-mythos-preview]] — Anthropic preview model presented as a step-change cyber capability and released only to a restricted consortium.
 - [[wiki/entities/steven-levitt]] — University of Chicago economist; Freakonomics; canonical empiricist of expert incentive misalignment and conventional-wisdom debunking.
@@ -62,6 +67,9 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/gallup]] — Research and polling firm; conducted the 2026 Gen Z AI attitudes survey with Walton Family Foundation and GSV Ventures.
 
 ## Concepts
+- [[wiki/concepts/shared-responsibility-model]] — Cloud principle: provider runs the platform; customer still owns data protection, recoverability, and governance inside it.
+- [[wiki/concepts/retention-vs-recovery]] — Compliance retention and version history do not automatically reconstruct a usable working state with context intact.
+- [[wiki/concepts/restore-testing]] — Recovery readiness is only proven by end-to-end restore drills that measure speed, completeness, and usability.
 - [[wiki/concepts/expert-incentive-misalignment]] — Levitt's framework: experts exploit informational asymmetry against clients; empirically measured via real estate data; demand-side complement to the expertise paradox.
 - [[wiki/concepts/ai-nonproliferation]] — Restricting access to frontier models whose cyber capabilities may be dangerous enough that broad release sharply raises infrastructure and national-security risk.
 - [[wiki/concepts/conventional-wisdom]] — Beliefs accepted as true by repetition and authority without measurement; the primary epistemological adversary in Freakonomics.

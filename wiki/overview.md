@@ -49,16 +49,19 @@ Four compounding ideas, now converging:
 - [[wiki/entities/arduino]] — canonical beginner hardware platform
 - [[wiki/entities/ros2]] — industry-standard robotics middleware
 
-## Robotics Coverage (4 sources in)
+## Robotics Coverage (5 sources in)
 
-Two layers now established:
+Four layers now established:
 - **Philosophy layer**: problem-driven learning, why roadmaps fail, the multidisciplinary trap — from the practitioner guide.
 - **Reference layer**: career paths + industry stats, robot types taxonomy, hardware component anatomy — from the Playto Labs guide.
 - **Spatial infrastructure layer**: machine-readable maps, visual localization, and geospatial world models as deployment substrate for physical AI — from the Niantic Spatial source.
+- **Operational-memory layer**: email, cloud files, and collaboration trails as part of robotics continuity, auditability, and recovery readiness — from the Microsoft 365 backup source.
 
-The three layers complement each other. The philosophy tells you *how to learn*; the reference tells you *what the landscape looks like*; the infrastructure layer tells you what real-world deployment still requires after reasoning and control are in place.
+The four layers complement each other. The philosophy tells you *how to learn*; the reference tells you *what the landscape looks like*; the infrastructure layer tells you what real-world deployment still requires after reasoning and control are in place; the operational-memory layer explains why recoverable decision context matters once real teams, vendors, audits, and incidents enter the picture.
 
 This new layer sharpens the meaning of [[wiki/concepts/physical-ai]]. The missing ingredient is not always "more intelligence." Sometimes it is a better representation of the world: captured environments, reusable 3D assets, and localization systems that let robots stay oriented once they leave simulation. That connects the robotics domain more tightly to the AI+IoT domain, where physical deployment constraints already mattered.
+
+The Microsoft 365 backup source adds a quieter but important correction to the robotics branch: the data substrate of robotics is not only CAD, code, and machine telemetry. It is also the collaboration layer that stores approvals, vendor coordination, test discussion, and rationale. In practice, recovery gaps there become operational gaps. That ties robotics more tightly to security and governance concerns: resilience in industrial settings depends on restoring decision context, not just files in isolation.
 
 ## AI+IoT Coverage (3 sources in)
 
@@ -122,6 +125,7 @@ This domain connects directly to the expertise paradox (Thompson's supply-side +
 - At what point does this wiki need a search tool beyond index.md?
 - Edge AI hardware specifics: which chip families (NVIDIA Jetson, Coral TPU, microNPUs) and what are their capability profiles?
 - Which training models best prepare incumbent industrial workers for AI-supported operations without disrupting production?
+- For robotics firms, how should broad traceability/integrity expectations (for example IEC 62443 or NIS2) be translated into concrete backup and recovery standards for collaboration systems?
 - In cybersecurity, does AI favor attackers, defenders, or simply the fastest adopters on either side?
 - **New (AI cybersecurity):** Can controlled release of frontier cyber-capable models actually buy meaningful defensive time, or is proliferation effectively unavoidable?
 - **New (AI cybersecurity):** If AI nonproliferation is necessary, what would count as a workable international regime rather than a corporate-public-relations gesture?
@@ -136,4 +140,4 @@ This domain connects directly to the expertise paradox (Thompson's supply-side +
 
 ---
 
-*Last updated: 2026-04-09 — after ingest: Gen Z AI Attitudes Survey (Gallup/Walton/GSV, 2026)*
+*Last updated: 2026-04-11 — after ingest: Do robotics firms need Microsoft 365 backups?*

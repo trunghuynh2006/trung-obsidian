@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-11] ingest | Do robotics firms need Microsoft 365 backups?
+
+Processed raw/sources/do-robotics-firms-need-microsoft-365-backups.md (commercial/marketing-style article; lightly evidenced, but conceptually useful as an operational-resilience framing for collaboration data in robotics).
+Pages created: wiki/sources/do-robotics-firms-need-microsoft-365-backups, wiki/entities/microsoft-365, wiki/entities/acronis, wiki/entities/veeam, wiki/entities/avepoint, wiki/concepts/shared-responsibility-model, wiki/concepts/retention-vs-recovery, wiki/concepts/restore-testing.
+Pages updated: wiki/index, wiki/overview. User focus assumed: operational resilience, traceability, and context recovery for robotics teams. Key synthesis: for robotics, Microsoft 365 is not just office software; it is part of the decision trail around engineering work, so backup strategy has to preserve recoverable context rather than merely retain fragments for compliance.
+
 ## [2026-04-09] update | Schema v1.1 — added projects/ directory and PROJECT operation
 
 CLAUDE.md updated to schema v1.1. Added projects/ to directory layout, Project README and Log page formats, PROJECT operation, and projects/index.md to Session Start Checklist.
