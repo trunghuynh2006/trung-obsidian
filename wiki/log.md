@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-11] query | Applying Ultralearning to Microsoft PL-900 exam preparation
+
+Synthesized ultralearning framework against PL-900 (Power Platform Fundamentals) exam structure.
+Pages created: wiki/entities/microsoft-pl900, wiki/analyses/ultralearning-for-pl900.
+Pages updated: wiki/index. Key synthesis: PL-900 is a breadth exam — retrieval and drill (distinction pairs) are higher-leverage than directness. Key failure mode is confusing adjacent concepts (canvas vs. model-driven, cloud flow vs. desktop flow, report vs. dashboard); targeted discrimination drills address this directly. Estimated 2-week sprint for candidates with general Microsoft 365 familiarity.
+
 ## [2026-04-11] query | Applying Ultralearning to Microsoft PL-400 exam preparation
 
 Synthesized ultralearning framework from existing wiki knowledge against PL-400 exam structure.
