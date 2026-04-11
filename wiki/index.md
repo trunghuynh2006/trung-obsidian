@@ -33,6 +33,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/gen-z-ai-gallup-study]] — Gallup/Walton/GSV survey (2026): Gen Z hope fell 27%→18%, ~1/3 feel angry; flat adoption despite wider access; labor/career anxiety dominates.
 
 ## Entities
+- [[wiki/entities/german-b1-exam]] — German B1 language certification (Goethe/Telc/ÖSD); four equal components: reading, listening, writing, speaking; CEFR intermediate level.
 - [[wiki/entities/aws-certified-developer-associate]] — AWS developer-track associate exam (DVA-C02); four domains: development (32%), security (26%), deployment (24%), troubleshooting (18%); serverless-first focus.
 - [[wiki/entities/aws-certified-cloud-practitioner]] — AWS foundational exam (CLF-C02); four domains: cloud concepts, security (30%), services, and billing/pricing/support.
 - [[wiki/entities/microsoft-pl900]] — Microsoft Power Platform Fundamentals exam; six domains covering Power BI, Power Apps, Power Automate, Copilot Studio, Dataverse, and Microsoft 365 integration.
@@ -127,6 +128,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/ai-public-sentiment]] — Public and generational attitudes toward AI; Gen Z data (2026) shows high use + souring sentiment; credible-threat recognition without compensatory trust.
 
 ## Analyses
+- [[wiki/analyses/ultralearning-for-german-b1]] — Full study plan applying Scott Young's nine ultralearning principles to the German B1 exam, tailored for Vietnamese / B2 English learners, with a 6-month sprint from A2.
 - [[wiki/analyses/ultralearning-for-aws-developer-associate]] — Full study plan applying Scott Young's nine ultralearning principles to the AWS Certified Developer – Associate (DVA-C02) exam, with a 6-week sprint schedule.
 - [[wiki/analyses/ultralearning-for-aws-cloud-practitioner]] — Full study plan applying Scott Young's nine ultralearning principles to the AWS Certified Cloud Practitioner (CLF-C02) exam, with a 3-week sprint schedule.
 - [[wiki/analyses/ultralearning-for-pl900]] — Full study plan applying Scott Young's nine ultralearning principles to the Microsoft PL-900 Power Platform Fundamentals exam, with a 2-week sprint schedule.

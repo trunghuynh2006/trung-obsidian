@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-11] query | Applying Ultralearning to German B1 exam (Vietnamese / B2 English learner)
+
+Synthesized ultralearning framework against German B1 exam structure, tailored for Vietnamese L1 / B2 English learner context.
+Pages created: wiki/entities/german-b1-exam, wiki/analyses/ultralearning-for-german-b1.
+Pages updated: wiki/index. Key synthesis: German B1 differs from all prior certification plans — it tests internalized competence, not knowledge of systems; Vietnamese has zero structural transfer to German (gender, case, word order, adjective endings all require new cognitive machinery); B2 English is a significant advantage (cognates, grammar metalanguage, full resource access); directness (daily German use) and retention (spaced vocabulary) are highest-leverage; realistic study window is 6 months from A2.
+
 ## [2026-04-11] query | Applying Ultralearning to AWS Certified Developer – Associate exam preparation
 
 Synthesized ultralearning framework against DVA-C02 exam structure.
