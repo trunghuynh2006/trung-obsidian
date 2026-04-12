@@ -5,6 +5,10 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-13] update | PL-400 metalearning phase notes integrated
+
+Updated wiki/analyses/ultralearning-for-pl400 and wiki/entities/microsoft-pl400 with user's metalearning output. New material: domain priority map with importance/difficulty ratings, extension point decision tree (highest-value study artifact), recommended learning order, memorize-vs-understand distinction, mini-projects table, six pitfall catalog, readiness threshold (85–90% practice assessment), and flagged CRM Chap playlist as potentially dated.
+
 ## [2026-04-11] query | Applying Ultralearning to German B1 exam (Vietnamese / B2 English learner)
 
 Synthesized ultralearning framework against German B1 exam structure, tailored for Vietnamese L1 / B2 English learner context.

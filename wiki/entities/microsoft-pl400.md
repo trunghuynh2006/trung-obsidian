@@ -48,6 +48,31 @@ The exam is organized into seven domains (approximate weights):
 - [[wiki/analyses/ultralearning-for-pl400]] — full study plan applying ultralearning to this exam
 - [[wiki/entities/microsoft-365]] — Microsoft ecosystem this platform extends
 
+## Extension Point Decision Tree
+
+The single most tested pattern in PL-400 scenario questions:
+
+| Situation | Best Choice |
+|---|---|
+| Need validation before record saved | Plugin Pre-Operation |
+| Need to modify data after save | Plugin Post-Operation |
+| Need UI-only behavior on a form | JavaScript |
+| Need external system call without blocking user | Async plugin / Azure Function |
+| Need reusable API callable by app or flow | Custom API |
+| Need to connect to external REST service | Custom Connector |
+| Need event pushed to Azure | Service Bus or Webhook |
+| Need low-code process | Power Automate |
+
+## Plugin Stage Reference
+
+| Stage | Use |
+|---|---|
+| Pre-Validation | Before security checks / early exit |
+| Pre-Operation | Before database save — modify input data here |
+| Post-Operation | After save — trigger follow-on actions here |
+
+Note: Pre-images are only available on Update and Delete — not on Create.
+
 ## Open Questions
 
 - Which PCF control scenarios are currently most tested (virtual vs. standard vs. React)?
