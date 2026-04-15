@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-15] ingest | Bosses say AI boosts productivity – workers say they’re drowning in ‘workslop’
+
+Focus angle: AI + labor / governance. Key finding: "workslop" names a real operational failure mode of workplace AI adoption — polished-looking output that shifts correction work downstream, widening the executive-worker productivity gap. The source sharpens the wiki's management branch by showing that forced AI rollout without clear use cases, training, or worker input can reduce morale and increase total labor.
+Pages created: wiki/sources/ai-productivity-workplace-errors, wiki/concepts/workslop, wiki/entities/betterup.
+Pages updated: wiki/concepts/ai-workforce-readiness (+5th source, knowledge-work failure mode), wiki/concepts/ai-governance (+4th source, mandate-without-fit counterexample), wiki/concepts/strategic-pacing (+3rd source, early-adoption caution), wiki/index, wiki/overview (AI+labor now 6 sources, new operational-failure layer, new productivity-measurement question).
+
 ## [2026-04-15] ingest | Boston Dynamics Integrates Google DeepMind's Gemini Robotics Model into Spot Inspection Platform
 
 Focus angle: Physical AI / embodied reasoning. Key finding: Gemini Robotics-ER 1.6 integrated into Spot's Orbit/AIVI platform marks a detection→reasoning transition in deployed Physical AI. Four capabilities operationalized: spatial relationship analysis, multi-camera synthesis, success detection, instrument reading. Success detection is load-bearing — it closes the agentic loop without human confirmation. Cloud-based deployment contrasts with edge-AI IIoT architecture.

@@ -98,7 +98,7 @@ Together these sources suggest a general pattern: frontier AI does not just auto
 
 The new Mythos/Glasswing source escalates this branch from acceleration to containment. Earlier cyber pages already suggested that AI was compressing offense-defense timelines. This source adds a sharper claim: a model may be able to find flaws across the shared software substrate of modern society so effectively that broad release itself becomes the problem. That introduces a new statecraft-level question for the wiki: can there be a meaningful regime of AI nonproliferation for cyber-capable models, or does capability diffusion outrun containment almost immediately?
 
-## AI + Labor Markets Coverage (5 sources in)
+## AI + Labor Markets Coverage (6 sources in)
 
 New domain established around the expertise paradox and organizational restructuring:
 - **Structural layer**: span-of-control inflation — the megamanager era, average US manager now overseeing 12 reports (up from ~6), Meta at 50:1.
@@ -107,6 +107,7 @@ New domain established around the expertise paradox and organizational restructu
 - **Strategic layer**: transformation under uncertainty — in AI-accelerated markets, waiting for clarity is itself a costly choice; firms need strategic pacing, clear ownership, and AI-native workflow redesign.
 - **Governance layer**: the AI ownership vacuum — 60% of senior leaders report no one in their organization has clear ownership of AI. This is a structural consequence of AI's cross-cutting nature (people + systems + finance), not a failure of awareness. The fix is organizational design: either a cross-functional HR+IT+Finance alignment (three-step framework), or structural merger of roles (Moderna's CHRO+CIO combined into one executive).
 - **Leadership-learning layer**: early AI advantage compounds mainly as judgment, confidence, and shared standards. Leaders need to model open experimentation, create guardrails, and normalize learning before teams build ungoverned habits on their own.
+- **Operational-failure layer**: workslop — AI-generated output can look efficient at the draft stage while increasing total labor through downstream correction, clarification, and morale damage.
 
 This domain connects to frontier AI (same capability wave driving coding agents and cybersecurity is restructuring management) and to deep work/flow (span-of-control inflation is a structural attacker of the conditions needed for expert-level work). The KPMG/Fast Company source adds a management-governance angle: beyond what AI does to jobs, there is the separate question of how organizations should move while those changes are unfolding. The article's answer is not "faster at all costs" but "trade certainty-seeking for disciplined maneuverability."
 
@@ -115,6 +116,8 @@ The new governance source sharpens a recurring tension in the wiki: AI capabilit
 The newer leadership/adoption source adds the missing behavioral layer beneath the org-chart discussion. Governance is not only about naming an executive owner. It is also about whether everyday AI use is visible, trained, and bounded by shared guardrails. That source also introduces a useful tension in the current wiki: one article pushes toward explicit ownership because "no one owns AI," while another says early progress became possible through committees and shared learning. The likely synthesis is accountable ownership plus structured learning forums, but the current sources do not test governance models empirically.
 
 The new LLM-evaluation source extends that governance branch from ownership and guardrails into operational control. It argues that organizations do not really govern AI merely by naming an owner or setting usage policy. They also need versioned evaluation datasets, domain-expert review, regression monitoring, and auditable release records that tie model changes to measurable behavioral performance. This sharpens a useful distinction in the wiki: governance is not just organizational structure above the model, but control infrastructure around the model.
+
+The new workslop source adds a missing operational reality check to this whole branch. Earlier sources mostly argued that firms should move before certainty arrives, name owners, and build learning loops. This source shows what happens when those principles are flattened into "make everyone use AI now." The result can be polished-looking low-trust output that shifts editing labor downstream, widens the executive-worker perception gap, and lowers morale. This sharpens the wiki's management thesis: the hard part of AI adoption is not willingness to move fast, but knowing where AI genuinely reduces work versus where it merely relocates work.
 
 The Gallup/Walton/GSV Gen Z survey (2026) adds a **sentiment and generational layer** to the labor domain. The most important finding is that sentiment and adoption are diverging: ~50% of Gen Z uses AI daily or weekly (flat year-over-year), while hope fell from 27% to 18% and ~1/3 report anger. This is not ignorance-driven rejection — the youngest members are the most frequent users; the skeptics are older working adults with direct workplace experience. Their fears are overwhelmingly concentrated on the *expert-core automation* scenario: job replacement, creativity atrophy, deskilling. This is the taxi-driver scenario as lived experience. The data suggests that the expertise paradox is not just an academic framework but an accurate map of how a generation of workers *perceives* their own professional risk. The implication for workforce readiness is sharp: organizations cannot assume access drives adoption. Gen Z is arriving in the labor market already using AI, already skeptical, and already expecting to need AI fluency — but not yet trusting that AI will work in their favor. That is a new kind of readiness gap.
 
@@ -148,6 +151,7 @@ This domain connects directly to the expertise paradox (Thompson's supply-side +
 - **New (AI governance):** Which governance model actually produces better AI outcomes — dedicated CAIO, merged HR+IT, cross-functional committee, or something else? No source yet compares models empirically.
 - **New (AI governance):** Is the "cultural barrier" framing accurate, or is it a reframing that conveniently positions HR (and HR software vendors) as the solution?
 - **New (AI governance):** What is the right balance between automated metrics, human review, and red-team-style adversarial testing for different classes of LLM deployment?
+- **New (workslop):** How should organizations measure real AI productivity once correction labor, clarification work, and morale effects are included rather than hidden downstream?
 - **New (Gen Z sentiment):** Is high usage + souring sentiment a transitional state that resolves as AI tools improve and labor market fears diminish — or is the expert-core threat real enough that Gen Z skepticism is a rational forward-looking signal?
 - **New (Gen Z sentiment):** Can workforce readiness programs be designed to build *trust* as well as skill, given that the incoming cohort is already technically capable but motivationally skeptical?
 - **New (embodied reasoning):** Cloud-based embodied reasoning (Gemini Robotics-ER) vs. edge-AI inference: at what connectivity threshold and latency budget does cloud reasoning become impractical for industrial robotics? Is there a hybrid architecture that captures both?
@@ -155,4 +159,4 @@ This domain connects directly to the expertise paradox (Thompson's supply-side +
 
 ---
 
-*Last updated: 2026-04-15 — after ingest: Boston Dynamics Integrates Google DeepMind's Gemini Robotics Model into Spot Inspection Platform*
+*Last updated: 2026-04-15 — after ingest: Bosses say AI boosts productivity – workers say they’re drowning in ‘workslop’*

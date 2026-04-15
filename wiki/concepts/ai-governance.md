@@ -4,7 +4,7 @@ type: concept
 name: AI Governance
 aliases: [AI ownership, AI accountability, AI leadership structure]
 tags: [ai, organizational-design, governance, management, strategy]
-sources: 3
+sources: 4
 ---
 
 # AI Governance
@@ -29,6 +29,8 @@ The deeper insight is that AI governance is not primarily a technology governanc
 
 The newer leadership/adoption source adds a practice-layer view of governance. AI is already embedded in the tools people use every day, so governance cannot mean only an executive org chart. It also means deciding whether everyday AI usage will be visible, trained, and bounded by guardrails, or whether it will drift informally until habits harden without leadership input. In that framing, governance is partly about creating safe learning structures, not just assigning formal ownership.
 
+The newer workslop source adds a more operational negative case. Governance failure is not only "nobody owns AI." It is also the case where leadership owns AI only as a productivity slogan: AI is mandated broadly, sometimes after layoffs or heavy investment, before the organization has clarified where it actually helps, how workers should review outputs, and who absorbs the cleanup cost when it does not help. In that sense, workslop is a governance symptom. It shows what happens when executive pressure outruns use-case discipline.
+
 The new LLM-evaluation source adds another layer: governance also needs operating controls for model behavior over time. Even if ownership is clear and experimentation is bounded, a model is not meaningfully governed unless the organization can define task-specific performance criteria, score outputs against versioned benchmarks, involve human reviewers where automated metrics are weak, and monitor for regressions or policy drift after release. This extends governance from org-chart design into release discipline and auditability.
 
 ## Evidence & Examples
@@ -39,6 +41,8 @@ The new LLM-evaluation source adds another layer: governance also needs operatin
 - Gartner (2024): 1 in 5 companies plan to use AI to flatten organizational layers by 2026 — yet the governance structures to manage that restructuring are largely absent [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]]
 - The DOXA source frames the practical governance question this way: AI is already in daily tools, so will its use be governed or left to run without structure? [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]]
 - DOXA reportedly used a committee, explicit guardrails, and training to make AI experimentation shared and bounded rather than hidden and ad hoc [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]]
+- The workslop source shows that when AI is imposed as a blanket productivity mandate, workers may end up spending more time correcting output while leadership still records the rollout as acceleration [[wiki/sources/ai-productivity-workplace-errors]]
+- Aiha Nguyen's argument in the same source sharpens the point: generative AI is often presented as a general-use tool that can do anything, even when no clear mandate or use case exists [[wiki/sources/ai-productivity-workplace-errors]]
 - The LLM-evaluation source argues that task-grounded criteria, versioned datasets, human review, and continuous monitoring are governance controls rather than optional QA steps [[wiki/sources/how-to-run-llm-evaluation-for-better-ai-performance]]
 
 ## Connections
@@ -50,14 +54,16 @@ The new LLM-evaluation source adds another layer: governance also needs operatin
 - [[wiki/concepts/llm-evaluation]] — evaluation infrastructure turns governance from declared ownership into measurable behavioral control
 - [[wiki/concepts/span-of-control]] — span-of-control inflation is partly a governance failure: no owner for AI means managers absorb the consequences of AI restructuring without structural support
 - [[wiki/concepts/expertise-paradox]] — without governance clarity, organizations cannot make intentional choices about which expert tasks to automate vs. which to protect
+- [[wiki/concepts/workslop]] — visible sign that governance has failed at the workflow level: AI output is being passed downstream without enough fit, review discipline, or accountability
 - [[wiki/entities/moderna]] — structural example: merged people and digital leadership to resolve the governance vacuum
 
 ## Contradictions
 
-> **Contradiction:** The current sources point toward two partially competing governance remedies. The Visier source says AI fails when no single owner exists, pushing toward explicit executive accountability. The DOXA source says early adoption became safer when learning was shared through a committee and peer community. These may solve different layers of the same problem, but no source yet compares single-owner, merged-role, and committee-based models directly.
+> **Contradiction:** The current sources point toward partially competing governance remedies and tempos. The Visier source says AI fails when no single owner exists, pushing toward explicit executive accountability. The DOXA source says early adoption became safer when learning was shared through a committee and peer community. The newer workslop source shows that top-down executive pressure without scoped use cases or worker support can also backfire badly. These may solve different layers of the same problem, but no source yet compares single-owner, merged-role, committee-based, and mandate-driven models directly.
 
 ## Sources
 
 - [[wiki/sources/whats-ais-real-failure-no-ones-actually-in-charge]] — primary evidence for the AI ownership vacuum and structural governance responses
 - [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]] — extends governance into everyday AI practice: guardrails, training, and shared learning structures
+- [[wiki/sources/ai-productivity-workplace-errors]] — adds the workslop counterexample: governance can fail not only through inaction, but through broad AI mandates with weak use-case discipline
 - [[wiki/sources/how-to-run-llm-evaluation-for-better-ai-performance]] — extends governance into lifecycle controls: evaluation datasets, human review, monitoring, and auditable release records

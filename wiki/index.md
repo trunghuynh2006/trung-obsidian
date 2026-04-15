@@ -5,6 +5,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 ---
 
 ## Sources
+- [[wiki/sources/ai-productivity-workplace-errors]] — Guardian reporting: “workslop” names pseudo-productivity where AI output looks finished but shifts correction work downstream.
 - [[wiki/sources/how-to-run-llm-evaluation-for-better-ai-performance]] — Enterprise-AI governance lens: LLM evaluation is lifecycle control infrastructure, not a one-time benchmark or QA phase.
 - [[wiki/sources/why-automation-systems-fail-without-weather-intelligence]] — Automation-resilience lens: external weather context is a first-class input for robots, logistics systems, and outdoor industrial operations.
 - [[wiki/sources/do-robotics-firms-need-microsoft-365-backups]] — Robotics-resilience lens on Microsoft 365: backup is about restoring decision context, not just retaining files for compliance.
@@ -44,6 +45,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/acronis]] — Backup/security vendor cited for ransomware-aware Microsoft 365 recovery and immutable storage.
 - [[wiki/entities/veeam]] — Backup vendor cited for storage flexibility and tighter recovery-control choices.
 - [[wiki/entities/avepoint]] — SaaS-oriented backup vendor cited for automated backups, search, and bulk restore.
+- [[wiki/entities/betterup]] — Coaching/workplace-performance company cited through the Stanford-linked study that helped coin “workslop”.
 - [[wiki/entities/ai-officer-institute]] — External partner cited as helping DOXA Talent build AI confidence and capability through guided adoption.
 - [[wiki/entities/claude-mythos-preview]] — Anthropic preview model presented as a step-change cyber capability and released only to a restricted consortium.
 - [[wiki/entities/steven-levitt]] — University of Chicago economist; Freakonomics; canonical empiricist of expert incentive misalignment and conventional-wisdom debunking.
@@ -129,6 +131,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/time-blocking]] — Protecting deep work by scheduling it as fixed calendar commitments; can improve productivity up to 80%.
 - [[wiki/concepts/visual-positioning-systems]] — Camera-based localization for robots and devices, especially where GPS is unreliable.
 - [[wiki/concepts/ai-governance]] — Who owns AI in the organization; the accountability vacuum (60% of senior leaders report no clear AI owner); structural responses including merged executive roles.
+- [[wiki/concepts/workslop]] — AI-generated pseudo-productivity: output looks polished, but hidden correction labor and morale loss increase total work.
 - [[wiki/concepts/cross-functional-alignment]] — HR+IT+Finance unified front as the organizational remedy for the AI governance vacuum; three-step framework: break silos, connect data, solve last-mile.
 - [[wiki/concepts/ai-public-sentiment]] — Public and generational attitudes toward AI; Gen Z data (2026) shows high use + souring sentiment; credible-threat recognition without compensatory trust.
 - [[wiki/concepts/embodied-reasoning]] — Cognitive capability marking the detection → reasoning transition in Physical AI; key capabilities: spatial analysis, success detection, instrument reading, multi-camera synthesis.
