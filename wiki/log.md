@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-15] ingest | Boston Dynamics Integrates Google DeepMind's Gemini Robotics Model into Spot Inspection Platform
+
+Focus angle: Physical AI / embodied reasoning. Key finding: Gemini Robotics-ER 1.6 integrated into Spot's Orbit/AIVI platform marks a detection→reasoning transition in deployed Physical AI. Four capabilities operationalized: spatial relationship analysis, multi-camera synthesis, success detection, instrument reading. Success detection is load-bearing — it closes the agentic loop without human confirmation. Cloud-based deployment contrasts with edge-AI IIoT architecture.
+Pages created: wiki/sources/boston-dynamics-…, wiki/entities/boston-dynamics, wiki/entities/google-deepmind, wiki/entities/spot-robot, wiki/entities/gemini-robotics, wiki/concepts/embodied-reasoning.
+Pages updated: wiki/concepts/physical-ai (5th source, new detection→reasoning section), wiki/index, wiki/overview (7 sources, 6th robotics layer, 2 new open questions).
+
 ## [2026-04-13] update | PL-400 metalearning phase notes integrated
 
 Updated wiki/analyses/ultralearning-for-pl400 and wiki/entities/microsoft-pl400 with user's metalearning output. New material: domain priority map with importance/difficulty ratings, extension point decision tree (highest-value study artifact), recommended learning order, memorize-vs-understand distinction, mini-projects table, six pitfall catalog, readiness threshold (85–90% practice assessment), and flagged CRM Chap playlist as potentially dated.

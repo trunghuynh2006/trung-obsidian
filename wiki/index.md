@@ -31,6 +31,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]] — Long-form (2026): AI-driven middle management elimination; avg manager now oversees 12 reports; expertise paradox as the key analytical lens.
 - [[wiki/sources/whats-ais-real-failure-no-ones-actually-in-charge]] — Entrepreneur/Visier (⚠ vendor bias): 60% of companies have no AI owner; AI transformation is an org design problem; HR+IT+Finance alignment and Moderna's merged-role model.
 - [[wiki/sources/gen-z-ai-gallup-study]] — Gallup/Walton/GSV survey (2026): Gen Z hope fell 27%→18%, ~1/3 feel angry; flat adoption despite wider access; labor/career anxiety dominates.
+- [[wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform]] — Production Physical AI: Gemini Robotics-ER 1.6 integrated into Spot/Orbit/AIVI; detection → reasoning transition; embodied reasoning (success detection, instrument reading, multi-camera synthesis).
 
 ## Entities
 - [[wiki/entities/german-b1-exam]] — German B1 language certification (Goethe/Telc/ÖSD); four equal components: reading, listening, writing, speaking; CEFR intermediate level.
@@ -73,6 +74,10 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/neil-thompson]] — MIT research scientist; originator of the expertise paradox framework; studies how AI capability evolves across job tasks.
 - [[wiki/entities/moderna]] — Pharmaceutical company; cited as structural example of AI governance: merged CHRO + CIO into Chief People and Digital Technology Officer.
 - [[wiki/entities/gallup]] — Research and polling firm; conducted the 2026 Gen Z AI attitudes survey with Walton Family Foundation and GSV Ventures.
+- [[wiki/entities/boston-dynamics]] — Robotics company; maker of Spot; integrated Gemini Robotics-ER 1.6 into industrial inspection platform Orbit/AIVI.
+- [[wiki/entities/google-deepmind]] — Alphabet's AI research org; built Gemini Robotics-ER 1.6; coined "embodied reasoning" as the defining Physical AI capability milestone.
+- [[wiki/entities/spot-robot]] — Boston Dynamics quadruped robot; deployed for industrial inspection; first major commercial embodied-reasoning deployment.
+- [[wiki/entities/gemini-robotics]] — Google DeepMind's robotics foundation model (Gemini Robotics-ER 1.6); capabilities: spatial reasoning, success detection, instrument reading, multi-camera synthesis.
 
 ## Concepts
 - [[wiki/concepts/llm-evaluation]] — Task-grounded, versioned, human-reviewed, continuously monitored measurement of whether model behavior stays inside operational and policy bounds.
@@ -126,6 +131,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/ai-governance]] — Who owns AI in the organization; the accountability vacuum (60% of senior leaders report no clear AI owner); structural responses including merged executive roles.
 - [[wiki/concepts/cross-functional-alignment]] — HR+IT+Finance unified front as the organizational remedy for the AI governance vacuum; three-step framework: break silos, connect data, solve last-mile.
 - [[wiki/concepts/ai-public-sentiment]] — Public and generational attitudes toward AI; Gen Z data (2026) shows high use + souring sentiment; credible-threat recognition without compensatory trust.
+- [[wiki/concepts/embodied-reasoning]] — Cognitive capability marking the detection → reasoning transition in Physical AI; key capabilities: spatial analysis, success detection, instrument reading, multi-camera synthesis.
 
 ## Analyses
 - [[wiki/analyses/ultralearning-for-german-b1]] — Full study plan applying Scott Young's nine ultralearning principles to the German B1 exam, tailored for Vietnamese / B2 English learners, with a 6-month sprint from A2.

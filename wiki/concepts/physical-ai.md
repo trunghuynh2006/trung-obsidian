@@ -4,7 +4,7 @@ type: concept
 name: Physical AI
 aliases: [embodied AI, AI-powered robots]
 tags: [robotics, ai, llm, trends, manufacturing]
-sources: 4
+sources: 5
 ---
 
 # Physical AI
@@ -54,6 +54,23 @@ LLMs contribute to Physical AI in several ways:
 
 This is the bridge between the knowledge management and robotics domains in this wiki: the same LLM capabilities enabling this wiki agent also power Physical AI systems.
 
+## From Detection to Reasoning: The Foundation Model Inflection
+
+The Boston Dynamics / Google DeepMind integration (2026) marks a qualitative milestone in Physical AI deployment: moving from detection-based robots to reasoning-based robots. Detection systems require every anomaly class to be pre-defined; reasoning systems can answer novel questions about the environment without pre-specification.
+
+The concrete capability set introduced by Gemini Robotics-ER 1.6 in Spot's AIVI platform defines what this inflection looks like in production:
+
+- **Spatial relationship understanding** — not just "object present" but how objects relate geometrically and functionally
+- **Multi-camera synthesis** — coherent scene state built from multiple camera angles
+- **Success detection** — the robot determines whether a task was actually completed correctly (a prerequisite for true autonomous loops)
+- **Instrument reading** — analog gauges, thermometers, and sight glasses interpreted visually without pre-programmed lookup tables
+
+Success detection deserves special emphasis: without it, a "Physical AI" system still requires human confirmation between each task step. It is the feedback mechanism that closes the agentic loop. [[wiki/concepts/embodied-reasoning]]
+
+The deployment model is cloud-based (Gemini Robotics-ER runs on Google Cloud, updated via zero-downtime cloud pushes), in contrast to the edge-AI architecture common in resource-constrained IIoT settings. This is a notable trade-off: cloud-based reasoning is more powerful but depends on connectivity. [[wiki/concepts/edge-ai]]
+
+Source: [[wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform]]
+
 ## IoT as Physical AI Infrastructure
 
 The IoT sensor/actor node architecture is a form of Physical AI at the infrastructure level. AI-enhanced sensor nodes do more than measure — they reason about what they measure. AI actor nodes do more than execute — they explain why they act. The full stack (sensor → edge device → backend → cloud) is a Physical AI system at industrial scale. [[wiki/sources/the-intelligent-edge-how-ai-and-large]]
@@ -65,6 +82,7 @@ Key additions from IoT architecture:
 
 ## Connections
 
+- [[wiki/concepts/embodied-reasoning]] — the cognitive capability that marks the transition from detection-based to reasoning-based Physical AI; success detection is the key enabler of closed agentic loops.
 - [[wiki/concepts/agentic-ai]] — Physical AI in robotics is the embodied form of agentic AI; same reasoning/planning/acting paradigm applied to physical systems.
 - [[wiki/concepts/robotics-simulation]] — simulation is the critical testing infrastructure for Physical AI development.
 - [[wiki/concepts/robotics-multidisciplinarity]] — Physical AI adds AI/ML as a newly dominant discipline; shifts the field's center of gravity toward CS/ML entry points.
@@ -82,3 +100,4 @@ Key additions from IoT architecture:
 - [[wiki/sources/the-intelligent-edge-how-ai-and-large]] — IoT sensor/actor node architecture as concrete Physical AI infrastructure; edge AI, LLM explainability, data sovereignty.
 - [[wiki/sources/niantic-spatial-launches-two-new-world-models-to-support-real-world-ai-deployment]] — adds spatial grounding as deployment infrastructure: environment capture, shared geospatial models, and camera-based localization.
 - [[wiki/sources/why-automation-systems-fail-without-weather-intelligence]] — adds environmental awareness and forecast-aware adaptation as another deployment requirement for real-world automation.
+- [[wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform]] — production instance of foundation-model-powered Physical AI; detection → reasoning transition; embodied reasoning capability set (success detection, instrument reading, multi-camera synthesis).
