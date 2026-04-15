@@ -11,10 +11,14 @@
             "id": "e721efe8cec69416",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "wiki/analyses/ultralearning-for-pl400.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "ultralearning-for-pl400"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "pl-400",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -90,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for overview"
+              "title": "Backlinks"
             }
           },
           {
@@ -181,41 +185,41 @@
   },
   "active": "e721efe8cec69416",
   "lastOpenFiles": [
-    "CLAUDE.md.tmp.59055.1775712704196",
-    "CLAUDE.md.tmp.59055.1775712699763",
-    "CLAUDE.md.tmp.59055.1775712694046",
-    "2026-04-09.md",
-    "wiki/log.md.tmp.59055.1775711366170",
-    "wiki/overview.md.tmp.59055.1775711354359",
-    "wiki/overview.md.tmp.59055.1775711349468",
-    "wiki/overview.md.tmp.59055.1775711337250",
-    "wiki/overview.md.tmp.59055.1775711321747",
-    "wiki/index.md.tmp.59055.1775711317483",
-    "wiki/index.md.tmp.59055.1775711314232",
-    "wiki/index.md.tmp.59055.1775711310568",
-    "wiki/concepts/ai-public-sentiment.md",
-    "wiki/entities/gallup.md",
-    "wiki/sources/gen-z-ai-gallup-study.md",
-    "raw/sources/gen-z-ai-gallup-study.md",
-    "wiki/entities/ai-officer-institute.md",
-    "wiki/sources/deep-work-vs-shallow-work.md",
-    "wiki/concepts/ai-workforce-readiness.md",
-    "wiki/entities/claude-mythos-preview.md",
-    "wiki/concepts/ai-nonproliferation.md",
-    "wiki/sources/anthropic-ai-claude-mythos.md",
-    "raw/sources/anthropic-ai-claude-mythos.md",
-    "wiki/entities/doxa-talent.md",
-    "wiki/concepts/experimentation-culture.md",
-    "wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think.md",
-    "raw/sources/leadership/why-waiting-to-adopt-ai-is-riskier-than-you-think.md",
-    "wiki/sources/whats-ais-real-failure-no-ones-actually-in-charge.md",
-    "wiki/concepts/physical-ai.md",
-    "wiki/concepts/micro-task-batching.md",
-    "wiki/concepts/daily-productivity-rituals.md",
-    "wiki/entities/moderna.md",
-    "wiki/concepts/cross-functional-alignment.md",
-    "wiki/concepts/ai-governance.md",
-    "wiki/concepts/problem-driven-learning.md",
-    "wiki/concepts/ultralearning.md"
+    "wiki/log.md.tmp.2150028.1776241628167",
+    "wiki/overview.md.tmp.2150028.1776241613187",
+    "wiki/overview.md.tmp.2150028.1776241608532",
+    "wiki/overview.md.tmp.2150028.1776241601136",
+    "wiki/overview.md.tmp.2150028.1776241584974",
+    "wiki/overview.md.tmp.2150028.1776241579080",
+    "wiki/index.md.tmp.2150028.1776241568772",
+    "wiki/index.md.tmp.2150028.1776241563237",
+    "wiki/index.md.tmp.2150028.1776241555452",
+    "wiki/concepts/physical-ai.md.tmp.2150028.1776241542521",
+    "wiki/concepts/physical-ai.md.tmp.2150028.1776241538946",
+    "wiki/concepts/embodied-reasoning.md",
+    "wiki/entities/gemini-robotics.md",
+    "wiki/entities/spot-robot.md",
+    "wiki/entities/google-deepmind.md",
+    "wiki/entities/boston-dynamics.md",
+    "wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform.md",
+    "raw/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform.md",
+    "wiki/entities/microsoft-pl400.md",
+    "wiki/analyses/ultralearning-for-pl400.md",
+    "wiki/log.md",
+    "wiki/entities/german-b1-exam.md",
+    "wiki/analyses/ultralearning-for-german-b1.md",
+    "wiki/analyses/ultralearning-for-aws-developer-associate.md",
+    "wiki/entities/aws-certified-developer-associate.md",
+    "wiki/analyses/ultralearning-for-aws-cloud-practitioner.md",
+    "wiki/entities/aws-certified-cloud-practitioner.md",
+    "wiki/entities/microsoft-pl900.md",
+    "wiki/concepts/ultralearning.md",
+    "wiki/analyses/ultralearning-for-pl900.md",
+    "wiki/sources/robotics-trends-2026.md",
+    "wiki/concepts/weather-intelligence.md",
+    "wiki/index.md",
+    "wiki/concepts/industrial-iot.md",
+    "wiki/concepts/agentic-ai.md",
+    "wiki/concepts/physical-ai.md"
   ]
 }
