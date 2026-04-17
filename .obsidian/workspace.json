@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/analyses/ultralearning-for-pl400.md",
-                "mode": "preview",
+                "file": "wiki/sources/enterprise-integration-patterns-ch1.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ultralearning-for-pl400"
+              "title": "enterprise-integration-patterns-ch1"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,41 +184,41 @@
   },
   "active": "e721efe8cec69416",
   "lastOpenFiles": [
-    "wiki/log.md.tmp.2150028.1776241628167",
-    "wiki/overview.md.tmp.2150028.1776241613187",
-    "wiki/overview.md.tmp.2150028.1776241608532",
-    "wiki/overview.md.tmp.2150028.1776241601136",
-    "wiki/overview.md.tmp.2150028.1776241584974",
-    "wiki/overview.md.tmp.2150028.1776241579080",
-    "wiki/index.md.tmp.2150028.1776241568772",
-    "wiki/index.md.tmp.2150028.1776241563237",
-    "wiki/index.md.tmp.2150028.1776241555452",
-    "wiki/concepts/physical-ai.md.tmp.2150028.1776241542521",
-    "wiki/concepts/physical-ai.md.tmp.2150028.1776241538946",
-    "wiki/concepts/embodied-reasoning.md",
-    "wiki/entities/gemini-robotics.md",
-    "wiki/entities/spot-robot.md",
-    "wiki/entities/google-deepmind.md",
-    "wiki/entities/boston-dynamics.md",
-    "wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform.md",
-    "raw/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform.md",
-    "wiki/entities/microsoft-pl400.md",
-    "wiki/analyses/ultralearning-for-pl400.md",
-    "wiki/log.md",
-    "wiki/entities/german-b1-exam.md",
-    "wiki/analyses/ultralearning-for-german-b1.md",
-    "wiki/analyses/ultralearning-for-aws-developer-associate.md",
-    "wiki/entities/aws-certified-developer-associate.md",
-    "wiki/analyses/ultralearning-for-aws-cloud-practitioner.md",
-    "wiki/entities/aws-certified-cloud-practitioner.md",
-    "wiki/entities/microsoft-pl900.md",
-    "wiki/concepts/ultralearning.md",
-    "wiki/analyses/ultralearning-for-pl900.md",
-    "wiki/sources/robotics-trends-2026.md",
-    "wiki/concepts/weather-intelligence.md",
+    "wiki/log.md.tmp.292589.1776460462159",
+    "wiki/overview.md.tmp.292589.1776460449813",
+    "wiki/overview.md.tmp.292589.1776460442324",
+    "wiki/overview.md.tmp.292589.1776460400770",
+    "wiki/overview.md.tmp.292589.1776460395556",
+    "wiki/index.md.tmp.292589.1776460391347",
+    "wiki/index.md.tmp.292589.1776460372145",
+    "wiki/index.md.tmp.292589.1776460360053",
+    "wiki/concepts/test-message.md",
+    "wiki/concepts/test-message.md.tmp.292589.1776460353947",
+    "wiki/concepts/control-bus.md",
+    "wiki/concepts/control-bus.md.tmp.292589.1776460338267",
+    "wiki/concepts/smart-proxy.md",
+    "wiki/concepts/smart-proxy.md.tmp.292589.1776460323816",
+    "wiki/concepts/return-address.md",
+    "wiki/concepts/process-manager.md",
+    "wiki/concepts/wire-tap.md",
+    "wiki/concepts/message-store.md",
+    "wiki/concepts/claim-check.md",
+    "wiki/concepts/content-enricher.md",
+    "wiki/concepts/composed-message-processor.md",
+    "wiki/concepts/aggregator.md",
+    "wiki/concepts/splitter.md",
+    "wiki/concepts/recipient-list.md",
+    "wiki/concepts/message-filter.md",
+    "wiki/concepts/content-based-router.md",
+    "wiki/concepts/canonical-data-model.md",
+    "wiki/concepts/message-translator.md",
+    "wiki/concepts/message-endpoint.md",
+    "wiki/concepts/message-channel.md",
+    "wiki/concepts/message.md",
+    "wiki/concepts/loose-coupling.md",
     "wiki/index.md",
-    "wiki/concepts/industrial-iot.md",
-    "wiki/concepts/agentic-ai.md",
-    "wiki/concepts/physical-ai.md"
+    "wiki/concepts/enterprise-application-integration.md",
+    "wiki/entities/bobby-woolf.md",
+    "wiki/entities/gregor-hohpe.md"
   ]
 }
