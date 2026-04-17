@@ -6,6 +6,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 
 ## Sources
 - [[wiki/sources/enterprise-integration-patterns-ch1]] — Hohpe & Woolf Ch1: EAI problem space, 6 integration types, loose coupling principle, ~25 messaging patterns via WGRUS worked example.
+- [[wiki/sources/enterprise-integration-patterns-ch2]] — Hohpe & Woolf Ch2: 7 integration criteria; full pattern treatment of File Transfer, Shared Database, RPI, and Messaging as integration styles.
 - [[wiki/sources/ai-productivity-workplace-errors]] — Guardian reporting: “workslop” names pseudo-productivity where AI output looks finished but shifts correction work downstream.
 - [[wiki/sources/how-to-run-llm-evaluation-for-better-ai-performance]] — Enterprise-AI governance lens: LLM evaluation is lifecycle control infrastructure, not a one-time benchmark or QA phase.
 - [[wiki/sources/why-automation-systems-fail-without-weather-intelligence]] — Automation-resilience lens: external weather context is a first-class input for robots, logistics systems, and outdoor industrial operations.
@@ -87,7 +88,11 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 ## Concepts
 
 ### Enterprise Integration Patterns (EAI / Messaging)
-- [[wiki/concepts/enterprise-application-integration]] — EAI overview: why integration is hard, six integration scenario types, the middleware stack.
+- [[wiki/concepts/enterprise-application-integration]] — EAI overview: 7 integration criteria, 4 integration styles (with comparison table), 6 scenario types, middleware stack.
+- [[wiki/concepts/file-transfer]] — Integration style: universal, decoupled, zero extra infrastructure; core tradeoff is staleness and infrequent updates.
+- [[wiki/concepts/shared-database]] — Integration style: always consistent, forces semantic agreement; core tradeoff is schema coupling and performance bottlenecks.
+- [[wiki/concepts/remote-procedure-invocation]] — Integration style: encapsulated API calls across apps; core tradeoff is remote≠local and temporal coupling.
+- [[wiki/concepts/messaging-integration]] — Integration style: async, loosely coupled, frequent; the recommended default; core tradeoff is infrastructure cost and async learning curve. — EAI overview: why integration is hard, six integration scenario types, the middleware stack.
 - [[wiki/concepts/loose-coupling]] — Core EAI principle: minimize platform, location, time, and data-format assumptions between communicating parties.
 - [[wiki/concepts/message]] — Document Message, Command Message; channel naming conventions (canonical vs. app-specific).
 - [[wiki/concepts/message-channel]] — Point-to-Point, Publish-Subscribe, Datatype, Invalid Message Channel variants.

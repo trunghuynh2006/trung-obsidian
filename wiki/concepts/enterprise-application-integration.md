@@ -4,7 +4,7 @@ type: concept
 name: Enterprise Application Integration
 aliases: [EAI, application integration]
 tags: [enterprise-integration, software-architecture]
-sources: 1
+sources: 2
 ---
 
 # Enterprise Application Integration (EAI)
@@ -23,7 +23,28 @@ Enterprises accumulate applications organically: best-of-breed selection, merger
 - **Standards fragmentation**: XML solves syntax, not semantics. Two systems using XML still disagree on what "account" means.
 - **Operational complexity**: distributed solutions are hard to deploy, monitor, and debug.
 
-**Six integration scenario types** (Hohpe & Woolf):
+**Seven integration decision criteria** (Ch2):
+
+| Criterion | Question to ask |
+|-----------|----------------|
+| **Coupling** | How much do the apps need to know about each other's internals? |
+| **Integration simplicity** | How much new code and tooling does this require? |
+| **Integration technology** | What specialized infrastructure is needed, and at what cost? |
+| **Data format** | How do apps agree on data formats, and how do format changes propagate? |
+| **Data timeliness** | How quickly must a change in one app be visible to others? |
+| **Data vs. functionality** | Do you need to share data, invoke behavior in the other app, or both? |
+| **Asynchronicity** | Can the sender proceed without waiting for the receiver to respond? |
+
+**Four integration styles** (Ch2 formal pattern treatment):
+
+| Style | Timeliness | Coupling | Functionality | Async |
+|-------|-----------|----------|---------------|-------|
+| [[wiki/concepts/file-transfer]] | ❌ Low | ✅ Low | ❌ Data only | ✅ Yes |
+| [[wiki/concepts/shared-database]] | ✅ Immediate | ❌ High (schema) | ❌ Data only | ❌ Synchronous |
+| [[wiki/concepts/remote-procedure-invocation]] | ✅ Immediate | ⚠️ Medium | ✅ Both | ❌ Synchronous |
+| [[wiki/concepts/messaging-integration]] | ✅ High | ✅ Very low | ✅ Both | ✅ Yes |
+
+**Six integration scenario types** (what you're integrating — from Ch1):
 
 | Type | Description | When it fits |
 |------|-------------|--------------|
@@ -59,3 +80,4 @@ Enterprises accumulate applications organically: best-of-breed selection, merger
 ## Sources
 
 - [[wiki/sources/enterprise-integration-patterns-ch1]] — foundational: defines EAI problem space, six integration types, middleware stack, and WGRUS worked example
+- [[wiki/sources/enterprise-integration-patterns-ch2]] — adds seven integration criteria and full pattern treatment of the four integration styles

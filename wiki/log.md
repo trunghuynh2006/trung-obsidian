@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-18] ingest | Enterprise Integration Patterns — Chapter 2: Integration Styles
+
+Focus angle: reference/catalog. Key finding: Ch2 gives formal pattern treatment to the four integration styles (File Transfer, Shared Database, RPI, Messaging) and introduces seven decision criteria for choosing between them. The progression is increasing sophistication: File Transfer → Shared Database → RPI → Messaging. Messaging is the book's recommended default — async, loosely coupled, timely — but at the cost of infrastructure and async complexity. The "remote≠local" trap is the core failure mode of RPI.
+Pages created: wiki/sources/enterprise-integration-patterns-ch2, wiki/concepts/file-transfer, wiki/concepts/shared-database, wiki/concepts/remote-procedure-invocation, wiki/concepts/messaging-integration.
+Pages updated: wiki/concepts/enterprise-application-integration (+7 criteria, +4-style comparison table, +Ch2 source), wiki/index (4 new concept entries, Ch2 source entry), wiki/overview (integration styles layer added to EAI coverage section).
+
 ## [2026-04-18] ingest | Enterprise Integration Patterns — Chapter 1: Solving Integration Problems Using Patterns
 
 Focus angle: reference/catalog. Key finding: Chapter 1 introduces ~25 messaging patterns via the WGRUS worked example, establishing the EAI vocabulary — loose coupling (4 dimensions: platform, location, time, data format), 6 integration scenario types, the middleware stack, and a complete pattern catalog from base infrastructure through monitoring. New 8th domain added to the wiki: enterprise integration / software architecture.

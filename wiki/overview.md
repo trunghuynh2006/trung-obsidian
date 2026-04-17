@@ -137,6 +137,7 @@ New domain established via *Enterprise Integration Patterns* Ch1 (Hohpe & Woolf,
 - **Problem-space layer**: why enterprise integration is fundamentally hard — political, control, standards, and operational dimensions; "simple integration" as oxymoron.
 - **Principle layer**: loose coupling as the organizing design goal; four coupling dimensions (platform, location, time, data format); why RPC/CORBA-style "make remote look local" consistently fails.
 - **Pattern catalog**: ~22 named patterns introduced through the WGRUS worked example, covering base infrastructure (Message, Channel, Endpoint), transformation (Translator, Canonical Data Model), routing (CBR, Filter, Recipient List), composition (Splitter, Aggregator, CMP), state (Message Store, Claim Check, Content Enricher), orchestration (Process Manager, Return Address), and monitoring (Wire Tap, Smart Proxy, Control Bus, Test Message).
+- **Integration styles layer** (Ch2): formal pattern treatment of the four styles — File Transfer, Shared Database, Remote Procedure Invocation, Messaging — with seven decision criteria (coupling, simplicity, technology, data format, timeliness, data-vs-functionality, asynchronicity). The four styles form a progression of sophistication; Messaging is the recommended default for most enterprise integration.
 
 The domain connects to [[wiki/concepts/agentic-ai]] — modern AI agents re-use many of the same architectural primitives (routing, message passing, orchestration, observability). It also connects to [[wiki/concepts/schema-driven-agents]]: the discipline of giving an AI a pattern vocabulary (CLAUDE.md) mirrors the role EIP patterns play in giving integration architects a shared design language. The EIP catalog is also directly relevant to [[wiki/entities/microsoft-pl400]] — Power Platform integrations and custom connectors use these patterns (channel adapters, message translators, publish-subscribe) even if they are not always labeled as such.
 
@@ -174,4 +175,4 @@ The domain connects to [[wiki/concepts/agentic-ai]] — modern AI agents re-use 
 
 ---
 
-*Last updated: 2026-04-18 — after ingest: Enterprise Integration Patterns Ch1 (Hohpe & Woolf) — new EAI/software-architecture domain established; 22 pattern concept pages created.*
+*Last updated: 2026-04-18 — after ingest: Enterprise Integration Patterns Ch2 (Hohpe & Woolf) — integration styles layer added; 4 new concept pages (File Transfer, Shared Database, RPI, Messaging); 7 integration criteria added to EAI concept page.*
