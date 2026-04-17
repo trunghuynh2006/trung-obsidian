@@ -6,7 +6,7 @@ High-level synthesis of everything in this wiki. Updated after each ingest.
 
 ## What this wiki is about
 
-This wiki spans seven domains: **knowledge management** (LLM Wiki pattern), **robotics education** (how to navigate a complex multidisciplinary field), **productivity/focus** (deep work, flow, and the attention economy), **AI+IoT systems** (edge AI architecture and industrial applications), **frontier AI capability/safety/security** (coding agents, alignment, and AI-enabled cybersecurity), **AI + labor markets** (how AI restructures work, expertise, and organizational design), and **behavioral economics / applied microeconomics** (incentives, conventional wisdom, expert exploitation, and measurement methodology). These connect: all seven are about how intelligence — human or artificial — compounds through tools and systems, and about what kinds of discipline are needed when capability starts moving faster than human review. The robotics branch now has a clearer infrastructure story as well: real-world AI needs not just models and actuators, but reliable spatial grounding.
+This wiki spans eight domains: **knowledge management** (LLM Wiki pattern), **robotics education** (how to navigate a complex multidisciplinary field), **productivity/focus** (deep work, flow, and the attention economy), **AI+IoT systems** (edge AI architecture and industrial applications), **frontier AI capability/safety/security** (coding agents, alignment, and AI-enabled cybersecurity), **AI + labor markets** (how AI restructures work, expertise, and organizational design), **behavioral economics / applied microeconomics** (incentives, conventional wisdom, expert exploitation, and measurement methodology), and **enterprise integration / software architecture** (messaging patterns, loose coupling, and the vocabulary of distributed systems design). These connect: all seven are about how intelligence — human or artificial — compounds through tools and systems, and about what kinds of discipline are needed when capability starts moving faster than human review. The robotics branch now has a clearer infrastructure story as well: real-world AI needs not just models and actuators, but reliable spatial grounding.
 
 ## Current Thesis
 
@@ -130,6 +130,21 @@ New domain established via Freakonomics introduction:
 
 This domain connects directly to the expertise paradox (Thompson's supply-side + Levitt's demand-side = a complete theory of expertise under AI pressure) and to the frontier-AI security domain (informational asymmetry as a structural feature of complex systems, not just expert-client relationships).
 
+## Enterprise Integration / Software Architecture Coverage (1 source in)
+
+New domain established via *Enterprise Integration Patterns* Ch1 (Hohpe & Woolf, 2004):
+
+- **Problem-space layer**: why enterprise integration is fundamentally hard — political, control, standards, and operational dimensions; "simple integration" as oxymoron.
+- **Principle layer**: loose coupling as the organizing design goal; four coupling dimensions (platform, location, time, data format); why RPC/CORBA-style "make remote look local" consistently fails.
+- **Pattern catalog**: ~22 named patterns introduced through the WGRUS worked example, covering base infrastructure (Message, Channel, Endpoint), transformation (Translator, Canonical Data Model), routing (CBR, Filter, Recipient List), composition (Splitter, Aggregator, CMP), state (Message Store, Claim Check, Content Enricher), orchestration (Process Manager, Return Address), and monitoring (Wire Tap, Smart Proxy, Control Bus, Test Message).
+
+The domain connects to [[wiki/concepts/agentic-ai]] — modern AI agents re-use many of the same architectural primitives (routing, message passing, orchestration, observability). It also connects to [[wiki/concepts/schema-driven-agents]]: the discipline of giving an AI a pattern vocabulary (CLAUDE.md) mirrors the role EIP patterns play in giving integration architects a shared design language. The EIP catalog is also directly relevant to [[wiki/entities/microsoft-pl400]] — Power Platform integrations and custom connectors use these patterns (channel adapters, message translators, publish-subscribe) even if they are not always labeled as such.
+
+**Open Questions:**
+- **New (EAI):** As more chapters are ingested, which pattern categories (routing, transformation, orchestration, monitoring) get the most nuanced treatment?
+- **New (EAI):** How do modern event-driven architectures (Kafka, cloud event buses) map onto the 2004 EIP vocabulary — extensions, replacements, or the same patterns under new names?
+- **New (EAI):** Where do agentic AI architectures diverge from EIP patterns, and where are they converging back to the same solutions?
+
 ## Open Questions
 
 - Which robotics subfield will be the focus? (perception, manipulation, mobile robotics, a specific industry?)
@@ -159,4 +174,4 @@ This domain connects directly to the expertise paradox (Thompson's supply-side +
 
 ---
 
-*Last updated: 2026-04-15 — after ingest: Bosses say AI boosts productivity – workers say they’re drowning in ‘workslop’*
+*Last updated: 2026-04-18 — after ingest: Enterprise Integration Patterns Ch1 (Hohpe & Woolf) — new EAI/software-architecture domain established; 22 pattern concept pages created.*

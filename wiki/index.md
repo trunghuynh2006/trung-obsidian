@@ -5,6 +5,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 ---
 
 ## Sources
+- [[wiki/sources/enterprise-integration-patterns-ch1]] — Hohpe & Woolf Ch1: EAI problem space, 6 integration types, loose coupling principle, ~25 messaging patterns via WGRUS worked example.
 - [[wiki/sources/ai-productivity-workplace-errors]] — Guardian reporting: “workslop” names pseudo-productivity where AI output looks finished but shifts correction work downstream.
 - [[wiki/sources/how-to-run-llm-evaluation-for-better-ai-performance]] — Enterprise-AI governance lens: LLM evaluation is lifecycle control infrastructure, not a one-time benchmark or QA phase.
 - [[wiki/sources/why-automation-systems-fail-without-weather-intelligence]] — Automation-resilience lens: external weather context is a first-class input for robots, logistics systems, and outdoor industrial operations.
@@ -35,6 +36,8 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform]] — Production Physical AI: Gemini Robotics-ER 1.6 integrated into Spot/Orbit/AIVI; detection → reasoning transition; embodied reasoning (success detection, instrument reading, multi-camera synthesis).
 
 ## Entities
+- [[wiki/entities/gregor-hohpe]] — Co-author of *Enterprise Integration Patterns* (2004); coined the messaging pattern vocabulary.
+- [[wiki/entities/bobby-woolf]] — Co-author of *Enterprise Integration Patterns* (2004).
 - [[wiki/entities/german-b1-exam]] — German B1 language certification (Goethe/Telc/ÖSD); four equal components: reading, listening, writing, speaking; CEFR intermediate level.
 - [[wiki/entities/aws-certified-developer-associate]] — AWS developer-track associate exam (DVA-C02); four domains: development (32%), security (26%), deployment (24%), troubleshooting (18%); serverless-first focus.
 - [[wiki/entities/aws-certified-cloud-practitioner]] — AWS foundational exam (CLF-C02); four domains: cloud concepts, security (30%), services, and billing/pricing/support.
@@ -82,6 +85,31 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/gemini-robotics]] — Google DeepMind's robotics foundation model (Gemini Robotics-ER 1.6); capabilities: spatial reasoning, success detection, instrument reading, multi-camera synthesis.
 
 ## Concepts
+
+### Enterprise Integration Patterns (EAI / Messaging)
+- [[wiki/concepts/enterprise-application-integration]] — EAI overview: why integration is hard, six integration scenario types, the middleware stack.
+- [[wiki/concepts/loose-coupling]] — Core EAI principle: minimize platform, location, time, and data-format assumptions between communicating parties.
+- [[wiki/concepts/message]] — Document Message, Command Message; channel naming conventions (canonical vs. app-specific).
+- [[wiki/concepts/message-channel]] — Point-to-Point, Publish-Subscribe, Datatype, Invalid Message Channel variants.
+- [[wiki/concepts/message-endpoint]] — Channel Adapter (external, non-invasive) and Messaging Gateway (embedded in custom app).
+- [[wiki/concepts/message-translator]] — Converts one app's data format to another's; placed at system boundaries.
+- [[wiki/concepts/canonical-data-model]] — Shared application-independent format; eliminates N×M translator problem.
+- [[wiki/concepts/content-based-router]] — Routes a message to one of N channels based on content; the if/switch of integration.
+- [[wiki/concepts/message-filter]] — Passes or drops a message based on a criterion; simpler than a router.
+- [[wiki/concepts/recipient-list]] — Sends a copy to an explicit list of recipients; Dynamic Recipient List adds subscription-based membership.
+- [[wiki/concepts/splitter]] — Breaks one composite message into N individual messages for independent processing.
+- [[wiki/concepts/aggregator]] — Combines N related messages into one; three decisions: correlation, completeness, algorithm.
+- [[wiki/concepts/composed-message-processor]] — Named composite: Splitter + Content-Based Router + Aggregator.
+- [[wiki/concepts/content-enricher]] — Adds missing data to a message (e.g., unique correlation ID) before forwarding.
+- [[wiki/concepts/claim-check]] — Strips bulky data from a message, stores it centrally, passes a reference in the message.
+- [[wiki/concepts/message-store]] — Persists message copies for status queries, auditing, and process tracking.
+- [[wiki/concepts/wire-tap]] — Copies a message from one channel to two without disturbing the primary consumer.
+- [[wiki/concepts/process-manager]] — Central orchestrator: stores intermediate state and determines next step in a multi-system process.
+- [[wiki/concepts/return-address]] — Caller specifies the reply channel on the request message; enables service reuse.
+- [[wiki/concepts/smart-proxy]] — Intercepts request/reply to add Return Address support or QoS tracking to legacy services.
+- [[wiki/concepts/control-bus]] — Dedicated channel for operational metrics, health signals, and alerts; feeds the management console.
+- [[wiki/concepts/test-message]] — Known-input message injected into live stream to verify service correctness, not just availability.
+
 - [[wiki/concepts/llm-evaluation]] — Task-grounded, versioned, human-reviewed, continuously monitored measurement of whether model behavior stays inside operational and policy bounds.
 - [[wiki/concepts/weather-intelligence]] — Structured, localized, low-latency environmental data and forecasts used as live operational input for automation systems.
 - [[wiki/concepts/shared-responsibility-model]] — Cloud principle: provider runs the platform; customer still owns data protection, recoverability, and governance inside it.

@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-18] ingest | Enterprise Integration Patterns — Chapter 1: Solving Integration Problems Using Patterns
+
+Focus angle: reference/catalog. Key finding: Chapter 1 introduces ~25 messaging patterns via the WGRUS worked example, establishing the EAI vocabulary — loose coupling (4 dimensions: platform, location, time, data format), 6 integration scenario types, the middleware stack, and a complete pattern catalog from base infrastructure through monitoring. New 8th domain added to the wiki: enterprise integration / software architecture.
+Pages created: wiki/sources/enterprise-integration-patterns-ch1, wiki/entities/gregor-hohpe, wiki/entities/bobby-woolf, wiki/concepts/enterprise-application-integration, wiki/concepts/loose-coupling, wiki/concepts/message, wiki/concepts/message-channel, wiki/concepts/message-endpoint, wiki/concepts/message-translator, wiki/concepts/canonical-data-model, wiki/concepts/content-based-router, wiki/concepts/message-filter, wiki/concepts/recipient-list, wiki/concepts/splitter, wiki/concepts/aggregator, wiki/concepts/composed-message-processor, wiki/concepts/content-enricher, wiki/concepts/claim-check, wiki/concepts/message-store, wiki/concepts/wire-tap, wiki/concepts/process-manager, wiki/concepts/return-address, wiki/concepts/smart-proxy, wiki/concepts/control-bus, wiki/concepts/test-message.
+Pages updated: wiki/index (new EAI section in Concepts), wiki/overview (8th domain, EAI coverage section, 3 new open questions).
+
 ## [2026-04-15] ingest | Bosses say AI boosts productivity – workers say they’re drowning in ‘workslop’
 
 Focus angle: AI + labor / governance. Key finding: "workslop" names a real operational failure mode of workplace AI adoption — polished-looking output that shifts correction work downstream, widening the executive-worker productivity gap. The source sharpens the wiki's management branch by showing that forced AI rollout without clear use cases, training, or worker input can reduce morale and increase total labor.
