@@ -64,6 +64,10 @@ The key open question (from [[wiki/concepts/expertise-paradox]]): are these tool
 - [[wiki/concepts/expertise-paradox]] — whether workplace agentic AI augments or hollows managers depends on which tasks it automates.
 - [[wiki/concepts/span-of-control]] — agentic AI is the enabling technology behind span-of-control inflation.
 
+## The Time-Horizon Measure of Agentic Progress
+
+The most influential empirical measure of agentic AI capability is METR's time-horizon chart: it tracks the length (in human expert hours) of software engineering task an AI agent can complete *reliably*. The task length has been doubling roughly every seven months since METR began tracking it, and recently (with Claude Opus 4.5 and GPT-5.2) the doubling has accelerated to every three to four months. This is effectively a clock measuring how autonomous AI agents are becoming. If the trend continues, it implies that agents could eventually handle the entire R&D cycle for training a new frontier model — the precondition for [[wiki/concepts/intelligence-explosion]]. [[wiki/sources/how-do-you-measure-an-ai-boom]]
+
 ## Sources
 
 - [[wiki/sources/robotics-trends-2026]] — identifies agentic AI as a key 2026 smart factory trend.
@@ -71,3 +75,4 @@ The key open question (from [[wiki/concepts/expertise-paradox]]): are these tool
 - [[wiki/sources/the-intelligent-edge-how-ai-and-large]] — multi-agent actor node coordination in warehouses; LLM-mediated robot negotiation.
 - [[wiki/sources/ai-cybersecurity-hackers]] — early public example of agentic AI being used in a largely AI-driven cyberattack.
 - [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]] — agentic AI automating workplace coordination as driver of the megamanager era.
+- [[wiki/sources/how-do-you-measure-an-ai-boom]] — METR time-horizon chart as the primary empirical measure of agentic capability progress; doubling trend data.

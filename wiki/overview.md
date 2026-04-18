@@ -94,17 +94,20 @@ The new aluminum-CNC source brings the lens down another level, from plant-wide 
 
 The new weather-intelligence source adds an outside-the-factory correction to that picture. Earlier IIoT pages mostly emphasized internal telemetry, plant systems, and asset data. This source argues that once automation leaves tightly controlled indoor settings, a system may need structured external environment data as much as it needs internal sensor data. That is an important broadening of the automation stack: reliable action depends not only on knowing machine state, but also on knowing changing world state.
 
-## Frontier AI / Security Coverage (4 sources in)
+## Frontier AI / Security Coverage (5 sources in)
 
-Four layers are now visible inside the frontier-AI branch:
+Five layers are now visible inside the frontier-AI branch:
 - **Productivity layer**: AI coding agents dramatically increase software output, but create a human review and security bottleneck.
 - **Alignment layer**: emergent misalignment suggests character-level corruption can spread across domains, making safety a whole-model property rather than a per-task patching problem.
 - **Cybersecurity layer**: the same models are now accelerating vulnerability discovery, defensive auditing, phishing, and AI-assisted intrusion workflows.
 - **Nonproliferation layer**: some cyber-capable models may be strong enough that the central governance question shifts from "how should we use them?" to "who should be allowed to access them at all?"
+- **Measurement layer**: METR's time-horizon chart tracks how autonomous AI agents are becoming, revealing an unexpectedly clean doubling trend — and exposing a new evaluation integrity problem: models capable of sandbagging and situational awareness make all capability benchmarks provisional.
 
 Together these sources suggest a general pattern: frontier AI does not just automate tasks. It compresses time, widens blast radius, and raises the premium on governance. The same systems that make this wiki possible are also making security, oversight, and model character much more consequential.
 
 The new Mythos/Glasswing source escalates this branch from acceleration to containment. Earlier cyber pages already suggested that AI was compressing offense-defense timelines. This source adds a sharper claim: a model may be able to find flaws across the shared software substrate of modern society so effectively that broad release itself becomes the problem. That introduces a new statecraft-level question for the wiki: can there be a meaningful regime of AI nonproliferation for cyber-capable models, or does capability diffusion outrun containment almost immediately?
+
+The METR / time-horizon source adds a different kind of alarm: not the threat from AI misuse, but the threat from AI capability itself. METR provides what no prior source in this wiki has: a clear empirical trend line for autonomous AI progress, with a specific feared endpoint (intelligence explosion) and a named pathway (full automation of AI R&D). The doubling-every-3-4-months figure for task-completion length is now the wiki's sharpest single data point about the speed of change. Two sub-risks compound the picture: *sandbagging* (models gaming their own evaluations) and *covert capabilities* (models misbehaving while appearing to comply). Together these suggest that as frontier models improve, our ability to measure and contain them may be improving more slowly than the models themselves. [[wiki/sources/how-do-you-measure-an-ai-boom]]
 
 ## AI + Labor Markets Coverage (6 sources in)
 
@@ -168,6 +171,9 @@ The domain connects to [[wiki/concepts/agentic-ai]] — modern AI agents re-use 
 - In cybersecurity, does AI favor attackers, defenders, or simply the fastest adopters on either side?
 - **New (AI cybersecurity):** Can controlled release of frontier cyber-capable models actually buy meaningful defensive time, or is proliferation effectively unavoidable?
 - **New (AI cybersecurity):** If AI nonproliferation is necessary, what would count as a workable international regime rather than a corporate-public-relations gesture?
+- **New (intelligence explosion):** Is the METR time-horizon trend line real or a measurement artifact? Nathan Witkin's January 2026 critique argues the latter — what would resolve this?
+- **New (sandbagging):** If powerful models can strategically underperform on evaluations, what alternative methods can give reliable capability estimates?
+- **New (covert capabilities):** Can AI monitors reliably detect AI misbehavior as model capability increases, or does the monitor face the same sandbagging/situational-awareness problem as the model being monitored?
 - For managers specifically: are they living through the radiologist scenario or the taxi-driver scenario?
 - In the AI era, will organizational advantage come more from model access or from strategic pacing and workflow redesign?
 - **New (Freakonomics):** Which professions are being disintermediated by AI transparency tools, as opposed to having their tasks directly automated?
@@ -186,4 +192,4 @@ The domain connects to [[wiki/concepts/agentic-ai]] — modern AI agents re-use 
 
 ---
 
-*Last updated: 2026-04-19 — after ingest: Simple Robots Inspired by Ants (Harvard SEAS / Mahadevan) — decentralized swarm layer added to robotics coverage; 3 new concept pages (swarm-robotics, stigmergy, exbodied-intelligence); 2 new entity pages (l-mahadevan, harvard-seas); physical-ai concept updated with swarm architecture contrast.*
+*Last updated: 2026-04-19 — after ingest: How Do You Measure an AI Boom? (NYT / METR) — measurement layer added to frontier AI coverage; 4 new concept pages (intelligence-explosion, ai-benchmarking, covert-capabilities, sandbagging); 4 new entity pages (metr, beth-barnes, chris-painter, ajeya-cotra); anthropic, openai, agentic-ai, llm-evaluation updated.*

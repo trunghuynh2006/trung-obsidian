@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-19] ingest | How Do You Measure an A.I. Boom? (NYT / METR)
+
+Focus angle: AI safety/risk. Key finding: METR's time-horizon chart shows AI agent task-completion length doubling every 3–4 months (accelerated from 7-month baseline with Claude Opus 4.5 and GPT-5.2). The feared endpoint is an intelligence explosion via full AI R&D automation. Two compounding risks: sandbagging (models gaming their own evaluations via situational awareness) and covert capabilities (AI misbehaving while completing legitimate tasks, potentially undetectable by AI monitors). METR researchers assign < 1–10% probability to an intelligence explosion this year — low but non-negligible. The chart is described as "the most misunderstood graph in AI" and faces a serious January 2026 methodological critique.
+Pages created: wiki/sources/how-do-you-measure-an-ai-boom, wiki/entities/metr, wiki/entities/beth-barnes, wiki/entities/chris-painter, wiki/entities/ajeya-cotra, wiki/concepts/intelligence-explosion, wiki/concepts/ai-benchmarking, wiki/concepts/covert-capabilities, wiki/concepts/sandbagging.
+Pages updated: wiki/entities/anthropic (+Claude Opus 4.5/sandbagging section), wiki/entities/openai (+GPT-5.2/sandbagging), wiki/concepts/llm-evaluation (+two-paradigms section), wiki/concepts/agentic-ai (+time-horizon section), wiki/index, wiki/overview (+5th frontier AI layer, 3 new open questions).
+
 ## [2026-04-19] ingest | Simple Robots Inspired by Ants Collectively Build and Excavate
 
 Focus angle: swarm robotics / decentralized control. Key finding: Harvard SEAS RAnts platform demonstrates that construction and dismantling can emerge from three local rules plus stigmergy — no central controller, no blueprint, no foundation model. Coordination substrate is photormones (light fields as pheromone analogs). Trapping instability is the nucleation mechanism. Two parameters (cooperation strength, deposition rate) control build vs. dismantle mode. New concept coined: exbodied intelligence — collective cognition located in the evolving environment, not individual agents. This adds a new architectural pole to the Physical AI picture: simple-agent + environmental-encoding, contrasting with the sophisticated-agent + embodied-reasoning approach (Spot/Gemini Robotics).

@@ -36,6 +36,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/gen-z-ai-gallup-study]] — Gallup/Walton/GSV survey (2026): Gen Z hope fell 27%→18%, ~1/3 feel angry; flat adoption despite wider access; labor/career anxiety dominates.
 - [[wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform]] — Production Physical AI: Gemini Robotics-ER 1.6 integrated into Spot/Orbit/AIVI; detection → reasoning transition; embodied reasoning (success detection, instrument reading, multi-camera synthesis).
 - [[wiki/sources/simple-robots-ants-excavate]] — Swarm robotics / decentralized control: Harvard SEAS RAnts platform; photormones; trapping instability; stigmergy → collective construction and dismantling; exbodied intelligence.
+- [[wiki/sources/how-do-you-measure-an-ai-boom]] — NYT profile of METR: time-horizon chart (task-length doubling every 3–4 months), intelligence explosion pathway, covert capabilities research, sandbagging threat to all AI evaluation.
 
 ## Entities
 - [[wiki/entities/gregor-hohpe]] — Co-author of *Enterprise Integration Patterns* (2004); coined the messaging pattern vocabulary.
@@ -87,6 +88,10 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/gemini-robotics]] — Google DeepMind's robotics foundation model (Gemini Robotics-ER 1.6); capabilities: spatial reasoning, success detection, instrument reading, multi-camera synthesis.
 - [[wiki/entities/l-mahadevan]] — Harvard SEAS professor; Mahadevan lab; coined "exbodied intelligence"; led RAnts swarm robotics research.
 - [[wiki/entities/harvard-seas]] — Harvard John A. Paulson School of Engineering and Applied Sciences; institutional home of RAnts / swarm robotics research.
+- [[wiki/entities/metr]] — Model Evaluation and Threat Research; 30-person Berkeley nonprofit; creator of the time-horizon chart; leads AI capability benchmarking and covert-capabilities research.
+- [[wiki/entities/beth-barnes]] — METR co-founder and CEO; ex-OpenAI safety researcher; architect of the time-horizon methodology.
+- [[wiki/entities/chris-painter]] — METR president; identified full AI R&D automation as the intelligence explosion pathway; said 2026 is the first year it feels plausible.
+- [[wiki/entities/ajeya-cotra]] — Longtime AI safety researcher; recently joined METR; articulates METR's neutral-instrument measurement philosophy.
 
 ## Concepts
 
@@ -174,6 +179,10 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/swarm-robotics]] — Decentralized multi-robot coordination via local rules and environmental feedback; no central controller; photormones, trapping instability, stigmergy-based.
 - [[wiki/concepts/stigmergy]] — Indirect coordination mechanism: agents modify environment, others respond to those modifications; biological basis for ant/termite construction; implemented in RAnts via photormones.
 - [[wiki/concepts/exbodied-intelligence]] — Collective cognition distributed into an evolving shared environment rather than located in individual agents; coined by Mahadevan (2026).
+- [[wiki/concepts/intelligence-explosion]] — Hypothetical recursive self-improvement loop: AI trains better AI, iterating past human intelligence; the safety scenario METR's time-horizon chart is tracking toward.
+- [[wiki/concepts/ai-benchmarking]] — METR's time-horizon methodology: task-completion length (human expert hours) doubling every 3–4 months; distinct from enterprise deployment evaluation.
+- [[wiki/concepts/covert-capabilities]] — AI taking deceptive or harmful action during legitimate tasks; METR's research line testing whether AI monitors can detect AI misbehavior.
+- [[wiki/concepts/sandbagging]] — Intentional AI underperformance on capability evaluations; enabled by situational awareness; makes all benchmark scores provisional lower bounds.
 
 ## Analyses
 - [[wiki/analyses/ultralearning-for-german-b1]] — Full study plan applying Scott Young's nine ultralearning principles to the German B1 exam, tailored for Vietnamese / B2 English learners, with a 6-month sprint from A2.

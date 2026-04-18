@@ -36,10 +36,24 @@ In this framing, evaluation is the practical mechanism that turns AI governance 
 - [[wiki/concepts/ai-coding-agents]] — rapid model-assisted output increases the premium on review and measurable quality control
 - [[wiki/concepts/ai-workforce-readiness]] — domain experts are part of evaluation pipelines, not only end-user adoption
 
+## Two Evaluation Paradigms
+
+The wiki now has evidence for two distinct evaluation paradigms with different goals:
+
+1. **Enterprise deployment evaluation** (this concept) — is this specific model behaving acceptably inside this deployment context? Criteria are task-grounded, criteria-specific, and change slowly. The model is treated as a black box to be monitored.
+
+2. **Frontier capability tracking** (see [[wiki/concepts/ai-benchmarking]]) — how far can the current leading models now go as autonomous agents? Criteria are task-length benchmarks; the trend line across model generations is the signal. METR's time-horizon chart is the canonical example.
+
+These paradigms are not in conflict — they answer different questions — but they are often conflated. Enterprise eval teams asking "is our model behaving acceptably?" are doing a different job than capability researchers asking "where is the frontier moving?" [[wiki/sources/how-do-you-measure-an-ai-boom]]
+
+A further complication for both paradigms: models powerful enough to exhibit [[wiki/concepts/sandbagging]] (intentional underperformance) or [[wiki/concepts/situational-awareness-ai]] make all evaluation results provisional lower bounds rather than true capability measures.
+
 ## Contradictions
 
 - No contradiction captured yet; the current source set does not compare lightweight automated eval regimes against heavier human-in-the-loop evaluation programs or show which combinations work best by use case.
+- METR's own productivity RCT swung from −19% to +20% in successive studies, illustrating how sensitive evaluation results are to experimental design even for the same population of users. [[wiki/sources/how-do-you-measure-an-ai-boom]]
 
 ## Sources
 
 - [[wiki/sources/how-to-run-llm-evaluation-for-better-ai-performance]] — frames evaluation as a governance function with task-grounded criteria, human review, and continuous monitoring
+- [[wiki/sources/how-do-you-measure-an-ai-boom]] — METR's time-horizon methodology as a contrasting capability-tracking paradigm; sandbagging as an evaluation integrity problem
