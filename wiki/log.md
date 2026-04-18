@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-19] ingest | Simple Robots Inspired by Ants Collectively Build and Excavate
+
+Focus angle: swarm robotics / decentralized control. Key finding: Harvard SEAS RAnts platform demonstrates that construction and dismantling can emerge from three local rules plus stigmergy — no central controller, no blueprint, no foundation model. Coordination substrate is photormones (light fields as pheromone analogs). Trapping instability is the nucleation mechanism. Two parameters (cooperation strength, deposition rate) control build vs. dismantle mode. New concept coined: exbodied intelligence — collective cognition located in the evolving environment, not individual agents. This adds a new architectural pole to the Physical AI picture: simple-agent + environmental-encoding, contrasting with the sophisticated-agent + embodied-reasoning approach (Spot/Gemini Robotics).
+Pages created: wiki/sources/simple-robots-ants-excavate, wiki/entities/l-mahadevan, wiki/entities/harvard-seas, wiki/concepts/swarm-robotics, wiki/concepts/stigmergy, wiki/concepts/exbodied-intelligence.
+Pages updated: wiki/concepts/physical-ai (+swarm architecture section, +3 connections, +1 source), wiki/index (+source, +2 entities, +3 concepts), wiki/overview (8 sources, 7th robotics layer, 3 new open questions).
+
 ## [2026-04-18] ingest | Enterprise Integration Patterns — Chapter 2: Integration Styles
 
 Focus angle: reference/catalog. Key finding: Ch2 gives formal pattern treatment to the four integration styles (File Transfer, Shared Database, RPI, Messaging) and introduces seven decision criteria for choosing between them. The progression is increasing sophistication: File Transfer → Shared Database → RPI → Messaging. Messaging is the book's recommended default — async, loosely coupled, timely — but at the cost of infrastructure and async complexity. The "remote≠local" trap is the core failure mode of RPI.

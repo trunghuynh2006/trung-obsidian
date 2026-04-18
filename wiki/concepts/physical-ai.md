@@ -4,7 +4,7 @@ type: concept
 name: Physical AI
 aliases: [embodied AI, AI-powered robots]
 tags: [robotics, ai, llm, trends, manufacturing]
-sources: 5
+sources: 6
 ---
 
 # Physical AI
@@ -71,6 +71,20 @@ The deployment model is cloud-based (Gemini Robotics-ER runs on Google Cloud, up
 
 Source: [[wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform]]
 
+## Decentralized Swarm Architecture: An Alternative to Foundation Models
+
+The Boston Dynamics / Gemini Robotics story represents one architecture for Physical AI: a single sophisticated agent with a powerful foundation model as its cognitive layer. The Mahadevan lab (Harvard SEAS) RAnts work represents the opposite architecture: many minimal agents whose intelligence is distributed into the shared environment via [[wiki/concepts/stigmergy]].
+
+In the swarm approach, no individual robot "reasons" about the task. Instead, agents follow three local rules (follow photormone gradients; pick up materials; deposit materials when signal thresholds are met), and the emergent feedback loop between agents and the light-field medium produces construction or dismantling without any central planner. This is what Mahadevan calls [[wiki/concepts/exbodied-intelligence]]: cognition distributed into the evolving environment rather than located in any agent body.
+
+The two architectures have different strengths:
+- **Foundation-model approach** (Spot/Gemini): handles novel queries, generalizes across inspection tasks, requires connectivity, fails if the model or connection fails.
+- **Swarm approach** (RAnts): robust by construction (no single point of failure), adaptive without retraining, scales with agent count, but limited to tasks encodable as local gradient-following rules.
+
+This contrast enriches the Physical AI picture: the question is not just "how sophisticated is the AI?" but "where is the intelligence located — in the agent or in the environment?" [[wiki/concepts/swarm-robotics]]
+
+Source: [[wiki/sources/simple-robots-ants-excavate]]
+
 ## IoT as Physical AI Infrastructure
 
 The IoT sensor/actor node architecture is a form of Physical AI at the infrastructure level. AI-enhanced sensor nodes do more than measure — they reason about what they measure. AI actor nodes do more than execute — they explain why they act. The full stack (sensor → edge device → backend → cloud) is a Physical AI system at industrial scale. [[wiki/sources/the-intelligent-edge-how-ai-and-large]]
@@ -93,6 +107,9 @@ Key additions from IoT architecture:
 - [[wiki/concepts/large-geospatial-models]] — shared machine-readable maps provide the spatial substrate physical systems act within.
 - [[wiki/concepts/visual-positioning-systems]] — localization layer that keeps physical AI oriented in GPS-poor environments.
 - [[wiki/concepts/weather-intelligence]] — environmental-awareness layer that lets physical systems adapt to changing outdoor conditions in real time.
+- [[wiki/concepts/swarm-robotics]] — decentralized swarm as an alternative Physical AI architecture; intelligence distributed into the environment rather than the agent.
+- [[wiki/concepts/stigmergy]] — the biological mechanism underlying swarm-based Physical AI.
+- [[wiki/concepts/exbodied-intelligence]] — Mahadevan's framing of what emerges from stigmergic swarms: collective cognition encoded in the environment.
 
 ## Sources
 
@@ -101,3 +118,4 @@ Key additions from IoT architecture:
 - [[wiki/sources/niantic-spatial-launches-two-new-world-models-to-support-real-world-ai-deployment]] — adds spatial grounding as deployment infrastructure: environment capture, shared geospatial models, and camera-based localization.
 - [[wiki/sources/why-automation-systems-fail-without-weather-intelligence]] — adds environmental awareness and forecast-aware adaptation as another deployment requirement for real-world automation.
 - [[wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform]] — production instance of foundation-model-powered Physical AI; detection → reasoning transition; embodied reasoning capability set (success detection, instrument reading, multi-camera synthesis).
+- [[wiki/sources/simple-robots-ants-excavate]] — decentralized swarm architecture; RAnts platform; photormones; trapping instability; exbodied intelligence; build/dismantle parameter space.

@@ -49,21 +49,29 @@ Four compounding ideas, now converging:
 - [[wiki/entities/arduino]] — canonical beginner hardware platform
 - [[wiki/entities/ros2]] — industry-standard robotics middleware
 
-## Robotics Coverage (7 sources in)
+## Robotics Coverage (8 sources in)
 
-Six layers now established:
+Seven layers now established:
 - **Philosophy layer**: problem-driven learning, why roadmaps fail, the multidisciplinary trap — from the practitioner guide.
 - **Reference layer**: career paths + industry stats, robot types taxonomy, hardware component anatomy — from the Playto Labs guide.
 - **Spatial infrastructure layer**: machine-readable maps, visual localization, and geospatial world models as deployment substrate for physical AI — from the Niantic Spatial source.
 - **Operational-memory layer**: email, cloud files, and collaboration trails as part of robotics continuity, auditability, and recovery readiness — from the Microsoft 365 backup source.
 - **Environmental-awareness layer**: weather and forecast inputs as live decision context for robots and outdoor automation — from the weather-intelligence source.
 - **Reasoning layer**: foundation models integrated directly into deployed robots, enabling transition from detection to reasoning — from the Boston Dynamics / Google DeepMind source.
+- **Decentralized swarm layer**: no central controller, no foundation model — emergent construction and dismantling from simple local rules and environmental feedback, using stigmergy as the coordination mechanism — from the Harvard SEAS RAnts source.
 
-The six layers complement each other. The philosophy tells you *how to learn*; the reference tells you *what the landscape looks like*; the infrastructure layer tells you what real-world deployment still requires after reasoning and control are in place; the operational-memory layer explains why recoverable decision context matters once real teams, vendors, audits, and incidents enter the picture; the environmental-awareness layer explains why even well-localized systems still need structured external data once the world starts changing around them.
+The seven layers complement each other. The philosophy tells you *how to learn*; the reference tells you *what the landscape looks like*; the infrastructure layer tells you what real-world deployment still requires after reasoning and control are in place; the operational-memory layer explains why recoverable decision context matters once real teams, vendors, audits, and incidents enter the picture; the environmental-awareness layer explains why even well-localized systems still need structured external data once the world starts changing around them.
 
 This new layer sharpens the meaning of [[wiki/concepts/physical-ai]]. The missing ingredient is not always "more intelligence." Sometimes it is a better representation of the world: captured environments, reusable 3D assets, and localization systems that let robots stay oriented once they leave simulation. That connects the robotics domain more tightly to the AI+IoT domain, where physical deployment constraints already mattered.
 
 The Microsoft 365 backup source adds a quieter but important correction to the robotics branch: the data substrate of robotics is not only CAD, code, and machine telemetry. It is also the collaboration layer that stores approvals, vendor coordination, test discussion, and rationale. In practice, recovery gaps there become operational gaps. That ties robotics more tightly to security and governance concerns: resilience in industrial settings depends on restoring decision context, not just files in isolation.
+
+The Harvard SEAS RAnts source adds a new architectural dimension to the robotics branch by introducing the opposite end of the design spectrum from foundation-model-based Physical AI. Where Gemini Robotics-ER locates intelligence in a single sophisticated agent, the RAnts swarm locates it in the environment: each robot is nearly brainless, but the collective feedback loop between hundreds of robots and a shared light-field medium (photormones) produces adaptive construction or dismantling on demand. The mechanism is [[wiki/concepts/stigmergy]] — indirect coordination through environmental modification — implemented robotically via trapping instability as the nucleation mechanism. The key conceptual contribution is [[wiki/concepts/exbodied-intelligence]]: a new term for collective cognition distributed into an evolving shared environment rather than any individual body. This sharpens the Physical AI picture into a genuine design spectrum: one axis is agent sophistication (minimal ↔ foundation model); another is intelligence location (exbodied / environmental ↔ embodied / in-agent). Real deployments will likely combine both approaches depending on the task class.
+
+**New open questions from this source:**
+- At what task complexity does the swarm approach break down and the foundation-model approach become necessary?
+- Can photormone-style environmental encoding be combined with embodied-reasoning agents to get robustness *and* generalization?
+- How does trapping instability generalize to 3D construction environments or dynamic obstacles?
 
 The Boston Dynamics / DeepMind source adds the sharpest layer yet to the robotics branch: a named, production-deployed instance of a frontier foundation model (Gemini Robotics-ER 1.6) running inside an industrial robot platform (Spot/Orbit/AIVI). The central claim is that the robotics field has crossed a detection-to-reasoning threshold. Detection-based systems require pre-specified anomaly classes; reasoning-based systems answer novel questions about facility state. The four capabilities that operationalize this — spatial relationship analysis, multi-camera synthesis, success detection, and instrument reading — collectively describe what "understanding" looks like in a physical AI system. Success detection is especially load-bearing: it closes the agentic feedback loop, allowing a robot to determine task completion without human confirmation. Without it, the system is not truly autonomous regardless of how sophisticated its perception is. This source introduces [[wiki/concepts/embodied-reasoning]] as a first-class wiki concept and grounds [[wiki/entities/boston-dynamics]], [[wiki/entities/google-deepmind]], [[wiki/entities/spot-robot]], and [[wiki/entities/gemini-robotics]] as entities. A notable open question: the deployment is cloud-based (not edge), contrasting with the edge-AI architecture dominant in IIoT. This tradeoff — reasoning power vs. connectivity dependence — is now an active tension in the Physical AI picture.
 
@@ -172,7 +180,10 @@ The domain connects to [[wiki/concepts/agentic-ai]] — modern AI agents re-use 
 - **New (Gen Z sentiment):** Can workforce readiness programs be designed to build *trust* as well as skill, given that the incoming cohort is already technically capable but motivationally skeptical?
 - **New (embodied reasoning):** Cloud-based embodied reasoning (Gemini Robotics-ER) vs. edge-AI inference: at what connectivity threshold and latency budget does cloud reasoning become impractical for industrial robotics? Is there a hybrid architecture that captures both?
 - **New (embodied reasoning):** Is "success detection" a general-purpose capability that transfers across task types, or does it require task-specific training for each inspection scenario?
+- **New (swarm robotics):** At what task complexity does the swarm/stigmergy approach break down and the foundation-model approach become necessary?
+- **New (swarm robotics):** Can photormone-style environmental encoding be combined with embodied-reasoning agents to get robustness *and* generalization?
+- **New (swarm robotics):** How does exbodied intelligence scale beyond 2D construction? What kinds of environment encodings work for 3D or dynamic obstacle settings?
 
 ---
 
-*Last updated: 2026-04-18 — after ingest: Enterprise Integration Patterns Ch2 (Hohpe & Woolf) — integration styles layer added; 4 new concept pages (File Transfer, Shared Database, RPI, Messaging); 7 integration criteria added to EAI concept page.*
+*Last updated: 2026-04-19 — after ingest: Simple Robots Inspired by Ants (Harvard SEAS / Mahadevan) — decentralized swarm layer added to robotics coverage; 3 new concept pages (swarm-robotics, stigmergy, exbodied-intelligence); 2 new entity pages (l-mahadevan, harvard-seas); physical-ai concept updated with swarm architecture contrast.*

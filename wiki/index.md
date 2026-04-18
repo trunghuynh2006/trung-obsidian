@@ -35,6 +35,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/whats-ais-real-failure-no-ones-actually-in-charge]] — Entrepreneur/Visier (⚠ vendor bias): 60% of companies have no AI owner; AI transformation is an org design problem; HR+IT+Finance alignment and Moderna's merged-role model.
 - [[wiki/sources/gen-z-ai-gallup-study]] — Gallup/Walton/GSV survey (2026): Gen Z hope fell 27%→18%, ~1/3 feel angry; flat adoption despite wider access; labor/career anxiety dominates.
 - [[wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform]] — Production Physical AI: Gemini Robotics-ER 1.6 integrated into Spot/Orbit/AIVI; detection → reasoning transition; embodied reasoning (success detection, instrument reading, multi-camera synthesis).
+- [[wiki/sources/simple-robots-ants-excavate]] — Swarm robotics / decentralized control: Harvard SEAS RAnts platform; photormones; trapping instability; stigmergy → collective construction and dismantling; exbodied intelligence.
 
 ## Entities
 - [[wiki/entities/gregor-hohpe]] — Co-author of *Enterprise Integration Patterns* (2004); coined the messaging pattern vocabulary.
@@ -84,6 +85,8 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/google-deepmind]] — Alphabet's AI research org; built Gemini Robotics-ER 1.6; coined "embodied reasoning" as the defining Physical AI capability milestone.
 - [[wiki/entities/spot-robot]] — Boston Dynamics quadruped robot; deployed for industrial inspection; first major commercial embodied-reasoning deployment.
 - [[wiki/entities/gemini-robotics]] — Google DeepMind's robotics foundation model (Gemini Robotics-ER 1.6); capabilities: spatial reasoning, success detection, instrument reading, multi-camera synthesis.
+- [[wiki/entities/l-mahadevan]] — Harvard SEAS professor; Mahadevan lab; coined "exbodied intelligence"; led RAnts swarm robotics research.
+- [[wiki/entities/harvard-seas]] — Harvard John A. Paulson School of Engineering and Applied Sciences; institutional home of RAnts / swarm robotics research.
 
 ## Concepts
 
@@ -168,6 +171,9 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/cross-functional-alignment]] — HR+IT+Finance unified front as the organizational remedy for the AI governance vacuum; three-step framework: break silos, connect data, solve last-mile.
 - [[wiki/concepts/ai-public-sentiment]] — Public and generational attitudes toward AI; Gen Z data (2026) shows high use + souring sentiment; credible-threat recognition without compensatory trust.
 - [[wiki/concepts/embodied-reasoning]] — Cognitive capability marking the detection → reasoning transition in Physical AI; key capabilities: spatial analysis, success detection, instrument reading, multi-camera synthesis.
+- [[wiki/concepts/swarm-robotics]] — Decentralized multi-robot coordination via local rules and environmental feedback; no central controller; photormones, trapping instability, stigmergy-based.
+- [[wiki/concepts/stigmergy]] — Indirect coordination mechanism: agents modify environment, others respond to those modifications; biological basis for ant/termite construction; implemented in RAnts via photormones.
+- [[wiki/concepts/exbodied-intelligence]] — Collective cognition distributed into an evolving shared environment rather than located in individual agents; coined by Mahadevan (2026).
 
 ## Analyses
 - [[wiki/analyses/ultralearning-for-german-b1]] — Full study plan applying Scott Young's nine ultralearning principles to the German B1 exam, tailored for Vietnamese / B2 English learners, with a 6-month sprint from A2.
