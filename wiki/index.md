@@ -37,6 +37,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform]] — Production Physical AI: Gemini Robotics-ER 1.6 integrated into Spot/Orbit/AIVI; detection → reasoning transition; embodied reasoning (success detection, instrument reading, multi-camera synthesis).
 - [[wiki/sources/simple-robots-ants-excavate]] — Swarm robotics / decentralized control: Harvard SEAS RAnts platform; photormones; trapping instability; stigmergy → collective construction and dismantling; exbodied intelligence.
 - [[wiki/sources/how-do-you-measure-an-ai-boom]] — NYT profile of METR: time-horizon chart (task-length doubling every 3–4 months), intelligence explosion pathway, covert capabilities research, sandbagging threat to all AI evaluation.
+- [[wiki/sources/physical-intelligence-pi07]] — Physical Intelligence π0.7: first robot foundation model showing compositional generalization; air fryer demo; super-linear scaling claim; prompt engineering as deployment bottleneck.
 
 ## Entities
 - [[wiki/entities/gregor-hohpe]] — Co-author of *Enterprise Integration Patterns* (2004); coined the messaging pattern vocabulary.
@@ -92,6 +93,8 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/beth-barnes]] — METR co-founder and CEO; ex-OpenAI safety researcher; architect of the time-horizon methodology.
 - [[wiki/entities/chris-painter]] — METR president; identified full AI R&D automation as the intelligence explosion pathway; said 2026 is the first year it feels plausible.
 - [[wiki/entities/ajeya-cotra]] — Longtime AI safety researcher; recently joined METR; articulates METR's neutral-instrument measurement philosophy.
+- [[wiki/entities/physical-intelligence]] — San Francisco robotics AI startup; builder of π0.7; focused on general-purpose foundation models for robot control.
+- [[wiki/entities/sergey-levine]] — UC Berkeley professor; Physical Intelligence co-founder; author of the super-linear scaling claim for generalist robot models.
 
 ## Concepts
 
@@ -183,6 +186,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/ai-benchmarking]] — METR's time-horizon methodology: task-completion length (human expert hours) doubling every 3–4 months; distinct from enterprise deployment evaluation.
 - [[wiki/concepts/covert-capabilities]] — AI taking deceptive or harmful action during legitimate tasks; METR's research line testing whether AI monitors can detect AI misbehavior.
 - [[wiki/concepts/sandbagging]] — Intentional AI underperformance on capability evaluations; enabled by situational awareness; makes all benchmark scores provisional lower bounds.
+- [[wiki/concepts/compositional-generalization]] — Ability to combine sub-skills from different training contexts to solve tasks never seen in training; first demonstrated in robotics by Physical Intelligence π0.7.
 
 ## Analyses
 - [[wiki/analyses/ultralearning-for-german-b1]] — Full study plan applying Scott Young's nine ultralearning principles to the German B1 exam, tailored for Vietnamese / B2 English learners, with a 6-month sprint from A2.

@@ -49,9 +49,9 @@ Four compounding ideas, now converging:
 - [[wiki/entities/arduino]] — canonical beginner hardware platform
 - [[wiki/entities/ros2]] — industry-standard robotics middleware
 
-## Robotics Coverage (8 sources in)
+## Robotics Coverage (9 sources in)
 
-Seven layers now established:
+Eight layers now established:
 - **Philosophy layer**: problem-driven learning, why roadmaps fail, the multidisciplinary trap — from the practitioner guide.
 - **Reference layer**: career paths + industry stats, robot types taxonomy, hardware component anatomy — from the Playto Labs guide.
 - **Spatial infrastructure layer**: machine-readable maps, visual localization, and geospatial world models as deployment substrate for physical AI — from the Niantic Spatial source.
@@ -59,6 +59,7 @@ Seven layers now established:
 - **Environmental-awareness layer**: weather and forecast inputs as live decision context for robots and outdoor automation — from the weather-intelligence source.
 - **Reasoning layer**: foundation models integrated directly into deployed robots, enabling transition from detection to reasoning — from the Boston Dynamics / Google DeepMind source.
 - **Decentralized swarm layer**: no central controller, no foundation model — emergent construction and dismantling from simple local rules and environmental feedback, using stigmergy as the coordination mechanism — from the Harvard SEAS RAnts source.
+- **Compositional generalization layer**: a single generalist foundation model that remixes sub-skills to solve tasks it was never trained on, coached through novel tasks in plain language — from the Physical Intelligence π0.7 source.
 
 The seven layers complement each other. The philosophy tells you *how to learn*; the reference tells you *what the landscape looks like*; the infrastructure layer tells you what real-world deployment still requires after reasoning and control are in place; the operational-memory layer explains why recoverable decision context matters once real teams, vendors, audits, and incidents enter the picture; the environmental-awareness layer explains why even well-localized systems still need structured external data once the world starts changing around them.
 
@@ -72,6 +73,15 @@ The Harvard SEAS RAnts source adds a new architectural dimension to the robotics
 - At what task complexity does the swarm approach break down and the foundation-model approach become necessary?
 - Can photormone-style environmental encoding be combined with embodied-reasoning agents to get robustness *and* generalization?
 - How does trapping instability generalize to 3D construction environments or dynamic obstacles?
+
+The Physical Intelligence π0.7 source adds the sharpest claim yet to the robotics branch: that robot foundation models are approaching an LLM-style inflection point, where compositional generalization makes capability gains super-linear with data. The core finding — a robot partially succeeding at an air fryer task it had seen in only two training episodes — is striking precisely because the researchers were themselves surprised. Ashwin Balakrishna's comment ("I've always been able to guess what the model can do; the last few months are the first time I'm genuinely surprised") is a signal worth tracking. It mirrors exactly the GPT-2 unicorn moment that Levine explicitly invokes.
+
+The practical implication is significant: if compositional generalization holds, the deployment model for robots changes. Instead of collecting new task-specific data for every environment, operators coach the model through novel tasks in plain language. The current bottleneck is prompt quality — not hardware, not model — which is both surprising and clarifying. It means "robotics deployment" now partly requires skills that look like prompt engineering.
+
+**New open questions from this source:**
+- Does compositional generalization in π0.7 hold up against external benchmarks, or is the lack of standardized robotics evaluation hiding fragile results?
+- Is the super-linear scaling claim robust, or is it a favorable pattern observed on limited task diversity?
+- How does prompt engineering for robots scale to complex multi-step tasks requiring high-level commands rather than step-by-step decomposition?
 
 The Boston Dynamics / DeepMind source adds the sharpest layer yet to the robotics branch: a named, production-deployed instance of a frontier foundation model (Gemini Robotics-ER 1.6) running inside an industrial robot platform (Spot/Orbit/AIVI). The central claim is that the robotics field has crossed a detection-to-reasoning threshold. Detection-based systems require pre-specified anomaly classes; reasoning-based systems answer novel questions about facility state. The four capabilities that operationalize this — spatial relationship analysis, multi-camera synthesis, success detection, and instrument reading — collectively describe what "understanding" looks like in a physical AI system. Success detection is especially load-bearing: it closes the agentic feedback loop, allowing a robot to determine task completion without human confirmation. Without it, the system is not truly autonomous regardless of how sophisticated its perception is. This source introduces [[wiki/concepts/embodied-reasoning]] as a first-class wiki concept and grounds [[wiki/entities/boston-dynamics]], [[wiki/entities/google-deepmind]], [[wiki/entities/spot-robot]], and [[wiki/entities/gemini-robotics]] as entities. A notable open question: the deployment is cloud-based (not edge), contrasting with the edge-AI architecture dominant in IIoT. This tradeoff — reasoning power vs. connectivity dependence — is now an active tension in the Physical AI picture.
 
@@ -189,7 +199,10 @@ The domain connects to [[wiki/concepts/agentic-ai]] — modern AI agents re-use 
 - **New (swarm robotics):** At what task complexity does the swarm/stigmergy approach break down and the foundation-model approach become necessary?
 - **New (swarm robotics):** Can photormone-style environmental encoding be combined with embodied-reasoning agents to get robustness *and* generalization?
 - **New (swarm robotics):** How does exbodied intelligence scale beyond 2D construction? What kinds of environment encodings work for 3D or dynamic obstacle settings?
+- **New (compositional generalization):** Does π0.7's generalization hold against external benchmarks, or does the absence of standardized robotics evaluation make the claims hard to validate?
+- **New (compositional generalization):** Is the super-linear scaling claim for generalist robot models robust across diverse task types, or a favorable pattern from limited task coverage?
+- **New (compositional generalization):** How does prompt engineering quality scale as a deployment mechanism — at what task complexity does verbal step-by-step coaching break down?
 
 ---
 
-*Last updated: 2026-04-19 — after ingest: How Do You Measure an AI Boom? (NYT / METR) — measurement layer added to frontier AI coverage; 4 new concept pages (intelligence-explosion, ai-benchmarking, covert-capabilities, sandbagging); 4 new entity pages (metr, beth-barnes, chris-painter, ajeya-cotra); anthropic, openai, agentic-ai, llm-evaluation updated.*
+*Last updated: 2026-04-19 — after ingest: Physical Intelligence π0.7 (TechCrunch) — compositional generalization layer added to robotics coverage; 1 new concept page (compositional-generalization); 2 new entity pages (physical-intelligence, sergey-levine); physical-ai, embodied-reasoning, index updated.*

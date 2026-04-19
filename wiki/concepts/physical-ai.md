@@ -4,7 +4,7 @@ type: concept
 name: Physical AI
 aliases: [embodied AI, AI-powered robots]
 tags: [robotics, ai, llm, trends, manufacturing]
-sources: 6
+sources: 7
 ---
 
 # Physical AI
@@ -71,6 +71,16 @@ The deployment model is cloud-based (Gemini Robotics-ER runs on Google Cloud, up
 
 Source: [[wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform]]
 
+## Generalist Models and Compositional Generalization
+
+The Boston Dynamics / Gemini Robotics story shows what happens when a powerful foundation model is embedded in a specialist robot platform (inspection). Physical Intelligence's π0.7 (2026) pushes the generalist-model question further: can a single robot foundation model solve tasks it was never explicitly trained on?
+
+The answer, according to PI's research, is: yes — through compositional generalization. Rather than learning whole-task procedures, the model acquires sub-skills (grasping, pushing, opening, sequencing) that it can remix when confronted with novel tasks. The headline evidence: π0.7 partially succeeded at using an air fryer it had seen in only two training episodes, and fully succeeded with step-by-step verbal coaching from a researcher.
+
+The implication for the Physical AI picture is significant. If compositional generalization holds up to external validation, the robot-training paradigm shifts from *collect data for each new task* to *expand the generalist model's sub-skill library and coach through novel tasks in language*. This is the same inflection that language models crossed when they began producing outputs their training data didn't obviously predict.
+
+The current limit: π0.7 cannot execute complex multi-step tasks from a single high-level command. Generalization currently requires human decomposition into steps. And there are no standardized benchmarks — all results are measured against PI's own prior specialist models. [[wiki/concepts/compositional-generalization]] [[wiki/sources/physical-intelligence-pi07]]
+
 ## Decentralized Swarm Architecture: An Alternative to Foundation Models
 
 The Boston Dynamics / Gemini Robotics story represents one architecture for Physical AI: a single sophisticated agent with a powerful foundation model as its cognitive layer. The Mahadevan lab (Harvard SEAS) RAnts work represents the opposite architecture: many minimal agents whose intelligence is distributed into the shared environment via [[wiki/concepts/stigmergy]].
@@ -97,6 +107,7 @@ Key additions from IoT architecture:
 ## Connections
 
 - [[wiki/concepts/embodied-reasoning]] — the cognitive capability that marks the transition from detection-based to reasoning-based Physical AI; success detection is the key enabler of closed agentic loops.
+- [[wiki/concepts/compositional-generalization]] — the ability to combine learned sub-skills to solve tasks not seen in training; the latest proposed threshold capability for generalist robot models.
 - [[wiki/concepts/agentic-ai]] — Physical AI in robotics is the embodied form of agentic AI; same reasoning/planning/acting paradigm applied to physical systems.
 - [[wiki/concepts/robotics-simulation]] — simulation is the critical testing infrastructure for Physical AI development.
 - [[wiki/concepts/robotics-multidisciplinarity]] — Physical AI adds AI/ML as a newly dominant discipline; shifts the field's center of gravity toward CS/ML entry points.
@@ -119,3 +130,4 @@ Key additions from IoT architecture:
 - [[wiki/sources/why-automation-systems-fail-without-weather-intelligence]] — adds environmental awareness and forecast-aware adaptation as another deployment requirement for real-world automation.
 - [[wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform]] — production instance of foundation-model-powered Physical AI; detection → reasoning transition; embodied reasoning capability set (success detection, instrument reading, multi-camera synthesis).
 - [[wiki/sources/simple-robots-ants-excavate]] — decentralized swarm architecture; RAnts platform; photormones; trapping instability; exbodied intelligence; build/dismantle parameter space.
+- [[wiki/sources/physical-intelligence-pi07]] — generalist foundation model π0.7; compositional generalization; air fryer demo; super-linear scaling claim; prompt engineering as deployment bottleneck.

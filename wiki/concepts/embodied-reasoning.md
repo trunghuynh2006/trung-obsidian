@@ -4,7 +4,7 @@ type: concept
 name: Embodied Reasoning
 aliases: [embodied AI reasoning, spatial reasoning in robotics]
 tags: [robotics, physical-ai, ai, google-deepmind]
-sources: 1
+sources: 2
 ---
 
 # Embodied Reasoning
@@ -56,6 +56,9 @@ Without step 3, the "agent" still requires human confirmation after every action
 ## Evidence & Examples
 
 - Gemini Robotics-ER 1.6, integrated into Boston Dynamics Spot/Orbit/AIVI: instrument reading, success detection, multi-camera spatial analysis in production industrial inspection [[wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform]]
+- Physical Intelligence π0.7: compositional generalization from minimal training data — demonstrates reasoning about unfamiliar appliances by combining sub-skills and web pretraining, without task-specific demos [[wiki/sources/physical-intelligence-pi07]]
+
+Note: embodied reasoning and compositional generalization are related but distinct. Embodied reasoning addresses *how a system understands the physical world* (spatial context, multi-view synthesis, success detection). Compositional generalization addresses *how a system learns to handle tasks it was never shown* by combining sub-skills. Both are threshold capabilities in Physical AI; neither implies the other.
 
 ## Connections
 
@@ -75,3 +78,4 @@ No contradictions yet. The claim that embodied reasoning enables "completely aut
 ## Sources
 
 - [[wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform]] — introduced embodied reasoning as a named capability; described Gemini Robotics-ER 1.6 capabilities; production deployment in Spot/AIVI
+- [[wiki/sources/physical-intelligence-pi07]] — π0.7 as a second evidence point; adds compositional generalization as a distinct but related capability

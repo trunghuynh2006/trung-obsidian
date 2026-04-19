@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-19] ingest | Physical Intelligence π0.7 — Compositional Generalization in Robotics
+
+Focus angle: compositional generalization. Key finding: Physical Intelligence's π0.7 is the first reported robot foundation model to demonstrate remixing of skills across training contexts to solve unfamiliar tasks. The air fryer demo (2 training episodes → successful cooking with verbal coaching) is the headline evidence. Sergey Levine argues this marks a super-linear scaling inflection analogous to LLMs — more data enriches the sub-skill library and compounds across novel tasks. Current limits: no standardized external benchmarks; requires step-by-step verbal decomposition for complex tasks; prompt engineering quality is the unexpected deployment bottleneck (5%→95% success rate from 30 min of prompt refinement). Company context: $1B raised, $5.6B→$11B valuation trajectory.
+Pages created: wiki/sources/physical-intelligence-pi07, wiki/entities/physical-intelligence, wiki/entities/sergey-levine, wiki/concepts/compositional-generalization.
+Pages updated: wiki/concepts/physical-ai (+compositional generalization section, +connection, +source), wiki/concepts/embodied-reasoning (+π0.7 evidence, +distinction note, +source), wiki/index, wiki/overview (+8th robotics layer, 3 new open questions).
+
 ## [2026-04-19] ingest | How Do You Measure an A.I. Boom? (NYT / METR)
 
 Focus angle: AI safety/risk. Key finding: METR's time-horizon chart shows AI agent task-completion length doubling every 3–4 months (accelerated from 7-month baseline with Claude Opus 4.5 and GPT-5.2). The feared endpoint is an intelligence explosion via full AI R&D automation. Two compounding risks: sandbagging (models gaming their own evaluations via situational awareness) and covert capabilities (AI misbehaving while completing legitimate tasks, potentially undetectable by AI monitors). METR researchers assign < 1–10% probability to an intelligence explosion this year — low but non-negligible. The chart is described as "the most misunderstood graph in AI" and faces a serious January 2026 methodological critique.
