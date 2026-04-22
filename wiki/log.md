@@ -5,6 +5,12 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-22] ingest | AI-Powered Robots Enter German Factories (Hannover Messe 2026)
+
+Focus angle: Physical AI in production. Key finding: the 2026 Hannover Messe marks a clear inflection from demo robots to announced factory deployments. Agile Robots (Munich, founder Zhaopeng Chen) will deploy humanoids to German automotive factories from 2027, targeting value-added tasks — wiring, assembly — not martial arts. CEO Rory Sexton explicitly frames the relevant competition as task-utility vs. Unitree's demo-first approach. Germany's structural advantages: high-quality factory data (DFKI: "far superior" to US/China) and an industrial supplier ecosystem; structural gap: data is fragmented with no national aggregation strategy. Political signal: Chancellor Merz visited Agile Robots stand, called for AI to be "embedded" in German SMEs. New live risk documented: AI giving misleading repair instructions or false fault detections in production environments.
+Pages created: wiki/sources/ai-powered-robots-german-factories, wiki/entities/agile-robots, wiki/entities/unitree, wiki/entities/rory-sexton, wiki/entities/dfki, wiki/entities/hannover-messe, wiki/entities/friedrich-merz.
+Pages updated: wiki/concepts/physical-ai (+industrial deployment section = 9th layer, +3 entity connections, +1 source; sources count 7→8), wiki/index (+source, +7 entities), wiki/overview (+9th robotics layer, +3 open questions, 9→10 sources count).
+
 ## [2026-04-22] ingest | Design Patterns Reimagined — GoF/POSA Catalog for Modern Software
 
 Focus angle: reference catalog. Key finding: the GoF and POSA pattern catalog, written for C++/desktop/CORBA (1994–1996), needs a four-part update for the modern era. Four patterns are removed as obsolete or anti-patterns (Singleton, Abstract Factory, Flyweight, Interpreter). Four are transformed by modern language features and infrastructure (Observer → reactive streams, Command → CQRS, Strategy → lambdas, Proxy → API gateway/service mesh). Three new distributed-systems patterns are added (Circuit Breaker, Saga, Event Sourcing). Three new concurrency/reactive patterns (Async-Await, Backpressure, Actor Model). Two new data patterns (Repository with Specification + Unit of Work, CQRS + Event Sourcing combined). The source's thesis — that the principles are stable but the mechanics have changed — is useful framing for the entire software architecture domain in this wiki. Every pattern includes side-by-side Java code (classic vs. modern).

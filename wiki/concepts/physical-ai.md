@@ -4,7 +4,7 @@ type: concept
 name: Physical AI
 aliases: [embodied AI, AI-powered robots]
 tags: [robotics, ai, llm, trends, manufacturing]
-sources: 7
+sources: 8
 ---
 
 # Physical AI
@@ -95,6 +95,23 @@ This contrast enriches the Physical AI picture: the question is not just "how so
 
 Source: [[wiki/sources/simple-robots-ants-excavate]]
 
+## Industrial Deployment: Value-Added Tasks vs. Demo Capability
+
+The 2026 Hannover Messe surfaced a new differentiation axis for Physical AI: **demo capability vs. production value**. Two robot categories were visible side by side:
+
+- **Demo robots** — such as Unitree's humanoids performing kung fu and boxing for Chancellor Friedrich Merz during his February 2026 China visit — demonstrate impressive athletic capability but are not primarily positioned around specific industrial productivity.
+- **Production robots** — such as Agile Robots' humanoid (Munich; plans for German automotive factories from 2027) — target "value-added tasks for industry": electronic wiring in cars, phone assembly, precise dexterous work. CEO Rory Sexton explicitly framed the company's mission around "actually solving industrial problems."
+
+This distinction matters because the deployment challenge for industrial Physical AI is not just mechanical dexterity — it is dexterity *applied reliably to a specific task on a production line*, integrated into an existing factory ecosystem. Agile Robots argues that Germany's competitive advantage lies not in AI research but in the industrial substrate: a dense supplier ecosystem and deep mechanical engineering expertise that enables effective task integration.
+
+A structural enabler for this deployment layer is **industrial training data**. DFKI head Antonio Krueger claims Germany's factory-floor data quality exceeds that of both the US and China — a significant asset for training physical AI on real production tasks. The acknowledged gap: this data remains fragmented across firms, with no national aggregation strategy.
+
+The demand signal is emerging: a 2026 Bitkom survey found that 58% of German industrial firms believe humanoid robots could help address skilled labor shortages — framing industrial Physical AI deployment as a labor-market response, not just a productivity play.
+
+A live risk in this deployment context: AI systems giving misleading repair instructions or falsely detecting faults in factory equipment. This is the "dark side of the force" named by a SW Machines executive at Hannover — not a theoretical concern but an observed failure mode in active deployments.
+
+Sources: [[wiki/sources/ai-powered-robots-german-factories]]
+
 ## IoT as Physical AI Infrastructure
 
 The IoT sensor/actor node architecture is a form of Physical AI at the infrastructure level. AI-enhanced sensor nodes do more than measure — they reason about what they measure. AI actor nodes do more than execute — they explain why they act. The full stack (sensor → edge device → backend → cloud) is a Physical AI system at industrial scale. [[wiki/sources/the-intelligent-edge-how-ai-and-large]]
@@ -121,6 +138,9 @@ Key additions from IoT architecture:
 - [[wiki/concepts/swarm-robotics]] — decentralized swarm as an alternative Physical AI architecture; intelligence distributed into the environment rather than the agent.
 - [[wiki/concepts/stigmergy]] — the biological mechanism underlying swarm-based Physical AI.
 - [[wiki/concepts/exbodied-intelligence]] — Mahadevan's framing of what emerges from stigmergic swarms: collective cognition encoded in the environment.
+- [[wiki/entities/agile-robots]] — concrete case of Physical AI targeting industrial production tasks; automotive factory deployment from 2027.
+- [[wiki/entities/unitree]] — the "demo capability" pole; kung fu/boxing robots used as a political reference point for the China vs. Germany gap.
+- [[wiki/entities/hannover-messe]] — the 2026 industrial fair where Physical AI crossed from research announcement to factory deployment commitment.
 
 ## Sources
 
@@ -131,3 +151,4 @@ Key additions from IoT architecture:
 - [[wiki/sources/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform]] — production instance of foundation-model-powered Physical AI; detection → reasoning transition; embodied reasoning capability set (success detection, instrument reading, multi-camera synthesis).
 - [[wiki/sources/simple-robots-ants-excavate]] — decentralized swarm architecture; RAnts platform; photormones; trapping instability; exbodied intelligence; build/dismantle parameter space.
 - [[wiki/sources/physical-intelligence-pi07]] — generalist foundation model π0.7; compositional generalization; air fryer demo; super-linear scaling claim; prompt engineering as deployment bottleneck.
+- [[wiki/sources/ai-powered-robots-german-factories]] — industrial deployment differentiation axis (value-added tasks vs. demo capability); Germany's data and ecosystem advantages; 58% Bitkom labor-shortage survey; live AI fault-detection failure modes.

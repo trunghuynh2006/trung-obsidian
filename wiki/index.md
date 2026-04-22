@@ -39,6 +39,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/how-do-you-measure-an-ai-boom]] — NYT profile of METR: time-horizon chart (task-length doubling every 3–4 months), intelligence explosion pathway, covert capabilities research, sandbagging threat to all AI evaluation.
 - [[wiki/sources/physical-intelligence-pi07]] — Physical Intelligence π0.7: first robot foundation model showing compositional generalization; air fryer demo; super-linear scaling claim; prompt engineering as deployment bottleneck.
 - [[wiki/sources/design-patterns-reimagined]] — GoF/POSA pattern catalog reimagined for modern software: 4 patterns removed, 4 transformed, 9 new patterns for distributed systems, reactive programming, and modern data access.
+- [[wiki/sources/ai-powered-robots-german-factories]] — Hannover Messe 2026: Physical AI in industrial production; Agile Robots vs. Unitree on value-added tasks vs. demos; Germany's data/ecosystem advantages and fragmentation gap.
 
 ## Entities
 - [[wiki/entities/gregor-hohpe]] — Co-author of *Enterprise Integration Patterns* (2004); coined the messaging pattern vocabulary.
@@ -96,6 +97,12 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/ajeya-cotra]] — Longtime AI safety researcher; recently joined METR; articulates METR's neutral-instrument measurement philosophy.
 - [[wiki/entities/physical-intelligence]] — San Francisco robotics AI startup; builder of π0.7; focused on general-purpose foundation models for robot control.
 - [[wiki/entities/sergey-levine]] — UC Berkeley professor; Physical Intelligence co-founder; author of the super-linear scaling claim for generalist robot models.
+- [[wiki/entities/agile-robots]] — Munich humanoid robotics startup (founder: Zhaopeng Chen); deploying to German automotive factories from 2027; focus on value-added industrial tasks.
+- [[wiki/entities/unitree]] — Chinese humanoid robotics manufacturer; known for athletic demo robots; presence at Hannover Messe and China visit by Merz.
+- [[wiki/entities/rory-sexton]] — CEO of Agile Robots; articulates value-added tasks vs. demo robots framing for industrial Physical AI.
+- [[wiki/entities/dfki]] — German Research Centre for Artificial Intelligence; claims German factory data quality exceeds US and China.
+- [[wiki/entities/hannover-messe]] — World's largest industrial technology fair; 2026 edition placed physical AI as headline theme.
+- [[wiki/entities/friedrich-merz]] — German Chancellor; attended Hannover Messe 2026; witnessed Unitree robots in China; politically endorsed industrial AI adoption.
 
 ## Concepts
 

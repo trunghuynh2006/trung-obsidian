@@ -49,9 +49,9 @@ Four compounding ideas, now converging:
 - [[wiki/entities/arduino]] — canonical beginner hardware platform
 - [[wiki/entities/ros2]] — industry-standard robotics middleware
 
-## Robotics Coverage (9 sources in)
+## Robotics Coverage (10 sources in)
 
-Eight layers now established:
+Nine layers now established:
 - **Philosophy layer**: problem-driven learning, why roadmaps fail, the multidisciplinary trap — from the practitioner guide.
 - **Reference layer**: career paths + industry stats, robot types taxonomy, hardware component anatomy — from the Playto Labs guide.
 - **Spatial infrastructure layer**: machine-readable maps, visual localization, and geospatial world models as deployment substrate for physical AI — from the Niantic Spatial source.
@@ -60,6 +60,7 @@ Eight layers now established:
 - **Reasoning layer**: foundation models integrated directly into deployed robots, enabling transition from detection to reasoning — from the Boston Dynamics / Google DeepMind source.
 - **Decentralized swarm layer**: no central controller, no foundation model — emergent construction and dismantling from simple local rules and environmental feedback, using stigmergy as the coordination mechanism — from the Harvard SEAS RAnts source.
 - **Compositional generalization layer**: a single generalist foundation model that remixes sub-skills to solve tasks it was never trained on, coached through novel tasks in plain language — from the Physical Intelligence π0.7 source.
+- **Industrial deployment layer**: Physical AI crossing from research/demo to factory floor — Agile Robots' 2027 automotive deployment plans, the value-added tasks vs. demo capability axis, Germany's industrial data and ecosystem advantages, and the live failure modes (AI fault detection errors) — from the Hannover Messe 2026 source.
 
 The seven layers complement each other. The philosophy tells you *how to learn*; the reference tells you *what the landscape looks like*; the infrastructure layer tells you what real-world deployment still requires after reasoning and control are in place; the operational-memory layer explains why recoverable decision context matters once real teams, vendors, audits, and incidents enter the picture; the environmental-awareness layer explains why even well-localized systems still need structured external data once the world starts changing around them.
 
@@ -221,7 +222,10 @@ The source's central thesis is worth tracking: the *principles* of good software
 - **New (compositional generalization):** Does π0.7's generalization hold against external benchmarks, or does the absence of standardized robotics evaluation make the claims hard to validate?
 - **New (compositional generalization):** Is the super-linear scaling claim for generalist robot models robust across diverse task types, or a favorable pattern from limited task coverage?
 - **New (compositional generalization):** How does prompt engineering quality scale as a deployment mechanism — at what task complexity does verbal step-by-step coaching break down?
+- **New (industrial deployment):** Will Germany's fragmented factory data advantage be aggregated before Chinese manufacturers out-scale it? What would a national industrial data strategy look like?
+- **New (industrial deployment):** Is the value-added tasks vs. demo framing a durable competitive axis, or will demo-first manufacturers (Unitree) pivot to production as fast as production-first players improve their capabilities?
+- **New (industrial deployment):** How do AI fault-detection errors in manufacturing get caught and corrected? What accountability structures are needed when AI gives a misleading repair instruction?
 
 ---
 
-*Last updated: 2026-04-22 — after ingest: Design Patterns Reimagined — GoF/POSA pattern evolution; 1 source page, 16 concept pages (4 removed, 4 transformed, 8 new patterns); GoF/Modern Patterns section added to overview; 9th domain established.*
+*Last updated: 2026-04-22 — after ingest: AI-Powered Robots Enter German Factories; 1 source page, 6 entity pages (Agile Robots, Unitree, Rory Sexton, DFKI, Hannover Messe, Friedrich Merz); physical-ai concept updated with industrial deployment section (9th layer); 3 new open questions.*
