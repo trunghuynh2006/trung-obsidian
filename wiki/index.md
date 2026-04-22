@@ -38,6 +38,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/simple-robots-ants-excavate]] — Swarm robotics / decentralized control: Harvard SEAS RAnts platform; photormones; trapping instability; stigmergy → collective construction and dismantling; exbodied intelligence.
 - [[wiki/sources/how-do-you-measure-an-ai-boom]] — NYT profile of METR: time-horizon chart (task-length doubling every 3–4 months), intelligence explosion pathway, covert capabilities research, sandbagging threat to all AI evaluation.
 - [[wiki/sources/physical-intelligence-pi07]] — Physical Intelligence π0.7: first robot foundation model showing compositional generalization; air fryer demo; super-linear scaling claim; prompt engineering as deployment bottleneck.
+- [[wiki/sources/design-patterns-reimagined]] — GoF/POSA pattern catalog reimagined for modern software: 4 patterns removed, 4 transformed, 9 new patterns for distributed systems, reactive programming, and modern data access.
 
 ## Entities
 - [[wiki/entities/gregor-hohpe]] — Co-author of *Enterprise Integration Patterns* (2004); coined the messaging pattern vocabulary.
@@ -125,6 +126,24 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/smart-proxy]] — Intercepts request/reply to add Return Address support or QoS tracking to legacy services.
 - [[wiki/concepts/control-bus]] — Dedicated channel for operational metrics, health signals, and alerts; feeds the management console.
 - [[wiki/concepts/test-message]] — Known-input message injected into live stream to verify service correctness, not just availability.
+
+### Software Design Patterns (GoF / Modern)
+- [[wiki/concepts/singleton-pattern]] — anti-pattern: global state + hidden dependencies; replaced by DI containers managing scope as configuration
+- [[wiki/concepts/abstract-factory-pattern]] — over-engineered creational pattern; DI frameworks make the parallel class hierarchy unnecessary
+- [[wiki/concepts/flyweight-pattern]] — premature memory optimization; de-emphasized on modern hardware; survives as language-level string interning
+- [[wiki/concepts/interpreter-pattern]] — superseded by ANTLR, parser combinators, and DSL frameworks for any non-trivial grammar
+- [[wiki/concepts/observer-pattern]] — transformed: synchronous notification list → reactive streams (RxJava) → distributed pub-sub (Kafka/RabbitMQ)
+- [[wiki/concepts/strategy-pattern]] — transformed: class-per-algorithm hierarchy → higher-order function / lambda parameter
+- [[wiki/concepts/proxy-pattern]] — transformed: simple forwarding object → API gateway + service mesh handling auth, rate-limiting, discovery, circuit-breaking
+- [[wiki/concepts/cqrs]] — Command evolved into CQRS; separates commands (write) from queries (read) for independent scaling and optimization
+- [[wiki/concepts/circuit-breaker]] — three-state FSM (closed/open/half-open) preventing cascading failures by failing fast on downed dependencies
+- [[wiki/concepts/saga-pattern]] — distributed transactions via compensating transactions; orchestration (central coordinator) or choreography (event-driven)
+- [[wiki/concepts/event-sourcing]] — store events not state; reconstruct by replay; enables audit trail, temporal queries, and multiple projections
+- [[wiki/concepts/async-await]] — sequential-style code over async execution; eliminates callback hell while preserving non-blocking efficiency
+- [[wiki/concepts/backpressure]] — consumer signals demand to producer (Reactive Streams protocol); prevents buffer overflow in streaming pipelines
+- [[wiki/concepts/actor-model]] — isolated state + mailbox + async message passing; eliminates shared-state concurrency without locks
+- [[wiki/concepts/repository-pattern]] — collection-like data access with Specification-based composable queries, TTL caching, and Unit of Work
+- [[wiki/concepts/cqrs-event-sourcing]] — CQRS write side uses event sourcing; read side builds multiple independent projections from the event stream
 
 - [[wiki/concepts/llm-evaluation]] — Task-grounded, versioned, human-reviewed, continuously monitored measurement of whether model behavior stays inside operational and policy bounds.
 - [[wiki/concepts/weather-intelligence]] — Structured, localized, low-latency environmental data and forecasts used as live operational input for automation systems.

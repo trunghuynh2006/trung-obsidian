@@ -6,7 +6,7 @@ High-level synthesis of everything in this wiki. Updated after each ingest.
 
 ## What this wiki is about
 
-This wiki spans eight domains: **knowledge management** (LLM Wiki pattern), **robotics education** (how to navigate a complex multidisciplinary field), **productivity/focus** (deep work, flow, and the attention economy), **AI+IoT systems** (edge AI architecture and industrial applications), **frontier AI capability/safety/security** (coding agents, alignment, and AI-enabled cybersecurity), **AI + labor markets** (how AI restructures work, expertise, and organizational design), **behavioral economics / applied microeconomics** (incentives, conventional wisdom, expert exploitation, and measurement methodology), and **enterprise integration / software architecture** (messaging patterns, loose coupling, and the vocabulary of distributed systems design). These connect: all seven are about how intelligence — human or artificial — compounds through tools and systems, and about what kinds of discipline are needed when capability starts moving faster than human review. The robotics branch now has a clearer infrastructure story as well: real-world AI needs not just models and actuators, but reliable spatial grounding.
+This wiki spans nine domains: **knowledge management** (LLM Wiki pattern), **robotics education** (how to navigate a complex multidisciplinary field), **productivity/focus** (deep work, flow, and the attention economy), **AI+IoT systems** (edge AI architecture and industrial applications), **frontier AI capability/safety/security** (coding agents, alignment, and AI-enabled cybersecurity), **AI + labor markets** (how AI restructures work, expertise, and organizational design), **behavioral economics / applied microeconomics** (incentives, conventional wisdom, expert exploitation, and measurement methodology), and **enterprise integration / software architecture** (messaging patterns, loose coupling, and the vocabulary of distributed systems design). These connect: all seven are about how intelligence — human or artificial — compounds through tools and systems, and about what kinds of discipline are needed when capability starts moving faster than human review. The robotics branch now has a clearer infrastructure story as well: real-world AI needs not just models and actuators, but reliable spatial grounding.
 
 ## Current Thesis
 
@@ -162,10 +162,29 @@ New domain established via *Enterprise Integration Patterns* Ch1 (Hohpe & Woolf,
 
 The domain connects to [[wiki/concepts/agentic-ai]] — modern AI agents re-use many of the same architectural primitives (routing, message passing, orchestration, observability). It also connects to [[wiki/concepts/schema-driven-agents]]: the discipline of giving an AI a pattern vocabulary (CLAUDE.md) mirrors the role EIP patterns play in giving integration architects a shared design language. The EIP catalog is also directly relevant to [[wiki/entities/microsoft-pl400]] — Power Platform integrations and custom connectors use these patterns (channel adapters, message translators, publish-subscribe) even if they are not always labeled as such.
 
-**Open Questions:**
-- **New (EAI):** As more chapters are ingested, which pattern categories (routing, transformation, orchestration, monitoring) get the most nuanced treatment?
-- **New (EAI):** How do modern event-driven architectures (Kafka, cloud event buses) map onto the 2004 EIP vocabulary — extensions, replacements, or the same patterns under new names?
-- **New (EAI):** Where do agentic AI architectures diverge from EIP patterns, and where are they converging back to the same solutions?
+**Open Questions (EAI):**
+- As more chapters are ingested, which pattern categories (routing, transformation, orchestration, monitoring) get the most nuanced treatment?
+- How do modern event-driven architectures (Kafka, cloud event buses) map onto the 2004 EIP vocabulary — extensions, replacements, or the same patterns under new names?
+- Where do agentic AI architectures diverge from EIP patterns, and where are they converging back to the same solutions?
+
+## GoF / Modern Software Design Patterns Coverage (1 source in)
+
+A new sub-domain within software architecture, tracing the evolution of the Gang of Four pattern catalog across three decades:
+
+- **Removed patterns (4):** Singleton (anti-pattern — global state, untestable; replaced by DI containers), Abstract Factory (over-engineered hierarchy; DI renders it unnecessary), Flyweight (premature optimization for hardware constraints that no longer apply), Interpreter (replaced by ANTLR, parser combinators, and DSL frameworks).
+- **Transformed patterns (4):** Observer → Reactive Streams + distributed pub-sub; Command → CQRS (separate read/write models, independent scaling); Strategy → higher-order functions and lambdas; Proxy → API gateway and service mesh.
+- **New distributed patterns (3):** Circuit Breaker (three-state FSM preventing cascading failures), Saga (distributed transactions via compensating steps — orchestration or choreography), Event Sourcing (append-only event log as the write model; reconstruct state by replay).
+- **New concurrency/reactive patterns (3):** Async-Await (sequential-style async programming), Backpressure (consumer-controlled demand signaling in streaming pipelines), Actor Model (private state + mailbox + async messages — no locks needed).
+- **New data patterns (2):** Repository (Specification-based composable queries + caching + Unit of Work), CQRS + Event Sourcing combined (event log as write model; multiple read projections from the same stream).
+
+This domain connects tightly to the EAI branch: Circuit Breaker is the code-level analog of service mesh resilience; Saga orchestrators parallel Process Manager in the EAI catalog; event sourcing and messaging integration share the same append-only delivery semantics. It also connects to [[wiki/concepts/agentic-ai]] — modern agentic architectures routinely compose these patterns (actor systems for parallelism, sagas for multi-step coordination, CQRS+ES for state management).
+
+The source's central thesis is worth tracking: the *principles* of good software design (loose coupling, high cohesion, separation of concerns, designing for change) are stable across three decades. What has changed is *how* those principles are achieved — language features, cloud infrastructure, and container orchestration have either simplified or replaced many classic object-oriented mechanics.
+
+**Open Questions (GoF / Modern Patterns):**
+- **New:** How do the new distributed patterns (Circuit Breaker, Saga, Event Sourcing) map to the AWS Developer Associate exam domains? These are live testable topics.
+- **New:** Where do these patterns appear in Power Platform integrations (PL-400)? Custom connectors and Power Automate flows implement several (Message Translator, Circuit Breaker, async-await).
+- **New:** As microservices patterns mature, which are being absorbed into infrastructure (service meshes, managed event stores) vs. remaining application-level responsibilities?
 
 ## Open Questions
 
@@ -205,4 +224,4 @@ The domain connects to [[wiki/concepts/agentic-ai]] — modern AI agents re-use 
 
 ---
 
-*Last updated: 2026-04-19 — after ingest: Physical Intelligence π0.7 (TechCrunch) — compositional generalization layer added to robotics coverage; 1 new concept page (compositional-generalization); 2 new entity pages (physical-intelligence, sergey-levine); physical-ai, embodied-reasoning, index updated.*
+*Last updated: 2026-04-22 — after ingest: Design Patterns Reimagined — GoF/POSA pattern evolution; 1 source page, 16 concept pages (4 removed, 4 transformed, 8 new patterns); GoF/Modern Patterns section added to overview; 9th domain established.*
