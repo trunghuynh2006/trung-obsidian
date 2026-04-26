@@ -4,7 +4,7 @@ type: concept
 name: Experimentation Culture
 aliases: [learning-first adoption, progress over perfection]
 tags: [ai, management, culture, learning, experimentation]
-sources: 1
+sources: 2
 ---
 
 # Experimentation Culture
@@ -21,12 +21,15 @@ This concept sits between [[wiki/concepts/strategic-pacing]], [[wiki/concepts/ai
 
 The current source argues that the real advantage of early AI adoption is not access to a better model. It is the organizational muscle built from repeated reps: better prompts, better skepticism, better judgment, and more shared context. That makes experimentation culture a compounding asset rather than a soft cultural nicety.
 
+The Mark Cuban source adds an individual learning loop that mirrors the organizational one. Cuban's prompts ask [[wiki/entities/claude]] to teach agent-building, quiz the learner, correct mistakes, and adapt to the learner's knowledge level. That is experimentation culture compressed into a personal skill-building routine: try, get feedback, adjust the prompt or design, and repeat until practical judgment improves.
+
 ## Evidence & Examples
 
 - DOXA Talent formed a committee so learning could be shared and no single leader had to pretend to have all the answers [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]]
 - Governance and training reduced hesitation by making the boundaries of acceptable experimentation explicit [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]]
 - The leader described using AI openly and consistently so others could see the process, not just the outputs [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]]
 - A peer-to-peer learning community is presented as the durable outcome of the adoption process [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]]
+- Cuban's Claude prompts operationalize repeated feedback for learning how to build business agents: study guides, questions, correction, and adaptation to the learner's level [[wiki/sources/mark-cuban-future-proof-career-ai-2026-4]]
 
 ## Connections
 
@@ -35,6 +38,8 @@ The current source argues that the real advantage of early AI adoption is not ac
 - [[wiki/concepts/ai-workforce-readiness]] — readiness is built by repeated use, not one-time training alone
 - [[wiki/entities/doxa-talent]] — operating example for committee-based, learning-first AI adoption
 - [[wiki/entities/ai-officer-institute]] — outside partner used to accelerate learning and confidence-building
+- [[wiki/entities/claude]] — adaptive tutor interface for individual agent-building practice
+- [[wiki/concepts/ai-agent-integrators]] — experimentation culture is part of how this role develops practical judgment
 
 ## Contradictions
 
@@ -43,3 +48,4 @@ The current evidence is thin and anecdotal. The source describes a plausible pat
 ## Sources
 
 - [[wiki/sources/why-waiting-to-adopt-ai-is-riskier-than-you-think]] — introduces experimentation as a governed, visible, social practice rather than ad hoc tool usage
+- [[wiki/sources/mark-cuban-future-proof-career-ai-2026-4]] — shows the individual learning version: prompt, quiz, correct, and adapt toward agent-building competence

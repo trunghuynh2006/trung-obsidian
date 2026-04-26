@@ -5,6 +5,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 ---
 
 ## Sources
+- [[wiki/sources/mark-cuban-future-proof-career-ai-2026-4]] — Business Insider/Cuban career-advice piece: young workers can arbitrage AI confusion by learning to build practical agents for small businesses.
 - [[wiki/sources/enterprise-integration-patterns-ch1]] — Hohpe & Woolf Ch1: EAI problem space, 6 integration types, loose coupling principle, ~25 messaging patterns via WGRUS worked example.
 - [[wiki/sources/enterprise-integration-patterns-ch2]] — Hohpe & Woolf Ch2: 7 integration criteria; full pattern treatment of File Transfer, Shared Database, RPI, and Messaging as integration styles.
 - [[wiki/sources/ai-productivity-workplace-errors]] — Guardian reporting: “workslop” names pseudo-productivity where AI output looks finished but shifts correction work downstream.
@@ -42,6 +43,8 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/ai-powered-robots-german-factories]] — Hannover Messe 2026: Physical AI in industrial production; Agile Robots vs. Unitree on value-added tasks vs. demos; Germany's data/ecosystem advantages and fragmentation gap.
 
 ## Entities
+- [[wiki/entities/mark-cuban]] — Entrepreneur/investor arguing that young workers can future-proof careers by learning business-agent implementation.
+- [[wiki/entities/claude]] — Anthropic conversational AI product positioned here as an adaptive tutor for learning how to build business agents.
 - [[wiki/entities/gregor-hohpe]] — Co-author of *Enterprise Integration Patterns* (2004); coined the messaging pattern vocabulary.
 - [[wiki/entities/bobby-woolf]] — Co-author of *Enterprise Integration Patterns* (2004).
 - [[wiki/entities/german-b1-exam]] — German B1 language certification (Goethe/Telc/ÖSD); four equal components: reading, listening, writing, speaking; CEFR intermediate level.
@@ -153,6 +156,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/cqrs-event-sourcing]] — CQRS write side uses event sourcing; read side builds multiple independent projections from the event stream
 
 - [[wiki/concepts/llm-evaluation]] — Task-grounded, versioned, human-reviewed, continuously monitored measurement of whether model behavior stays inside operational and policy bounds.
+- [[wiki/concepts/ai-agent-integrators]] — Emerging role: workers or consultants who translate general AI capability into specific business-agent workflows.
 - [[wiki/concepts/weather-intelligence]] — Structured, localized, low-latency environmental data and forecasts used as live operational input for automation systems.
 - [[wiki/concepts/shared-responsibility-model]] — Cloud principle: provider runs the platform; customer still owns data protection, recoverability, and governance inside it.
 - [[wiki/concepts/retention-vs-recovery]] — Compliance retention and version history do not automatically reconstruct a usable working state with context intact.

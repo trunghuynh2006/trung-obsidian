@@ -4,7 +4,7 @@ type: concept
 name: Agentic AI
 aliases: [AI agents, autonomous agents, agentic systems]
 tags: [ai, agents, robotics, manufacturing, llm]
-sources: 5
+sources: 6
 ---
 
 # Agentic AI
@@ -53,11 +53,16 @@ Agentic AI is now penetrating organizational management: tools that automate sch
 
 The key open question (from [[wiki/concepts/expertise-paradox]]): are these tools automating the administrative scaffolding of management, freeing managers to do more coaching and strategic work? Or are they enabling span-of-control levels that make even the expert parts of management impossible? [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]]
 
+## In Small-Business Workflows
+
+The Mark Cuban source adds a practical implementation layer: agentic AI is becoming a career opportunity for workers who can build useful agents for businesses that lack internal AI implementation capability. The examples are not frontier research tasks; they are routine workflows such as customer questions, appointment scheduling, invoice follow-up, and domain-specific process support. This is where [[wiki/concepts/ai-agent-integrators]] fit: they translate the abstract agentic-AI trend into bounded business systems with model/tool choices, cost awareness, and reliability checks. [[wiki/sources/mark-cuban-future-proof-career-ai-2026-4]]
+
 ## Connections
 
 - [[wiki/concepts/ai-cybersecurity]] — cybersecurity is now a major digital operating environment for agentic systems.
 - [[wiki/concepts/physical-ai]] — agentic AI's physical embodiment in robotics.
 - [[wiki/concepts/ai-coding-agents]] — the most widely deployed consumer instance of agentic AI; AI coding tools like Claude Code and Cursor.
+- [[wiki/concepts/ai-agent-integrators]] — implementation role for translating agentic AI into ordinary business workflows.
 - [[wiki/concepts/schema-driven-agents]] — the same agent architecture: schema defines context + rules; LLM reasons and acts. Smart factories use the same paradigm at industrial scale.
 - [[wiki/concepts/robotics-multidisciplinarity]] — agentic AI is raising the importance of CS/AI entry paths into robotics.
 - [[wiki/concepts/industrial-iot]] — IIoT actor nodes and warehouse robot fleets are agentic AI in deployed physical systems.
@@ -76,3 +81,4 @@ The most influential empirical measure of agentic AI capability is METR's time-h
 - [[wiki/sources/ai-cybersecurity-hackers]] — early public example of agentic AI being used in a largely AI-driven cyberattack.
 - [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]] — agentic AI automating workplace coordination as driver of the megamanager era.
 - [[wiki/sources/how-do-you-measure-an-ai-boom]] — METR time-horizon chart as the primary empirical measure of agentic capability progress; doubling trend data.
+- [[wiki/sources/mark-cuban-future-proof-career-ai-2026-4]] — small-business agent implementation as a worker/career opportunity.

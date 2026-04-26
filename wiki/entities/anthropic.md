@@ -4,7 +4,7 @@ type: entity
 name: Anthropic
 aliases: []
 tags: [org, ai, llm, company]
-sources: 4
+sources: 6
 ---
 
 # Anthropic
@@ -40,12 +40,17 @@ This gives Anthropic a distinctive position in the current source set: it is sim
 
 The Mythos/Glasswing source pushes this further. Anthropic is now presented not only as a reporter of AI-cybersecurity risk, but as an active gatekeeper attempting a restricted-release strategy for a model it believes is unusually dangerous to proliferate. According to the source, Anthropic shared Claude Mythos Preview only with a consortium of major technology firms and infrastructure operators so they could patch vulnerabilities before comparable capability spreads more broadly. If that account is accurate, Anthropic has moved from advocating safeguards in theory to practicing a form of AI nonproliferation in the cyber domain. [[wiki/sources/anthropic-ai-claude-mythos]]
 
+## Business-Agent Learning Role
+
+The Mark Cuban source adds a less risky but important product role for Anthropic's Claude: a self-directed learning interface for people trying to build practical AI agents for ordinary businesses. Cuban recommends using Claude to generate adaptive study guides, ask questions, correct the learner, and explain how to create agents for small businesses. That positions Anthropic not only as a frontier model lab and coding-agent provider, but also as an enabling layer for [[wiki/concepts/ai-agent-integrators]]. [[wiki/sources/mark-cuban-future-proof-career-ai-2026-4]]
+
 ## Connections
 
 - [[wiki/concepts/ai-coding-agents]] — Claude Code is one of the primary agents in the code overload story.
 - [[wiki/concepts/ai-cybersecurity]] — Anthropic is central to both the public attack disclosure and the defensive zero-day findings.
 - [[wiki/concepts/ai-nonproliferation]] — Anthropic is the first actor in the wiki attempting a controlled-release strategy for a frontier cyber-capable model.
 - [[wiki/concepts/agentic-ai]] — Anthropic's Claude models power agentic applications including this wiki.
+- [[wiki/concepts/ai-agent-integrators]] — Claude is recommended as a learning interface for people building practical business agents.
 - [[wiki/concepts/schema-driven-agents]] — CLAUDE.md / AGENTS.md are schema files that make this coding agent a disciplined wiki maintainer.
 - [[wiki/concepts/virtue-ethics]] — the philosophical foundation of Claude's character design.
 - [[wiki/concepts/emergent-misalignment]] — the safety finding that validates Anthropic's character-based approach.
@@ -65,3 +70,4 @@ Anthropic has published research on models capable of *sandbagging* — intentio
 - [[wiki/sources/ai-cybersecurity-hackers]] — Anthropic disclosed a largely AI-assisted cyberattack and major defensive vulnerability-finding results.
 - [[wiki/sources/anthropic-ai-claude-mythos]] — presents Anthropic as attempting controlled release of a highly cyber-capable model via Project Glasswing.
 - [[wiki/sources/how-do-you-measure-an-ai-boom]] — Claude Opus 4.5 named as driving the METR time-horizon acceleration; Anthropic cited for sandbagging and situational awareness research.
+- [[wiki/sources/mark-cuban-future-proof-career-ai-2026-4]] — Claude positioned as an adaptive tutor for learning business-agent implementation.

@@ -5,6 +5,11 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-27] ingest | Mark Cuban: Future-Proof Your Career by Building AI Agents for Businesses
+
+Focus angle: AI labor/adaptation and small-business implementation. Key finding: Cuban frames AI confusion inside companies as an opportunity for young workers who learn to build practical agents for business workflows. The source adds [[wiki/concepts/ai-agent-integrators]] as a bridge between agentic AI, workforce readiness, and strategic pacing: implementation skill matters more than generic AI enthusiasm, especially once costs and hallucination risks are considered.
+Pages created: wiki/sources/mark-cuban-future-proof-career-ai-2026-4, wiki/entities/mark-cuban, wiki/entities/claude, wiki/concepts/ai-agent-integrators. Pages updated: wiki/entities/anthropic, wiki/concepts/agentic-ai, wiki/concepts/ai-workforce-readiness, wiki/concepts/experimentation-culture, wiki/concepts/strategic-pacing, wiki/index, wiki/overview.
+
 ## [2026-04-22] ingest | AI-Powered Robots Enter German Factories (Hannover Messe 2026)
 
 Focus angle: Physical AI in production. Key finding: the 2026 Hannover Messe marks a clear inflection from demo robots to announced factory deployments. Agile Robots (Munich, founder Zhaopeng Chen) will deploy humanoids to German automotive factories from 2027, targeting value-added tasks — wiring, assembly — not martial arts. CEO Rory Sexton explicitly frames the relevant competition as task-utility vs. Unitree's demo-first approach. Germany's structural advantages: high-quality factory data (DFKI: "far superior" to US/China) and an industrial supplier ecosystem; structural gap: data is fragmented with no national aggregation strategy. Political signal: Chancellor Merz visited Agile Robots stand, called for AI to be "embedded" in German SMEs. New live risk documented: AI giving misleading repair instructions or false fault detections in production environments.
