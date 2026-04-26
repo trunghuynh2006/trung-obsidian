@@ -5,6 +5,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 ---
 
 ## Sources
+- [[wiki/sources/gen-z-entrepreneurs-business-ai]] — Guardian feature: AI erodes entry-level career rungs while also letting some Gen Z workers build portfolios, prototypes, consultancies, and startups.
 - [[wiki/sources/mark-cuban-future-proof-career-ai-2026-4]] — Business Insider/Cuban career-advice piece: young workers can arbitrage AI confusion by learning to build practical agents for small businesses.
 - [[wiki/sources/enterprise-integration-patterns-ch1]] — Hohpe & Woolf Ch1: EAI problem space, 6 integration types, loose coupling principle, ~25 messaging patterns via WGRUS worked example.
 - [[wiki/sources/enterprise-integration-patterns-ch2]] — Hohpe & Woolf Ch2: 7 integration criteria; full pattern treatment of File Transfer, Shared Database, RPI, and Messaging as integration styles.
@@ -43,6 +44,14 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/ai-powered-robots-german-factories]] — Hannover Messe 2026: Physical AI in industrial production; Agile Robots vs. Unitree on value-added tasks vs. demos; Germany's data/ecosystem advantages and fragmentation gap.
 
 ## Entities
+- [[wiki/entities/ashley-terrell]] — Gen Z marketing graduate who built a branded-content portfolio after conventional entry-level work failed to materialize.
+- [[wiki/entities/suhit-agarwal]] — USC graduate who used Claude Code in startup/founding-engineer work after Big Tech applications stalled.
+- [[wiki/entities/joseph-fuller]] — Harvard Business School / Project on Workforce analyst; source of the “make your own ladder” framing.
+- [[wiki/entities/ethan-choi]] — Khosla Ventures partner describing AI-driven disappearance of associate-level work and the premium on builders.
+- [[wiki/entities/madison-hsieh]] — Amazon program manager who used Cursor to prototype a social media app as an AI-enabled side project.
+- [[wiki/entities/celeste-amadon]] — Gen Z founder of Known; example of jumping from internships to CEO responsibilities.
+- [[wiki/entities/known]] — AI-supported dating app company founded by Celeste Amadon.
+- [[wiki/entities/shola-west]] — Brand consultant/content creator; example of self-employment as response to layoffs and weak entry-level market.
 - [[wiki/entities/mark-cuban]] — Entrepreneur/investor arguing that young workers can future-proof careers by learning business-agent implementation.
 - [[wiki/entities/claude]] — Anthropic conversational AI product positioned here as an adaptive tutor for learning how to build business agents.
 - [[wiki/entities/gregor-hohpe]] — Co-author of *Enterprise Integration Patterns* (2004); coined the messaging pattern vocabulary.
@@ -156,6 +165,8 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/cqrs-event-sourcing]] — CQRS write side uses event sourcing; read side builds multiple independent projections from the event stream
 
 - [[wiki/concepts/llm-evaluation]] — Task-grounded, versioned, human-reviewed, continuously monitored measurement of whether model behavior stays inside operational and policy bounds.
+- [[wiki/concepts/entry-level-job-erosion]] — AI-era weakening of first professional rungs that normally train novices into experts.
+- [[wiki/concepts/ai-enabled-entrepreneurship]] — Using AI tools to prototype, market, operate, or scale self-created work with fewer resources.
 - [[wiki/concepts/ai-agent-integrators]] — Emerging role: workers or consultants who translate general AI capability into specific business-agent workflows.
 - [[wiki/concepts/weather-intelligence]] — Structured, localized, low-latency environmental data and forecasts used as live operational input for automation systems.
 - [[wiki/concepts/shared-responsibility-model]] — Cloud principle: provider runs the platform; customer still owns data protection, recoverability, and governance inside it.

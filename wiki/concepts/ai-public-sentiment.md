@@ -4,7 +4,7 @@ type: concept
 name: AI Public Sentiment
 aliases: [generational AI attitudes, Gen Z AI sentiment, public attitudes toward AI]
 tags: [ai, public-opinion, labor, gen-z, workforce, adoption]
-sources: 1
+sources: 2
 ---
 
 # AI Public Sentiment
@@ -28,18 +28,23 @@ At the same time, the most widely reported emotion across all options was **curi
 
 The sentiment shift is especially important as a leading indicator. Gen Z — currently 14–29 — is the cohort entering the workforce over the next decade. Their attitudes toward AI at the start of their careers will shape adoption culture inside organizations for years, independent of what org-chart-level governance structures executives put in place.
 
+The Guardian entrepreneurship source adds qualitative texture to that sentiment. It shows anxious engagement in practice: young workers see AI as one reason the old job ladder is unreliable, but they also use AI tools to build portfolios, prototypes, consultancies, and startups. The emotional shift is therefore not simple anti-AI backlash. It is a loss of faith in institutional stability paired with pragmatic use of AI as leverage. [[wiki/sources/gen-z-entrepreneurs-business-ai]]
+
 ## Evidence & Examples
 
 - Gallup/Walton/GSV survey (Feb–March 2026): hope 27% → 18%, ~1/3 report anger [[wiki/sources/gen-z-ai-gallup-study]]
 - ~50% usage flat YoY despite wider access — sentiment diverging from availability [[wiki/sources/gen-z-ai-gallup-study]]
 - Working Gen Z: 46%+ say risks outweigh benefits (+11 pts YoY); 15% call AI a net benefit [[wiki/sources/gen-z-ai-gallup-study]]
 - NYT reference (Jan 2026): "Americans' animosity toward A.I." described as a broader phenomenon, not only generational — suggests Gen Z sentiment is a generational-intensity version of a national pattern
+- Guardian interviews: young workers describe being forced into self-employment, wanting ownership, and using AI to compensate for missing skills or team capacity [[wiki/sources/gen-z-entrepreneurs-business-ai]]
 
 ## Connections
 
 - [[wiki/concepts/expertise-paradox]] — the expert-core automation scenario is what Gen Z fears most; their job-replacement anxiety is direct evidence that workers perceive the taxi-driver scenario, not the radiologist scenario, as their likely outcome
 - [[wiki/concepts/ai-workforce-readiness]] — flat adoption despite wider access shows readiness programs must address sentiment and trust, not just skill access; Gen Z entering the workforce already skeptical adds a new dimension to the readiness problem
 - [[wiki/concepts/strategic-pacing]] — organizations cannot assume access drives adoption; Gen Z data shows sentiment governs actual integration even among regular users
+- [[wiki/concepts/entry-level-job-erosion]] — helps explain why Gen Z's AI sentiment is tied to blocked career starts, not only abstract technology anxiety
+- [[wiki/concepts/ai-enabled-entrepreneurship]] — shows how anxious sentiment can turn into pragmatic ownership-seeking
 - [[wiki/entities/gallup]] — primary research organization for the survey data
 - [[wiki/sources/gen-z-ai-gallup-study]] — sole source currently; concept should be expanded as more sentiment data is ingested
 
@@ -50,3 +55,4 @@ The sentiment shift is especially important as a leading indicator. Gen Z — cu
 ## Sources
 
 - [[wiki/sources/gen-z-ai-gallup-study]] — primary data source; Feb–March 2026 Gallup survey of 1,500+ Americans ages 14–29
+- [[wiki/sources/gen-z-entrepreneurs-business-ai]] — qualitative Guardian interviews showing anxious engagement and ownership-seeking in response to AI-era labor disruption

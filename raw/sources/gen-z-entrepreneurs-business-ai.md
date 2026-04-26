@@ -1,0 +1,77 @@
+![illustration of miniature person climbing a tall ladder into the sky](https://i.guim.co.uk/img/media/b8b8b576847e5fb244a46b5bd8d34cdc5ac36501/0_1_2400_2998/master/2400.jpg?width=620&dpr=2&s=none&crop=none)
+
+illustration of miniature person climbing a tall ladder into the sky
+
+As AI erases the bottom rungs of the corporate ladder, some gen Z workers skip the entry level to become their own CEOs
+
+When Ashley Terrell graduated from the University of Hawaii in 2024, she planned to find a job in marketing, maybe for a tech company. She had a bachelor’s degree in business administration and a college résumé that included a student marketing job for Red Bull. But after months of applying, her only offer was to work in the power tools section at Home Depot. “It was quite a shock,” she told the Guardian. “I searched for jobs every single day in that Home Depot bathroom.”
+
+Terrell’s generation is entering the workforce in a [particularly unlucky moment](https://www.theguardian.com/us-news/2026/apr/12/college-graduates-job-market-ai). Hiring in the United States has slumped to its lowest rate since 2020, according to the [Bureau of Labor Statistics](https://www.bls.gov/news.release/jolts.nr0.htm#:~:text=202\)%20691-5902-,%E2%80%A2,it%20was%20also%203.1%20percent.). While workers of all ages are feeling the pressure of an uncertain economy, it’s gen Z who is [the most pessimistic](https://www.linkedin.com/posts/linkedin-news_whos-struggling-most-with-their-job-prospects-activity-7392604581517516800-ubpa) about their job prospects: entry-level jobs [are the most vulnerable](https://www.weforum.org/stories/2026/03/how-ai-is-changing-the-nature-of-entry-level-work/) to impacts from [artificial intelligence](https://www.theguardian.com/technology/artificialintelligenceai), and some younger workers are seeing their careers stall before they have even started. Terrell felt she was not just competing with other people for jobs. “Especially with marketing, a lot of people think it can be replaced with AI,” she said.
+
+The unemployment rate for Americans between 22 and 27 is now [at its highest level](https://www.newyorkfed.org/research/college-labor-market#--:overview) since the pandemic. “The job market is really sluggish right now,” said Daniel Zhao, the chief economist at Glassdoor, a workplace review company. “Entry-level workers are finding it difficult right now to get their foot on the ladder at all.”
+
+For many young would-be workers, that has translated into taking jobs they never imagined after earning a four-year degree: retail work, dog walking or other part-time jobs without benefits. Some have remained unemployed months or years after graduating.
+
+Others are taking a different approach: when no jobs exist, they’re creating their own.
+
+Terrell, who started a [YouTube](https://www.theguardian.com/technology/youtube) channel as a student, decided to build a marketing portfolio by making videos for brands. She started by direct messaging companies she liked and offering to make them content – sometimes for free. Eventually, Jamba Juice bought a video she had made to use as an Instagram and TikTok ad. Two years later, armed with a portfolio of videos like it, Terrell parlayed her experience into a part-time marketing role for a local distillery. Along the way, she built a roster of clients she continues to works with on branded content.
+
+“No one was offering me anything like what I wanted to do,” said Terrell. “So I just tried to see what I could do on my own.”
+
+The Guardian interviewed more than a dozen young workers who feel, like Terrell, that the rules for finding a job changed just as they were entering the workforce. As the number of [entry-level job postings](https://www.weforum.org/stories/2025/09/gen-z-are-competitive-job-market-randstad/#:~:text=New%20data%20reveals%20state%20of,and%20fewer%20entry%2Dlevel%20opportunities) have gone down in recent years, the expectations for early-career workers have gone up. For a generation that wants more purpose, more flexibility and [more alignment with their work](https://www.economist.com/business/2022/07/21/what-gen-z-graduates-want-from-their-employers), the recent job market has felt disenchanting.
+
+This is unfolding against the backdrop of the AI boom – something they see as a threat, a boon or maybe both. The same tech that [threatens](https://www.theguardian.com/global/2025/jun/02/artificial-intelligence-jobs-techscape) [to cut into](https://www.theguardian.com/technology/ng-interactive/2026/feb/20/ai-future-work-technology-white-collar) entry-level positions is also making it easier for some of these workers to start their own businesses, by compensating for skills they don’t yet have, offering tools and platforms they can put to use, and allowing them to do more things at once.
+
+“All of the sudden, you’ve got to have some way to get up to the fourth rung of the career ladder,” said Joseph Fuller, a professor at Harvard Business School and the co-director of the Project on Workforce at Harvard. One way to ascend the rungs? Make your own ladder.
+
+## ‘I was kind of forced into it’
+
+Suhit Agarwal graduated from the University of Southern California in 2025, hoping to use his degree in computational and applied mathematics to secure a job at Google. But after applying more than six times for both internships and jobs, he never even got an interview. Applications to other big tech companies were also dead ends, so Agarwal pivoted. At 24, his résumé includes job titles such as “founding engineer” for companies he helped start. In those roles, he said he used AI tools including Claude Code to take on bigger responsibilities than he would have been able to on his own.
+
+It’s not the path he expected to be on – or the one his parents hoped for – but “charting my own course has been working so far”, he told the Guardian. One of the startups he helped found was acquired, netting him a small equity payout. Recently, that work experience helped him to land a job at a fin-tech startup.
+
+Shola West, who is 25, has a similar story. She worked at media agencies in her early 20s and never planned to create her own business. But in 2024, shortly after starting a new job, her entire team was laid off. As she navigated an unpromising job market, she came to believe that working for herself was the most viable path. Now, she runs her own brand consultancy in London and works as a content creator on [TikTok](https://www.theguardian.com/technology/tiktok).
+
+“I was kind of forced into it, given how the market was,” she said. Since she started her consultancy, she’s partnered with high-profile brands such as Paramount and Sony Music. “The transition was definitely hard, but I had that motivation of, well, my career basically flopped,” she said. “Now I have to prove to myself and everyone else that I can survive.”
+
+The reasons for the poor job market are complex, involving an uncertain political climate, an unstable global economy, and emerging technological disruptions – specifically AI, and the anticipation that it will upend not only how employees do their work, but the need for some positions entirely.
+
+“This is particularly true for recent college graduates because many of the types of jobs that are entry-level involve substantial amounts of routine cognitive work,” said Harvard’s Fuller. In a 2025 LinkedIn [survey](https://www.linkedin.com/posts/linkedin-economic-graph_redefining-entry-level-roles-innovation-activity-7328833531374108672-ZHUZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABTEARUB3DqvBLONb1r6EcmmOVjinNqM3Wo), 63% of executives reported that AI would replace at least some of the work of entry-level employees at their companies.
+
+As a result, “the expectations of entry-level workers have completely changed,” said Ethan Choi, a partner at the venture capital firm Khosla Ventures. As recently as two years ago, Choi worked with a fairly big team of associates, who were earlier in their careers and learning the ropes. Today? “I have zero associates.” Instead, he said partners and more tenured employees use AI to do the work that associates would have previously done.
+
+A recent [report](https://digitaleconomy.stanford.edu/app/uploads/2025/12/CanariesintheCoalMine_Nov25.pdf) from Stanford University’s Digital Economy Lab found a “substantial decline” in employment for early-career workers in AI-exposed fields, such as customer service, data entry and coding. The impacts seem greatest on so-called “knowledge workers”, who are likely to have university degrees, according to the report.
+
+The upside? With the rise of “low-code” AI tools – ones that allow people to build and deploy AI models without technical experience – Choi said anyone, at any level of seniority, can use AI to handle parts of their jobs. At the extreme end, it’s becoming possible to build nearly an entire company by leveraging these AI tools, instead of hiring a whole team of engineers. Companies might be using these tools to cut down on workers, but workers could also use them to start their own projects, said Choi: “The ones getting jobs will be the ones who are building stuff.”
+
+## ‘I definitely don’t think I could’ve done it without AI’
+
+That’s what Madison Hsieh, a 25-year-old program manager at Amazon, is doing. Earlier this year, she used the coding platform Cursor to create a prototype of a social media app in her spare time. “I definitely don’t think I could’ve done it without AI,” she said, adding that it took her only about a month to get a prototype working. Without a platform like Cursor, building an app like this would’ve required several months and several skilled engineers.
+
+While she remains employed at Amazon, Hsieh said she likes the idea of starting her own company. “I want to have a more impactful role if I’m going to do something for the rest of my life,” she said. “It’s really hard to find that passion in your corporate 9 to 5.” She also likes the idea of jumping from the bottom of the career ladder to the top. At a big company like Amazon, “there are very limited roles that I saw for people who just came out of college to have an impact, without already having five to eight years of experience.” She plans to continue [working on the social media app in her spare time](https://www.theguardian.com/money/2026/feb/11/gen-z-side-hustles-job-market) until it becomes a viable project to work on full-time.
+
+Celeste Amadon, who is 22, turned down an investment banking internship at JP Morgan last summer to start a dating app company called Known. At first her parents were not supportive. “My mom called me, like, three different times to try and stage an intervention,” she said. When she raised over $9m in venture capital last year, they came around. Now, she is the CEO of her own company – one that uses AI to help singles meet.
+
+Amadon said that the experience of starting a company is “like having done an MBA”. Before becoming the CEO of Known, her résumé included a series of internships. Now, she has had to learn how to hire, how to fire, how to manage a growing team, and how to allocate millions of dollars in funding.
+
+Moving from “intern” to “CEO” can have its growing pains, said Elijah Khasabo, the 22-year-old co-founder and CEO of Vidovo, a content platform. “The last job I had was at TJ Maxx, folding clothes,” he told the Guardian. “What do I know about managing a marketing team, or a sales team? It’s all learned by doing.”
+
+Both Amadon and Khasabo emphasized the importance of surrounding themselves with mentors, hiring employees with more years of experience, and being open to learning from their employees. “I think a lot of young founders make the mistake of only hiring young people because they’re intimidated by having to create a serious work environment for serious real adults,” she said. “At the end of the day, I am a 22-year-old. I have 22-year-old friends. But I also now have 34-year-old friends. That has been the biggest growth opportunity.”
+
+## ‘The old promise was stability. The new promise is ownership’
+
+Starting a company is far from a golden ticket. Entrepreneurship comes with its own significant financial risks: most startups do not get funding and do not succeed. Founders who do succeed also [tend to be](https://www.weforum.org/stories/2020/08/diversity-gap-startups-gender-ethnicity/) white, male, well-educated and well-connected – [stacking the deck](https://www.mckinsey.com/featured-insights/diversity-and-inclusion/underestimated-start-up-founders-the-untapped-opportunity) against those who come from underrepresented groups. And even successful startups require founders to live modestly for many years. Rather than working a 9 to 5, many founders are on the clock 24/7. Yet in an uncertain market, young people say it offers a surprising benefit: a sense of control.
+
+“For our parents or grandparents, the job felt like the prize, because if you had a good job, you could get a house, you could have a nice car, you could go on holiday. People weren’t just randomly getting laid off or replaced by AI,” said West, the media consultant. Now, “there is no guaranteed outcome with any job.” Working for yourself at least allows you some control over your fate.
+
+Even those who aren’t starting companies full-time may be turning to entrepreneurship in the form of side-hustles or a back-up plan in case they get laid off. A global [report](https://www.fiverr.com/news/fiverr-next-gen-of-work-report-2025) from the freelancing services platform Fiverr found that 67% of gen Z workers wanted to have multiple income streams in order to feel financially secure in today’s economy. About half of those respondents also believed that traditional employment would soon become “obsolete”. The report also noted that gen Z sees AI-integration as “imperative”, and most trusted AI to do parts of their work.
+
+“Climbing your own ladder can actually be safer, because it’s yours,” said Francesca Albo, the 29-year-old co-founder and CEO of Puppy Sphere, a company that offers puppy yoga and dog therapy. Albo previously worked at a biotech company but left in part because she wanted to have more control over her work, and to spend her time doing something she was more passionate about.
+
+“I always thought the traditional path was safe. But that’s a completely wrong mindset,” said Albo. “The old promise was stability. The new promise is ownership.”
+
+That idea of stability still appeals, though: Terrell, the content marketer, said she is still looking for full-time work because she would like a steady paycheck and employer-sponsored health insurance.
+
+As gen Z workers navigate their way through a changing economy, their choices could be a guide for how everyone else will soon have to adapt. In [an op-ed](https://www.nytimes.com/2025/05/19/opinion/linkedin-ai-entry-level-jobs.html) for the New York Times, Aneesh Raman, LinkedIn’s chief economic opportunity officer, argued that resolving the entry-level work crisis is “the first step to fixing all work”. The young people struggling to find their place in the corporate world are indicating what’s already starting to affect the rest of the workforce: “All our jobs are going to come up against this same wave of change sooner or later.”
+
+Fuller, the Harvard Business School professor, said: “Plenty of opportunities will open up. They just won’t look like the ones your high school counselor may have suggested.”

@@ -4,7 +4,7 @@ type: concept
 name: AI Workforce Readiness
 aliases: [AI upskilling, AI reskilling, operational AI literacy]
 tags: [ai, workforce, training, manufacturing, operations, organizational-design]
-sources: 6
+sources: 7
 ---
 
 # AI Workforce Readiness
@@ -32,6 +32,8 @@ The newer workslop source adds a sharper failure mode inside knowledge work. Her
 
 The Mark Cuban source adds the market-facing version of the same readiness gap. If companies, especially smaller firms, do not know how to implement AI agents, then workers who learn that implementation craft can become [[wiki/concepts/ai-agent-integrators]]. Readiness is no longer only an internal training problem; it also becomes a labor-market opportunity for people who can connect business workflows, model/tool choices, cost constraints, and human review.
 
+The Guardian Gen Z entrepreneurship source adds another readiness mode: proof-of-work outside formal employment. If [[wiki/concepts/entry-level-job-erosion]] weakens the path where young workers learn inside organizations, then readiness may increasingly be demonstrated through portfolios, prototypes, side projects, and small businesses built with AI tools. This is empowering for some workers, but it also privatizes the cost and risk of early-career training. [[wiki/concepts/ai-enabled-entrepreneurship]]
+
 ## Evidence & Examples
 
 - The manufacturing workforce source argues that many AI systems are rolled out faster than roles are redefined or workers are prepared to use them [[wiki/sources/how-manufacturers-are-training-their-workforce-for-ai-powered-operations]]
@@ -44,6 +46,7 @@ The Mark Cuban source adds the market-facing version of the same readiness gap. 
 - The same source cites a BetterUp/Stanford study estimating that workers who encounter workslop spend an average of 3.4 hours a month dealing with it [[wiki/sources/ai-productivity-workplace-errors]]
 - **Gen Z as the incoming workforce cohort:** A 2026 Gallup survey finds Gen Z usage is flat at ~50% despite wider access, while sentiment has soured (hope fell from 27% → 18%; ~1/3 feel angry). This introduces a new dimension to workforce readiness: the next wave of workers are arriving in the labor market with significant AI experience *and* significant distrust. Readiness programs designed around skill gaps may miss the harder problem — building trust and agency among workers who already use AI tools but don't believe the tools serve their professional interests. [[wiki/sources/gen-z-ai-gallup-study]]
 - Cuban's advice gives one response to that anxiety: young workers can build agency by learning to implement business agents rather than treating AI only as a replacement threat. [[wiki/sources/mark-cuban-future-proof-career-ai-2026-4]]
+- The Guardian source shows Gen Z workers using AI-enabled portfolios, prototypes, consultancies, and startups as alternative readiness signals when conventional entry-level jobs are blocked [[wiki/sources/gen-z-entrepreneurs-business-ai]]
 
 ## Connections
 
@@ -55,6 +58,8 @@ The Mark Cuban source adds the market-facing version of the same readiness gap. 
 - [[wiki/concepts/cross-functional-alignment]] — effective workforce readiness requires HR, IT, and finance to share data and accountabilities, not just coordinate
 - [[wiki/concepts/experimentation-culture]] — readiness grows through repeated, visible experimentation, not one-time enablement alone
 - [[wiki/concepts/ai-agent-integrators]] — external or entrepreneurial role that emerges when organizations lack internal implementation readiness
+- [[wiki/concepts/entry-level-job-erosion]] — blocked first jobs change how young workers acquire and prove readiness
+- [[wiki/concepts/ai-enabled-entrepreneurship]] — portfolio/prototype/business creation becomes an alternative readiness pathway
 - [[wiki/concepts/workslop]] — a visible symptom of unreadiness: teams use AI heavily enough to create polished-looking output, but not well enough to avoid downstream cleanup
 - [[wiki/concepts/ai-public-sentiment]] — Gen Z sentiment data shows the readiness gap is now bidirectional: orgs train up for AI while the incoming workforce arrives already skeptical
 - [[wiki/entities/bosch]] — named example of internal AI upskilling pathways
@@ -73,3 +78,4 @@ None yet in the current source set, though the current source is thinly evidence
 - [[wiki/sources/ai-productivity-workplace-errors]] — adds the workslop failure mode: visible AI use without enough guidance or role fit can increase total labor rather than reduce it
 - [[wiki/sources/gen-z-ai-gallup-study]] — Gen Z angle: incoming workforce has high usage and high skepticism; trust, not skill access, is the next readiness bottleneck
 - [[wiki/sources/mark-cuban-future-proof-career-ai-2026-4]] — adds business-agent implementation as a career opportunity for workers responding to AI disruption
+- [[wiki/sources/gen-z-entrepreneurs-business-ai]] — adds proof-of-work entrepreneurship as an adaptation when entry-level jobs are scarce

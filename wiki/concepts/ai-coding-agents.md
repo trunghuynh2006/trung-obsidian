@@ -4,7 +4,7 @@ type: concept
 name: AI Coding Agents
 aliases: [AI code generation, vibe coding, coding agents, LLM coding tools]
 tags: [ai, software-engineering, agents, productivity, llm]
-sources: 3
+sources: 4
 ---
 
 # AI Coding Agents
@@ -52,25 +52,37 @@ The ironic solution: more agentic AI, this time for *review*. Cursor acquired Gr
 
 > "The software development factory kind of broke. We're trying to rearrange the parts." — Tido Carriero, Cursor [[wiki/sources/ai-code-overload]]
 
+## Founder Leverage
+
+The Guardian Gen Z entrepreneurship source adds a different angle on coding agents. Tools such as Cursor and Claude Code are not only increasing software output inside established companies; they are letting younger workers prototype products and perform founding-engineer work earlier than their formal experience would previously allow. Madison Hsieh used Cursor to build a social app prototype in about a month; Suhit Agarwal used Claude Code in founding-engineer roles after Big Tech applications stalled. [[wiki/sources/gen-z-entrepreneurs-business-ai]]
+
+This is the positive mirror image of the code-overload problem. Coding agents reduce the cost of building, but they also shift more responsibility onto less experienced builders. The bottleneck becomes not only code review and security, but product judgment, architecture, and knowing when an AI-built prototype is trustworthy enough to expose to users.
+
 ## Connections
 
 - [[wiki/concepts/ai-cybersecurity]] — coding agents are increasingly part of both the offensive and defensive cyber toolchain.
 - [[wiki/concepts/ai-nonproliferation]] — once coding-capable models become cyber-significant enough, access control becomes part of their governance story.
 - [[wiki/concepts/agentic-ai]] — AI coding agents are the most widely deployed consumer instance of agentic AI.
+- [[wiki/concepts/ai-enabled-entrepreneurship]] — coding agents lower the cost of founding and prototyping.
+- [[wiki/concepts/entry-level-job-erosion]] — the same tools that enable prototypes may also reduce demand for junior coding labor.
 - [[wiki/concepts/deep-work]] — **tension**: AI accelerates code *production* but the review work it creates (security analysis, architectural understanding, debugging) is cognitively demanding deep work. AI tools may be increasing the total human deep work load, not reducing it.
 - [[wiki/entities/anthropic]] — Claude Code; one of the two tools credited with the November 2025 level-up.
 - [[wiki/entities/claude-mythos-preview]] — example of a coding-capable model presented as too cyber-powerful for general release.
 - [[wiki/entities/openai]] — Codex is the other tool most often paired with Claude Code in this transition.
 - [[wiki/entities/cursor]] — primary tool in the code overload story; acquired Graphite for code review.
+- [[wiki/entities/madison-hsieh]] — example of Cursor-enabled product prototyping.
+- [[wiki/entities/claude]] — Claude Code appears as founding-engineer leverage in the Guardian source.
 
 ## Open Questions
 
 - Will AI code review agents actually close the security gap, or will they create a new review-of-the-reviewer problem?
 - As AI writes more code, does the value of human engineers shift toward architectural judgment and security expertise?
 - What are the long-term effects on software quality if most code is AI-generated and human-reviewed only at surface level?
+- Do AI-built prototypes create real founder leverage, or do they create a new wave of products whose hidden engineering debt appears later?
 
 ## Sources
 
 - [[wiki/sources/ai-code-overload]] — NYT investigation into code overload consequences.
 - [[wiki/sources/ai-cybersecurity-hackers]] — shows coding agents crossing from developer productivity into cyber offense and defense.
 - [[wiki/sources/anthropic-ai-claude-mythos]] — pushes the concept further: coding-capable models may become significant enough to trigger restricted-release governance.
+- [[wiki/sources/gen-z-entrepreneurs-business-ai]] — adds founder leverage: Cursor and Claude Code help young workers build prototypes and take on founding-engineer roles.

@@ -4,7 +4,7 @@ type: concept
 name: Expertise Paradox
 aliases: [expert automation paradox, administrative vs expert automation]
 tags: [ai, labor-economics, future-of-work, automation]
-sources: 2
+sources: 4
 ---
 
 # Expertise Paradox
@@ -31,6 +31,12 @@ The expertise paradox is the right analytical lens for evaluating the megamanage
 
 But if span-of-control is so severe that managers can no longer perform the expert parts of their job — because they are too stretched, undersupported, and overwhelmed — the model risks the taxi-driver outcome: neither efficiency nor mentorship, just exhaustion and hollowed-out professional identity.
 
+## The Entry-Level Pipeline Question
+
+The Guardian Gen Z entrepreneurship source adds a third labor-market layer: AI can augment senior experts while eroding the junior roles that train future experts. Ethan Choi's Khosla Ventures example is the cleanest version: partners and senior workers use AI to do the work that associates previously did, so the firm has "zero associates." From the senior-worker perspective, this may look like administrative automation. From the labor-market perspective, it removes an apprenticeship rung. [[wiki/sources/gen-z-entrepreneurs-business-ai]]
+
+That creates a new question for the expertise paradox: even if AI does not hollow today's experts, can it hollow the *pipeline into expertise*? If routine cognitive work is both automatable and pedagogically necessary, then automation may make organizations more efficient now while reducing the number of workers who ever get enough practice to become experts later. [[wiki/concepts/entry-level-job-erosion]]
+
 ## Evidence & Examples
 
 - Taxi drivers + GPS: navigational mastery (expert core) was automated; wages fell, professional identity hollowed [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]]
@@ -38,6 +44,7 @@ But if span-of-control is so severe that managers can no longer perform the expe
 - Managers + AI coordination tools: open question — scenario A (augmented leaders) or scenario B (hollowed coordinators)? [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]]
 - Goldman Sachs: AI-substituted roles contracting; AI-augmented roles growing — macro-level evidence consistent with the paradox [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]]
 - **Gen Z as a leading indicator (sentiment data):** A 2026 Gallup survey of 1,500+ Americans ages 14–29 found that close to half of working Gen Z say AI risks outweigh workplace benefits (+11 points YoY), with only 15% calling AI a net benefit. In interviews, respondents articulated specifically the *expert-core* fear: "anything I'm interested in has the potential to get replaced." This is consistent with Scenario B — workers perceive their professional core as the target, not administrative scaffolding. Notably, sentiment soured sharpest among older working members of Gen Z who have direct workplace experience, suggesting exposure to AI in professional contexts is driving the fear rather than abstract media anxiety. [[wiki/sources/gen-z-ai-gallup-study]]
+- **Entry-level pipeline evidence:** The Guardian source reports young workers struggling to access the first rung of professional careers, while senior workers and partners use AI to absorb routine cognitive work previously done by junior staff. [[wiki/sources/gen-z-entrepreneurs-business-ai]]
 
 ## The Freakonomics Extension
 
@@ -60,13 +67,18 @@ This creates a third scenario Thompson's framework does not capture: **transpare
 - [[wiki/concepts/agentic-ai]] — AI agents automating workplace coordination tasks are the proximate mechanism triggering the paradox for managers
 - [[wiki/concepts/ai-coding-agents]] — a parallel domain: the same question applies to software developers; are AI coding tools automating the boilerplate or the craft?
 - [[wiki/concepts/ai-public-sentiment]] — Gen Z sentiment data shows workers perceive Scenario B (expert-core hollowing) as their likely fate, independent of whether it is empirically occurring
+- [[wiki/concepts/entry-level-job-erosion]] — adds the pipeline problem: automating junior work may block the path into expertise even if senior experts are augmented
+- [[wiki/concepts/ai-enabled-entrepreneurship]] — one adaptation when the entry-level ladder breaks is to build proof-of-work or companies directly
 
 ## Contradictions
 
 > **Tension (Freakonomics vs. Expertise Paradox):** Levitt's framework implies experts are adversarial to clients; Thompson's implies experts are victims of automation. Both can be true simultaneously — an expert can exploit informational advantage *while also* being vulnerable to AI automating their core skills. The two threats are independent and can compound: automation hollows expert identity while transparency erodes the rents they once extracted from ignorant clients.
+
+> **Tension (senior augmentation vs. junior training):** AI may correctly be classified as administrative automation for senior workers while simultaneously eliminating the administrative work that trains junior workers. The paradox therefore needs a pipeline dimension: augmentation for current experts can coexist with erosion for future experts.
 
 ## Sources
 
 - [[wiki/sources/megamanager-era-how-many-direct-reports-ai-middle-management]] — primary source; introduces Thompson's research and the taxi/radiologist contrast cases
 - [[wiki/sources/freakonomics-introduction]] — demand-side complement; expert incentive misalignment + transparency as a third automation vector
 - [[wiki/sources/gen-z-ai-gallup-study]] — sentiment evidence; Gen Z workers' expressed fears map onto the expert-core hollowing scenario
+- [[wiki/sources/gen-z-entrepreneurs-business-ai]] — adds entry-level job erosion and entrepreneurship as adaptation to the missing first rung

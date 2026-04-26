@@ -5,6 +5,11 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-04-27] ingest | Gen Z Entrepreneurs and Business AI
+
+Focus angle: AI labor/adaptation. Key finding: the article adds a pipeline version of the expertise paradox: AI can augment senior workers by absorbing routine cognitive work while also removing the entry-level tasks that train future experts. Gen Z's response is mixed but active: some use AI to build portfolios, prototypes, consultancies, and startups, turning ownership into a substitute for the missing first rung.
+Pages created: wiki/sources/gen-z-entrepreneurs-business-ai, wiki/concepts/entry-level-job-erosion, wiki/concepts/ai-enabled-entrepreneurship, wiki/entities/ashley-terrell, wiki/entities/suhit-agarwal, wiki/entities/joseph-fuller, wiki/entities/ethan-choi, wiki/entities/madison-hsieh, wiki/entities/celeste-amadon, wiki/entities/known, wiki/entities/shola-west. Pages updated: wiki/concepts/expertise-paradox, wiki/concepts/ai-public-sentiment, wiki/concepts/ai-workforce-readiness, wiki/concepts/ai-agent-integrators, wiki/concepts/ai-coding-agents, wiki/entities/cursor, wiki/entities/claude, wiki/index, wiki/overview.
+
 ## [2026-04-27] ingest | Mark Cuban: Future-Proof Your Career by Building AI Agents for Businesses
 
 Focus angle: AI labor/adaptation and small-business implementation. Key finding: Cuban frames AI confusion inside companies as an opportunity for young workers who learn to build practical agents for business workflows. The source adds [[wiki/concepts/ai-agent-integrators]] as a bridge between agentic AI, workforce readiness, and strategic pacing: implementation skill matters more than generic AI enthusiasm, especially once costs and hallucination risks are considered.

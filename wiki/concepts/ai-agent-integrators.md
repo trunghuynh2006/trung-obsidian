@@ -3,7 +3,7 @@ type: concept
 name: AI Agent Integrators
 aliases: [business agent builders, AI implementation specialists, small-business AI integrators]
 tags: [ai, agents, workforce, careers, small-business]
-sources: 1
+sources: 2
 ---
 
 # AI Agent Integrators
@@ -20,12 +20,15 @@ This role sits between several existing wiki concepts. It is a practical instanc
 
 The article's examples are deliberately unglamorous: customer questions, appointment scheduling, invoice follow-up, and industry-specific workflows in restaurants, real estate, and e-commerce. That is important because it keeps the opportunity grounded in operational pain rather than frontier-model spectacle. The integrator's value is knowing where agents actually reduce work, when cheaper/faster models are enough, when stronger models are justified, and where human review is still necessary.
 
+The Guardian Gen Z entrepreneurship source broadens the role into a larger adaptation pattern: young workers may use AI to create their own work when entry-level jobs are scarce. Some become startup founders, some consultants, some portfolio-first creators. AI agent integrators are one specific version of that shift: instead of building a standalone company, they sell implementation capability to firms that need AI leverage but lack internal readiness. [[wiki/sources/gen-z-entrepreneurs-business-ai]]
+
 ## Evidence & Examples
 
 - Cuban advises workers to become expert at creating agents for business, especially as companies struggle to understand implementation. [[wiki/sources/mark-cuban-future-proof-career-ai-2026-4]]
 - Claude's generated learning path focuses on practical small-business tasks such as routine customer service, scheduling, and invoice follow-up. [[wiki/sources/mark-cuban-future-proof-career-ai-2026-4]]
 - The article names restaurants, real estate, and e-commerce as target domains where focused AI improvement may be useful. [[wiki/sources/mark-cuban-future-proof-career-ai-2026-4]]
 - The same source flags constraints that integrators must handle: rising AI usage costs, large token bills, and hallucination risk. [[wiki/sources/mark-cuban-future-proof-career-ai-2026-4]]
+- The Guardian source shows the broader career context: young workers are creating work through portfolios, consulting, and startups as conventional entry-level roles shrink [[wiki/sources/gen-z-entrepreneurs-business-ai]]
 
 ## Connections
 
@@ -35,6 +38,8 @@ The article's examples are deliberately unglamorous: customer questions, appoint
 - [[wiki/concepts/strategic-pacing]] — small firms can move before perfect certainty by scoping bounded agent projects.
 - [[wiki/concepts/workslop]] — the failure mode integrators must avoid: polished AI output that increases downstream cleanup.
 - [[wiki/concepts/llm-evaluation]] — deployed agents need task-grounded evaluation, monitoring, and regression checks.
+- [[wiki/concepts/ai-enabled-entrepreneurship]] — broader pattern of AI-supported ownership and self-created work.
+- [[wiki/concepts/entry-level-job-erosion]] — labor-market pressure that makes implementation entrepreneurship more attractive.
 - [[wiki/entities/mark-cuban]] — source of the career framing.
 - [[wiki/entities/claude]] — suggested learning interface for building the skill.
 
@@ -45,3 +50,4 @@ None yet, but there is a live tension with the wiki's workslop and code-overload
 ## Sources
 
 - [[wiki/sources/mark-cuban-future-proof-career-ai-2026-4]] — introduces the role as a career opportunity around practical business-agent implementation.
+- [[wiki/sources/gen-z-entrepreneurs-business-ai]] — situates implementation entrepreneurship within Gen Z's broader response to the missing entry-level ladder.
