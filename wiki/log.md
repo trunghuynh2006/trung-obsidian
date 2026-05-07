@@ -5,6 +5,11 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-05-07] ingest | Tom Nash: AI Infrastructure Investing — The Picks and Shovels Strategy
+
+Focus angle: investment strategy. Key finding: picks-and-shovels / facilitator thesis reframes AI infrastructure companies (compute, networking, power, data, observability, security) as the structurally low-risk way to invest in the AI mega trend — revenue tied to industry growth rather than any single application bet winning. Introduced a new wiki domain (Investing/Finance). Notable cross-domain link: the same eight-layer framework maps the enabling infrastructure that prior wiki sources cover from engineering/deployment angles; the new lens asks who *captures the value* from that build-out.
+Pages created: wiki/sources/tom-nash-ai-infrastructure-investing, wiki/entities/tom-nash, wiki/concepts/picks-and-shovels-investing, wiki/concepts/secular-trend-investing. Pages updated: wiki/index, wiki/overview (new Investing/Finance domain section).
+
 ## [2026-04-27] ingest | Gen Z Entrepreneurs and Business AI
 
 Focus angle: AI labor/adaptation. Key finding: the article adds a pipeline version of the expertise paradox: AI can augment senior workers by absorbing routine cognitive work while also removing the entry-level tasks that train future experts. Gen Z's response is mixed but active: some use AI to build portfolios, prototypes, consultancies, and startups, turning ownership into a substitute for the missing first rung.

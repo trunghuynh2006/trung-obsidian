@@ -42,6 +42,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/physical-intelligence-pi07]] — Physical Intelligence π0.7: first robot foundation model showing compositional generalization; air fryer demo; super-linear scaling claim; prompt engineering as deployment bottleneck.
 - [[wiki/sources/design-patterns-reimagined]] — GoF/POSA pattern catalog reimagined for modern software: 4 patterns removed, 4 transformed, 9 new patterns for distributed systems, reactive programming, and modern data access.
 - [[wiki/sources/ai-powered-robots-german-factories]] — Hannover Messe 2026: Physical AI in industrial production; Agile Robots vs. Unitree on value-added tasks vs. demos; Germany's data/ecosystem advantages and fragmentation gap.
+- [[wiki/sources/tom-nash-ai-infrastructure-investing]] — Investment strategy lens: picks-and-shovels / facilitator thesis for the AI wave; 8-layer infrastructure framework; secular trend orientation; system over stock picks.
 
 ## Entities
 - [[wiki/entities/ashley-terrell]] — Gen Z marketing graduate who built a branded-content portfolio after conventional entry-level work failed to materialize.
@@ -115,6 +116,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/dfki]] — German Research Centre for Artificial Intelligence; claims German factory data quality exceeds US and China.
 - [[wiki/entities/hannover-messe]] — World's largest industrial technology fair; 2026 edition placed physical AI as headline theme.
 - [[wiki/entities/friedrich-merz]] — German Chancellor; attended Hannover Messe 2026; witnessed Unitree robots in China; politically endorsed industrial AI adoption.
+- [[wiki/entities/tom-nash]] — Investor/YouTuber; advocate of picks-and-shovels / facilitator investing thesis for AI infrastructure.
 
 ## Concepts
 
@@ -228,6 +230,8 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/covert-capabilities]] — AI taking deceptive or harmful action during legitimate tasks; METR's research line testing whether AI monitors can detect AI misbehavior.
 - [[wiki/concepts/sandbagging]] — Intentional AI underperformance on capability evaluations; enabled by situational awareness; makes all benchmark scores provisional lower bounds.
 - [[wiki/concepts/compositional-generalization]] — Ability to combine sub-skills from different training contexts to solve tasks never seen in training; first demonstrated in robotics by Physical Intelligence π0.7.
+- [[wiki/concepts/picks-and-shovels-investing]] — Invest in the infrastructure/enablers of a tech wave rather than speculative application bets; reduces concentration risk; Gold Rush analogy.
+- [[wiki/concepts/secular-trend-investing]] — Anchor position-holding to multi-year structural drivers; filter short-term market noise; systematic research over reactive stock picking.
 
 ## Analyses
 - [[wiki/analyses/ultralearning-for-german-b1]] — Full study plan applying Scott Young's nine ultralearning principles to the German B1 exam, tailored for Vietnamese / B2 English learners, with a 6-month sprint from A2.

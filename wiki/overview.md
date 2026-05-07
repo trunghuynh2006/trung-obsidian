@@ -6,7 +6,7 @@ High-level synthesis of everything in this wiki. Updated after each ingest.
 
 ## What this wiki is about
 
-This wiki spans nine domains: **knowledge management** (LLM Wiki pattern), **robotics education** (how to navigate a complex multidisciplinary field), **productivity/focus** (deep work, flow, and the attention economy), **AI+IoT systems** (edge AI architecture and industrial applications), **frontier AI capability/safety/security** (coding agents, alignment, and AI-enabled cybersecurity), **AI + labor markets** (how AI restructures work, expertise, and organizational design), **behavioral economics / applied microeconomics** (incentives, conventional wisdom, expert exploitation, and measurement methodology), and **enterprise integration / software architecture** (messaging patterns, loose coupling, and the vocabulary of distributed systems design). These connect: all nine are about how intelligence — human or artificial — compounds through tools and systems, and about what kinds of discipline are needed when capability starts moving faster than human review. The robotics branch now has a clearer infrastructure story as well: real-world AI needs not just models and actuators, but reliable spatial grounding.
+This wiki spans ten domains: **knowledge management** (LLM Wiki pattern), **robotics education** (how to navigate a complex multidisciplinary field), **productivity/focus** (deep work, flow, and the attention economy), **AI+IoT systems** (edge AI architecture and industrial applications), **frontier AI capability/safety/security** (coding agents, alignment, and AI-enabled cybersecurity), **AI + labor markets** (how AI restructures work, expertise, and organizational design), **behavioral economics / applied microeconomics** (incentives, conventional wisdom, expert exploitation, and measurement methodology), **enterprise integration / software architecture** (messaging patterns, loose coupling, and the vocabulary of distributed systems design), and **investing / finance** (picks-and-shovels thesis, secular trend orientation, and the eight-layer AI infrastructure framework). These connect: all nine are about how intelligence — human or artificial — compounds through tools and systems, and about what kinds of discipline are needed when capability starts moving faster than human review. The robotics branch now has a clearer infrastructure story as well: real-world AI needs not just models and actuators, but reliable spatial grounding.
 
 ## Current Thesis
 
@@ -194,6 +194,23 @@ The source's central thesis is worth tracking: the *principles* of good software
 - **New:** Where do these patterns appear in Power Platform integrations (PL-400)? Custom connectors and Power Automate flows implement several (Message Translator, Circuit Breaker, async-await).
 - **New:** As microservices patterns mature, which are being absorbed into infrastructure (service meshes, managed event stores) vs. remaining application-level responsibilities?
 
+## Investing / Finance Coverage (1 source in)
+
+New domain established via Tom Nash's AI infrastructure investing framework:
+
+- **Strategy layer**: picks-and-shovels / facilitator thesis — buy the infrastructure that the entire industry depends on, not speculative application bets. The Gold Rush analogy is the organizing metaphor: durable fortunes go to the tools-and-services sellers, not the prospectors.
+- **Framework layer**: eight structural AI infrastructure layers (physical, compute, networking, power/cooling, control OS, data, observability, security) as a practitioner map of where structural demand sits.
+- **Time-horizon layer**: secular trend investing — multi-year conviction, tuning out short-term noise, and systematic portfolio-construction discipline over reactive stock picking.
+
+This domain introduces a new angle on the wiki's existing AI infrastructure knowledge. Where prior sources discuss compute, edge AI, and industrial IoT from an engineering or deployment perspective, this source asks: *who captures the value from all this build-out?* The answer — infrastructure suppliers — connects back to the wiki's broader AI + labor theme: the same AI wave that restructures work and expertise also creates a distinct investment opportunity for those who supply its foundations.
+
+The picks-and-shovels framework is also a useful epistemic lens beyond investing: it distinguishes between *enabling* a trend and *winning* within a trend. Applied elsewhere in the wiki, that distinction maps onto the expertise paradox (augmenting expert work vs. automating it), the AI governance problem (who controls the infrastructure vs. who uses the applications), and the LLM Wiki pattern itself (infrastructure-layer compounding vs. query-layer RAG).
+
+**Open Questions (Investing):**
+- Does the picks-and-shovels advantage persist as AI infrastructure matures — or do margins compress at the infrastructure layer, shifting the advantage toward application companies?
+- How does systematic portfolio construction for secular trends differ from momentum investing in practice, and how do you distinguish secular demand from a cyclical bubble?
+- Which of the eight infrastructure layers is most critical to watch as the first indicator that AI adoption is stalling or accelerating beyond current projections?
+
 ## Open Questions
 
 - Which robotics subfield will be the focus? (perception, manipulation, mobile robotics, a specific industry?)
@@ -239,4 +256,4 @@ The source's central thesis is worth tracking: the *principles* of good software
 
 ---
 
-*Last updated: 2026-04-27 — after ingest: Gen Z Entrepreneurs and Business AI; 1 source page, 8 entity pages, 2 concept pages (Entry-Level Job Erosion, AI-Enabled Entrepreneurship); expertise-paradox, ai-public-sentiment, ai-workforce-readiness, ai-agent-integrators, ai-coding-agents, Cursor, and Claude updated; 2 new open questions.*
+*Last updated: 2026-05-07 — after ingest: Tom Nash AI Infrastructure Investing; 1 source page, 1 entity page (Tom Nash), 2 concept pages (Picks and Shovels Investing, Secular Trend Investing); new Investing/Finance domain section added; 3 new open questions.*
