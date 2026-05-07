@@ -5,6 +5,11 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-05-07] ingest | Matt Pocock: Software Fundamentals Matter More Than Ever
+
+Focus angle: AI + development practices. Key finding: AI code generation without structural constraints produces software entropy — progressive degradation that compounds with each AI-generated layer. Pocock pairs each of four failure modes with a technique: "grill me" for design alignment, ubiquitous language file for vocabulary, TDD as a speed limit for step discipline, and deep module design as the delegation boundary. The unifying frame is tactical vs. strategic: AI executes; the human designs the structure AI executes within. Notable cross-wiki link: the ubiquitous language + interface contract discipline is structurally identical to how CLAUDE.md governs this wiki agent (schema-driven-agents concept).
+Pages created: wiki/sources/software-fundamentals-matter-more-than-ever, wiki/entities/matt-pocock, wiki/concepts/software-entropy, wiki/concepts/deep-modules, wiki/concepts/ai-development-practices. Pages updated: wiki/concepts/ai-coding-agents (entropy risk section added), wiki/overview (entropy layer + structural paragraph), wiki/index.
+
 ## [2026-05-07] ingest | Tom Nash: AI Infrastructure Investing — The Picks and Shovels Strategy
 
 Focus angle: investment strategy. Key finding: picks-and-shovels / facilitator thesis reframes AI infrastructure companies (compute, networking, power, data, observability, security) as the structurally low-risk way to invest in the AI mega trend — revenue tied to industry growth rather than any single application bet winning. Introduced a new wiki domain (Investing/Finance). Notable cross-domain link: the same eight-layer framework maps the enabling infrastructure that prior wiki sources cover from engineering/deployment angles; the new lens asks who *captures the value* from that build-out.

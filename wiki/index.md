@@ -43,6 +43,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/sources/design-patterns-reimagined]] — GoF/POSA pattern catalog reimagined for modern software: 4 patterns removed, 4 transformed, 9 new patterns for distributed systems, reactive programming, and modern data access.
 - [[wiki/sources/ai-powered-robots-german-factories]] — Hannover Messe 2026: Physical AI in industrial production; Agile Robots vs. Unitree on value-added tasks vs. demos; Germany's data/ecosystem advantages and fragmentation gap.
 - [[wiki/sources/tom-nash-ai-infrastructure-investing]] — Investment strategy lens: picks-and-shovels / facilitator thesis for the AI wave; 8-layer infrastructure framework; secular trend orientation; system over stock picks.
+- [[wiki/sources/software-fundamentals-matter-more-than-ever]] — AI-assisted development lens: software entropy as the structural failure mode of specs-to-code; four techniques (grill me, ubiquitous language, TDD speed limit, deep modules) as remedies.
 
 ## Entities
 - [[wiki/entities/ashley-terrell]] — Gen Z marketing graduate who built a branded-content portfolio after conventional entry-level work failed to materialize.
@@ -117,6 +118,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/hannover-messe]] — World's largest industrial technology fair; 2026 edition placed physical AI as headline theme.
 - [[wiki/entities/friedrich-merz]] — German Chancellor; attended Hannover Messe 2026; witnessed Unitree robots in China; politically endorsed industrial AI adoption.
 - [[wiki/entities/tom-nash]] — Investor/YouTuber; advocate of picks-and-shovels / facilitator investing thesis for AI infrastructure.
+- [[wiki/entities/matt-pocock]] — Software educator; argues AI makes engineering fundamentals more important; coined "grill me" technique; applies deep modules as AI delegation boundary.
 
 ## Concepts
 
@@ -232,6 +234,9 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/concepts/compositional-generalization]] — Ability to combine sub-skills from different training contexts to solve tasks never seen in training; first demonstrated in robotics by Physical Intelligence π0.7.
 - [[wiki/concepts/picks-and-shovels-investing]] — Invest in the infrastructure/enablers of a tech wave rather than speculative application bets; reduces concentration risk; Gold Rush analogy.
 - [[wiki/concepts/secular-trend-investing]] — Anchor position-holding to multi-year structural drivers; filter short-term market noise; systematic research over reactive stock picking.
+- [[wiki/concepts/software-entropy]] — Progressive structural degradation of a codebase; accelerated by unconstrained AI code generation; the motivating problem for AI development practices.
+- [[wiki/concepts/deep-modules]] — Simple interface hiding complex implementation (Ousterhout); applied as the human-AI delegation boundary in AI-assisted development.
+- [[wiki/concepts/ai-development-practices]] — Four techniques for constraining AI coding agents: grill me, ubiquitous language file, TDD as speed limit, deep module design.
 
 ## Analyses
 - [[wiki/analyses/ultralearning-for-german-b1]] — Full study plan applying Scott Young's nine ultralearning principles to the German B1 exam, tailored for Vietnamese / B2 English learners, with a 6-month sprint from A2.

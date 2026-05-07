@@ -4,7 +4,7 @@ type: concept
 name: AI Coding Agents
 aliases: [AI code generation, vibe coding, coding agents, LLM coding tools]
 tags: [ai, software-engineering, agents, productivity, llm]
-sources: 4
+sources: 5
 ---
 
 # AI Coding Agents
@@ -52,6 +52,14 @@ The ironic solution: more agentic AI, this time for *review*. Cursor acquired Gr
 
 > "The software development factory kind of broke. We're trying to rearrange the parts." — Tido Carriero, Cursor [[wiki/sources/ai-code-overload]]
 
+## The Software Entropy Risk
+
+The code-overload problem is about *quantity*: too much code generated, not enough humans to review it. A complementary failure mode is *structural*: AI coding agents, left without engineering discipline, produce software entropy — codebases that degrade progressively with each AI-generated layer.
+
+Matt Pocock identifies four entropy mechanisms: design concept misalignment (AI builds the wrong thing), vocabulary drift (concepts lose shared names), undisciplined large steps (no tight feedback loop), and shallow module proliferation (complex leaky abstractions). Each is a failure not of the AI tool but of the missing structural constraint the human developer failed to provide.
+
+The remedy is a set of practices that enforce those constraints: the "grill me" technique, a ubiquitous language file, TDD as a speed limit, and deep module design as the AI delegation boundary. See [[wiki/concepts/ai-development-practices]] and [[wiki/concepts/software-entropy]]. [[wiki/sources/software-fundamentals-matter-more-than-ever]]
+
 ## Founder Leverage
 
 The Guardian Gen Z entrepreneurship source adds a different angle on coding agents. Tools such as Cursor and Claude Code are not only increasing software output inside established companies; they are letting younger workers prototype products and perform founding-engineer work earlier than their formal experience would previously allow. Madison Hsieh used Cursor to build a social app prototype in about a month; Suhit Agarwal used Claude Code in founding-engineer roles after Big Tech applications stalled. [[wiki/sources/gen-z-entrepreneurs-business-ai]]
@@ -72,6 +80,10 @@ This is the positive mirror image of the code-overload problem. Coding agents re
 - [[wiki/entities/cursor]] — primary tool in the code overload story; acquired Graphite for code review.
 - [[wiki/entities/madison-hsieh]] — example of Cursor-enabled product prototyping.
 - [[wiki/entities/claude]] — Claude Code appears as founding-engineer leverage in the Guardian source.
+- [[wiki/concepts/software-entropy]] — structural failure mode that accompanies the volume/security failure modes; accelerated by unconstrained AI code generation.
+- [[wiki/concepts/ai-development-practices]] — four-technique system for constraining AI coding agents to prevent entropy.
+- [[wiki/concepts/deep-modules]] — the architectural delegation boundary that keeps human strategic judgment separate from AI tactical execution.
+- [[wiki/entities/matt-pocock]] — software educator who frames AI entropy risk and its fundamentals-based remedies.
 
 ## Open Questions
 
@@ -79,6 +91,8 @@ This is the positive mirror image of the code-overload problem. Coding agents re
 - As AI writes more code, does the value of human engineers shift toward architectural judgment and security expertise?
 - What are the long-term effects on software quality if most code is AI-generated and human-reviewed only at surface level?
 - Do AI-built prototypes create real founder leverage, or do they create a new wave of products whose hidden engineering debt appears later?
+- Does enforcing fundamentals (TDD, deep modules, ubiquitous language) actually prevent entropy at scale, or does it only delay it as teams grow and context erodes?
+- Can the "grill me" and ubiquitous language techniques be standardized into tooling, or do they require developer discipline that is itself in short supply?
 
 ## Sources
 
@@ -86,3 +100,4 @@ This is the positive mirror image of the code-overload problem. Coding agents re
 - [[wiki/sources/ai-cybersecurity-hackers]] — shows coding agents crossing from developer productivity into cyber offense and defense.
 - [[wiki/sources/anthropic-ai-claude-mythos]] — pushes the concept further: coding-capable models may become significant enough to trigger restricted-release governance.
 - [[wiki/sources/gen-z-entrepreneurs-business-ai]] — adds founder leverage: Cursor and Claude Code help young workers build prototypes and take on founding-engineer roles.
+- [[wiki/sources/software-fundamentals-matter-more-than-ever]] — adds entropy risk: AI code generation without structural discipline degrades codebases progressively; four failure modes and their practice-based remedies.

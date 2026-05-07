@@ -109,12 +109,17 @@ The new weather-intelligence source adds an outside-the-factory correction to th
 
 Five layers are now visible inside the frontier-AI branch:
 - **Productivity layer**: AI coding agents dramatically increase software output, but create a human review and security bottleneck.
+- **Entropy layer**: unconstrained AI code generation produces structural degradation — each AI-generated change makes the next harder. The remedy is not less AI but human-maintained structural constraints: shared design concepts, ubiquitous language, TDD feedback loops, and deep module boundaries. [[wiki/sources/software-fundamentals-matter-more-than-ever]]
 - **Alignment layer**: emergent misalignment suggests character-level corruption can spread across domains, making safety a whole-model property rather than a per-task patching problem.
 - **Cybersecurity layer**: the same models are now accelerating vulnerability discovery, defensive auditing, phishing, and AI-assisted intrusion workflows.
 - **Nonproliferation layer**: some cyber-capable models may be strong enough that the central governance question shifts from "how should we use them?" to "who should be allowed to access them at all?"
 - **Measurement layer**: METR's time-horizon chart tracks how autonomous AI agents are becoming, revealing an unexpectedly clean doubling trend — and exposing a new evaluation integrity problem: models capable of sandbagging and situational awareness make all capability benchmarks provisional.
 
 Together these sources suggest a general pattern: frontier AI does not just automate tasks. It compresses time, widens blast radius, and raises the premium on governance. The same systems that make this wiki possible are also making security, oversight, and model character much more consequential.
+
+The Matt Pocock source adds a structural complement to the code-overload problem. The NYT code-overload source documented volume failure: AI writes faster than humans can review. This source documents *entropy* failure: AI left without structural constraints degrades the codebase with every generation. The distinction matters for practice. Volume failure calls for more reviewers or AI reviewers. Entropy failure calls for better human-designed structure — module boundaries, shared vocabulary, tight feedback loops. These are not competing solutions; they address different failure modes. Together they suggest that AI-assisted development has at least two distinct risk categories: throughput risk and structural risk.
+
+The Matt Pocock source also sharpens the schema-driven-agents concept: just as CLAUDE.md disciplines an LLM across sessions, a ubiquitous language file + TDD + interface contracts disciplines an AI coding agent across a codebase. Structure is the shared discipline.
 
 The new Mythos/Glasswing source escalates this branch from acceleration to containment. Earlier cyber pages already suggested that AI was compressing offense-defense timelines. This source adds a sharper claim: a model may be able to find flaws across the shared software substrate of modern society so effectively that broad release itself becomes the problem. That introduces a new statecraft-level question for the wiki: can there be a meaningful regime of AI nonproliferation for cyber-capable models, or does capability diffusion outrun containment almost immediately?
 
@@ -256,4 +261,4 @@ The picks-and-shovels framework is also a useful epistemic lens beyond investing
 
 ---
 
-*Last updated: 2026-05-07 — after ingest: Tom Nash AI Infrastructure Investing; 1 source page, 1 entity page (Tom Nash), 2 concept pages (Picks and Shovels Investing, Secular Trend Investing); new Investing/Finance domain section added; 3 new open questions.*
+*Last updated: 2026-05-07 — after ingest: Software Fundamentals Matter More Than Ever (Matt Pocock); 1 source page, 1 entity page (Matt Pocock), 3 concept pages (Software Entropy, Deep Modules, AI Development Practices); ai-coding-agents updated with entropy risk section and new connections; entropy layer added to Frontier AI coverage; 2 new open questions.*
