@@ -37,6 +37,7 @@ Commonly cited as a "start here" recommendation for robotics beginners, but also
 - [[wiki/concepts/visual-positioning-systems]] — Niantic's planned ROS 2 support links camera-based localization into common robotics middleware.
 - [[wiki/entities/niantic-spatial]] — provider of the spatial SDK that names ROS 2 as a supported target.
 - [[wiki/analyses/ultralearning-for-raspberry-pi]] — the learning path that leads to ROS2; Pi setup and Python GPIO are prerequisites.
+- [[wiki/analyses/ultralearning-for-ros2]] — full 6-week study plan applying Scott Young's nine ultralearning principles to ROS2.
 
 ## Sources
 

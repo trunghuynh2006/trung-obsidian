@@ -5,6 +5,10 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-05-08] query | Applying Ultralearning to ROS2
+
+Created analysis page applying Scott Young's nine ultralearning principles to ROS2 — the third step in the robotics learning path (after Arduino and Raspberry Pi). Covers nodes/topics/services/actions, `colcon` build, `tf2`, `nav2`, CLI diagnostic tooling, and a 6-week sprint. Links to and from: [[wiki/entities/ros2]], [[wiki/entities/raspberry-pi]], [[wiki/concepts/ultralearning]], [[wiki/concepts/problem-driven-learning]], [[wiki/analyses/ultralearning-for-raspberry-pi]], [[wiki/concepts/physical-ai]].
+
 ## [2026-05-08] query | Applying Ultralearning to Raspberry Pi Robot Building
 
 Created analysis page and new entity page (raspberry-pi) applying Scott Young's nine ultralearning principles to Pi robotics — the natural step after Arduino. Covers Linux/OS fluency, Python GPIO, OpenCV vision, ROS2 onboarding, and edge AI inference. Links to and from: [[wiki/entities/raspberry-pi]], [[wiki/entities/arduino]], [[wiki/entities/ros2]], [[wiki/concepts/ultralearning]], [[wiki/concepts/problem-driven-learning]], [[wiki/concepts/edge-ai]], [[wiki/concepts/physical-ai]], [[wiki/analyses/ultralearning-for-arduino-robot]].

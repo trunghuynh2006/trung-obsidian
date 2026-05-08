@@ -45,6 +45,7 @@ But ultralearning adds something this page did not previously emphasize: **metal
 - [[wiki/concepts/ultralearning]] — general-purpose self-directed learning framework; directness strongly overlaps, while metalearning adds a map-first refinement.
 - [[wiki/analyses/ultralearning-for-arduino-robot]] — concrete application of both frameworks combined: Arduino robotics as a problem-driven ultralearning sprint.
 - [[wiki/analyses/ultralearning-for-raspberry-pi]] — Pi robotics as the next problem-driven step: hitting Arduino limits is itself the trigger for the upgrade.
+- [[wiki/analyses/ultralearning-for-ros2]] — ROS2 as the third problem-driven step: the need for multi-node coordination or navigation is the trigger.
 - [[wiki/sources/robotics-getting-started]] — source that articulates this as the central thesis.
 
 ## Contradictions

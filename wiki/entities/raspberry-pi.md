@@ -37,3 +37,4 @@ The natural upgrade path in beginner robotics is Arduino → Raspberry Pi: once 
 - [[wiki/concepts/problem-driven-learning]] — hitting Arduino limits is the natural trigger for learning the Pi; the upgrade itself is problem-driven.
 - [[wiki/analyses/ultralearning-for-raspberry-pi]] — full 6-week study plan applying Scott Young's nine ultralearning principles to Raspberry Pi robot building.
 - [[wiki/analyses/ultralearning-for-arduino-robot]] — the prerequisite path; skills built on Arduino transfer directly to Pi GPIO and motor control.
+- [[wiki/analyses/ultralearning-for-ros2]] — the follow-on sprint; Pi is the assumed hardware platform for the ROS2 learning path.
