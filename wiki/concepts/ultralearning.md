@@ -47,6 +47,15 @@ The framework matters here because it generalizes ideas already emerging elsewhe
 
 > **Tension:** Ultralearning includes an explicit *metalearning* phase — map the subject first — while [[wiki/concepts/problem-driven-learning]] warns against overcommitting to roadmaps. These are not opposites so much as different failure-avoidance strategies: ultralearning says "map, then act"; problem-driven learning says "don't confuse the map with the path."
 
+## Applied Analyses
+
+- [[wiki/analyses/ultralearning-for-arduino-robot]] — nine principles mapped to a 6-week Arduino robot build sprint
+- [[wiki/analyses/ultralearning-for-german-b1]] — nine principles applied to German B1 certification
+- [[wiki/analyses/ultralearning-for-aws-developer-associate]] — nine principles applied to AWS DVA-C02
+- [[wiki/analyses/ultralearning-for-aws-cloud-practitioner]] — nine principles applied to AWS CLF-C02
+- [[wiki/analyses/ultralearning-for-pl900]] — nine principles applied to Microsoft PL-900
+- [[wiki/analyses/ultralearning-for-pl400]] — nine principles applied to Microsoft PL-400
+
 ## Sources
 
 - [[wiki/sources/ultralearning]] — practical summary of Scott Young's nine-principle ultralearning framework

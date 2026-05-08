@@ -43,6 +43,7 @@ But ultralearning adds something this page did not previously emphasize: **metal
 - [[wiki/concepts/robotics-multidisciplinarity]] — problem-driven learning is *necessary* in robotics because the field is too broad to learn linearly.
 - [[wiki/concepts/flow-state]] — building real problems naturally creates challenge-skill balance (problems calibrate to current ability); explains why project work induces flow more reliably than passive study.
 - [[wiki/concepts/ultralearning]] — general-purpose self-directed learning framework; directness strongly overlaps, while metalearning adds a map-first refinement.
+- [[wiki/analyses/ultralearning-for-arduino-robot]] — concrete application of both frameworks combined: Arduino robotics as a problem-driven ultralearning sprint.
 - [[wiki/sources/robotics-getting-started]] — source that articulates this as the central thesis.
 
 ## Contradictions
