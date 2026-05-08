@@ -5,6 +5,10 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-05-08] query | Applying Ultralearning to Raspberry Pi Robot Building
+
+Created analysis page and new entity page (raspberry-pi) applying Scott Young's nine ultralearning principles to Pi robotics — the natural step after Arduino. Covers Linux/OS fluency, Python GPIO, OpenCV vision, ROS2 onboarding, and edge AI inference. Links to and from: [[wiki/entities/raspberry-pi]], [[wiki/entities/arduino]], [[wiki/entities/ros2]], [[wiki/concepts/ultralearning]], [[wiki/concepts/problem-driven-learning]], [[wiki/concepts/edge-ai]], [[wiki/concepts/physical-ai]], [[wiki/analyses/ultralearning-for-arduino-robot]].
+
 ## [2026-05-08] query | Applying Ultralearning to Arduino Robot Building
 
 Created analysis page applying Scott Young's nine ultralearning principles to Arduino robotics. Maps metalearning → focus → directness → drill → retrieval → feedback → retention → intuition → experimentation onto a 6-week hardware sprint ending at a working obstacle-avoidance robot. Linked to existing pages: [[wiki/concepts/ultralearning]], [[wiki/entities/arduino]], [[wiki/concepts/problem-driven-learning]], [[wiki/concepts/deep-work]], [[wiki/concepts/flow-state]], [[wiki/concepts/time-blocking]], [[wiki/concepts/attention-residue]], [[wiki/concepts/building-a-second-brain]], [[wiki/concepts/robotics-multidisciplinarity]], [[wiki/entities/ros2]], [[wiki/concepts/physical-ai]], [[wiki/concepts/edge-ai]].

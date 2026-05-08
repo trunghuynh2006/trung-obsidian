@@ -28,7 +28,9 @@ In a beginner robotics path, Arduino typically represents the first hardware pla
 
 - [[wiki/concepts/problem-driven-learning]] — Arduino projects are a natural problem-driven learning loop: add a sensor, try to make it work, hit limits, upgrade.
 - [[wiki/entities/first-robotics]] — competition teams often use more capable controllers, but Arduino is the at-home equivalent starting point.
+- [[wiki/entities/raspberry-pi]] — the natural next platform when Arduino's RAM, OS absence, or vision limits are hit.
 - [[wiki/analyses/ultralearning-for-arduino-robot]] — full 6-week study plan applying Scott Young's nine ultralearning principles to Arduino robot building.
+- [[wiki/analyses/ultralearning-for-raspberry-pi]] — the follow-on sprint; most Arduino skills transfer directly.
 
 ## Sources
 

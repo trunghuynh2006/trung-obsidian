@@ -77,6 +77,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/entities/adam-smith]] — Founder of classical economics; moral philosopher; Freakonomics' intellectual ancestor.
 - [[wiki/entities/yijin-solution]] — Manufacturing vendor example for aluminum CNC machining, adaptive machining, and Industry 4.0-style shop-floor automation claims.
 - [[wiki/entities/arduino]] — Open-source microcontroller platform; canonical beginner hardware starting point for robotics.
+- [[wiki/entities/raspberry-pi]] — Single-board Linux computer; natural upgrade from Arduino for robotics requiring vision, networking, ROS2, or edge AI.
 - [[wiki/entities/amanda-askell]] — Anthropic's house philosopher; designed Claude's character around Aristotelian virtue ethics / practical wisdom.
 - [[wiki/entities/anthropic]] — Creator of Claude and Claude Code; grounding Claude's alignment in virtue ethics via Amanda Askell.
 - [[wiki/entities/cal-newport]] — Author of *Deep Work*; applied flow and deliberate practice to knowledge work.
@@ -245,6 +246,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/analyses/ultralearning-for-pl900]] — Full study plan applying Scott Young's nine ultralearning principles to the Microsoft PL-900 Power Platform Fundamentals exam, with a 2-week sprint schedule.
 - [[wiki/analyses/ultralearning-for-pl400]] — Full study plan applying Scott Young's nine ultralearning principles to the Microsoft PL-400 Power Platform Developer exam, with a 6-week sprint schedule.
 - [[wiki/analyses/ultralearning-for-arduino-robot]] — Full study plan applying Scott Young's nine ultralearning principles to building an Arduino robot, with a 6-week hardware sprint from zero to a working obstacle-avoidance robot.
+- [[wiki/analyses/ultralearning-for-raspberry-pi]] — Full study plan applying Scott Young's nine ultralearning principles to Raspberry Pi robot building (Linux, Python GPIO, OpenCV, ROS2), with a 6-week sprint as the natural step after Arduino.
 - [[wiki/analyses/how-to-use-this-wiki]] — Operations reference: ingest/query/lint commands, session start checklist, key file locations.
 
 ## Meta

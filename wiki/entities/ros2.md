@@ -33,8 +33,10 @@ Commonly cited as a "start here" recommendation for robotics beginners, but also
 
 - [[wiki/concepts/robotics-multidisciplinarity]] — the "learn ROS2 first" debate is a symptom of robotics having no agreed entry point.
 - [[wiki/entities/arduino]] — Arduino is the typical hardware entry point; ROS2 is typically introduced later, once hardware basics and programming are established.
+- [[wiki/entities/raspberry-pi]] — the standard affordable hardware platform for running ROS2; Raspberry Pi 4/5 are the most common ROS2 development boards.
 - [[wiki/concepts/visual-positioning-systems]] — Niantic's planned ROS 2 support links camera-based localization into common robotics middleware.
 - [[wiki/entities/niantic-spatial]] — provider of the spatial SDK that names ROS 2 as a supported target.
+- [[wiki/analyses/ultralearning-for-raspberry-pi]] — the learning path that leads to ROS2; Pi setup and Python GPIO are prerequisites.
 
 ## Sources
 

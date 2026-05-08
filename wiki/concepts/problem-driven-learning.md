@@ -44,6 +44,7 @@ But ultralearning adds something this page did not previously emphasize: **metal
 - [[wiki/concepts/flow-state]] — building real problems naturally creates challenge-skill balance (problems calibrate to current ability); explains why project work induces flow more reliably than passive study.
 - [[wiki/concepts/ultralearning]] — general-purpose self-directed learning framework; directness strongly overlaps, while metalearning adds a map-first refinement.
 - [[wiki/analyses/ultralearning-for-arduino-robot]] — concrete application of both frameworks combined: Arduino robotics as a problem-driven ultralearning sprint.
+- [[wiki/analyses/ultralearning-for-raspberry-pi]] — Pi robotics as the next problem-driven step: hitting Arduino limits is itself the trigger for the upgrade.
 - [[wiki/sources/robotics-getting-started]] — source that articulates this as the central thesis.
 
 ## Contradictions
