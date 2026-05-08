@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/analyses/ultralearning-for-arduino-robot.md",
+                "file": "wiki/analyses/ultralearning-for-raspberry-pi.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ultralearning-for-arduino-robot"
+              "title": "ultralearning-for-raspberry-pi"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ultra learning arduino",
+                "query": "ultra learning raspberr",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,23 +186,25 @@
   "active": "e721efe8cec69416",
   "lastOpenFiles": [
     "wiki/entities/arduino.md",
+    "wiki/analyses/ultralearning-for-arduino-robot.md",
+    "wiki/log.md.tmp.81845.6d5015e97991",
+    "wiki/entities/ros2.md.tmp.81845.0b0ffff25ecc",
+    "wiki/entities/arduino.md.tmp.81845.ce6fe8abb8e9",
+    "wiki/concepts/problem-driven-learning.md.tmp.81845.5d64e4d341fc",
+    "wiki/concepts/ultralearning.md.tmp.81845.e35751b1557c",
+    "wiki/index.md.tmp.81845.448b89482565",
+    "wiki/index.md.tmp.81845.67fb6c00a7e9",
+    "wiki/analyses/ultralearning-for-raspberry-pi.md",
+    "wiki/analyses/ultralearning-for-raspberry-pi.md.tmp.81845.68b73fba4cc0",
+    "wiki/entities/raspberry-pi.md",
+    "wiki/entities/raspberry-pi.md.tmp.81845.c0e561b37c1e",
     "wiki/index.md",
     "wiki/concepts/problem-driven-learning.md.tmp.81845.18712a0a9e72",
-    "wiki/concepts/ultralearning.md.tmp.81845.9fac33ad50c2",
-    "wiki/entities/arduino.md.tmp.81845.68b51be1131b",
     "wiki/concepts/ultralearning.md",
     "wiki/analyses/ultralearning-for-aws-developer-associate.md",
     "wiki/entities/microsoft-pl400.md",
-    "wiki/log.md.tmp.81845.d74c3c2710bc",
-    "wiki/index.md.tmp.81845.166b45d7e3aa",
-    "wiki/analyses/ultralearning-for-arduino-robot.md",
-    "wiki/analyses/ultralearning-for-arduino-robot.md.tmp.81845.0d4e3a3653d1",
     "wiki/analyses/ultralearning-for-pl400.md",
     "wiki/entities/agile-robots.md",
-    "wiki/log.md.tmp.2718520.d16fcb83ded7",
-    "wiki/overview.md.tmp.2718520.04fdb9fbc12e",
-    "wiki/overview.md.tmp.2718520.a536b4e361f6",
-    "wiki/overview.md.tmp.2718520.499c30c741d6",
     "wiki/concepts/ai-development-practices.md",
     "wiki/concepts/deep-modules.md",
     "wiki/concepts/software-entropy.md",
@@ -217,8 +219,6 @@
     "raw/sources/mark-cuban-future-proof-career-ai-2026-4.md",
     "raw/sources/mark-cuban.md",
     "raw/sources/2026-04-ai-powered-robots-german-factories.md",
-    "wiki/sources/ai-productivity-workplace-errors.md",
-    "wiki/concepts/cqrs-event-sourcing.md",
-    "wiki/concepts/repository-pattern.md"
+    "wiki/sources/ai-productivity-workplace-errors.md"
   ]
 }
