@@ -5,6 +5,10 @@ Each entry begins with `## [YYYY-MM-DD] operation | description` for easy parsin
 
 ---
 
+## [2026-05-08] query | Applying Ultralearning to Arduino Robot Building
+
+Created analysis page applying Scott Young's nine ultralearning principles to Arduino robotics. Maps metalearning → focus → directness → drill → retrieval → feedback → retention → intuition → experimentation onto a 6-week hardware sprint ending at a working obstacle-avoidance robot. Linked to existing pages: [[wiki/concepts/ultralearning]], [[wiki/entities/arduino]], [[wiki/concepts/problem-driven-learning]], [[wiki/concepts/deep-work]], [[wiki/concepts/flow-state]], [[wiki/concepts/time-blocking]], [[wiki/concepts/attention-residue]], [[wiki/concepts/building-a-second-brain]], [[wiki/concepts/robotics-multidisciplinarity]], [[wiki/entities/ros2]], [[wiki/concepts/physical-ai]], [[wiki/concepts/edge-ai]].
+
 ## [2026-05-07] ingest | Matt Pocock: Software Fundamentals Matter More Than Ever
 
 Focus angle: AI + development practices. Key finding: AI code generation without structural constraints produces software entropy — progressive degradation that compounds with each AI-generated layer. Pocock pairs each of four failure modes with a technique: "grill me" for design alignment, ubiquitous language file for vocabulary, TDD as a speed limit for step discipline, and deep module design as the delegation boundary. The unifying frame is tactical vs. strategic: AI executes; the human designs the structure AI executes within. Notable cross-wiki link: the ubiquitous language + interface contract discipline is structurally identical to how CLAUDE.md governs this wiki agent (schema-driven-agents concept).

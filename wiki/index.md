@@ -244,6 +244,7 @@ Master catalog of all pages in this wiki. Updated on every ingest, query save, o
 - [[wiki/analyses/ultralearning-for-aws-cloud-practitioner]] — Full study plan applying Scott Young's nine ultralearning principles to the AWS Certified Cloud Practitioner (CLF-C02) exam, with a 3-week sprint schedule.
 - [[wiki/analyses/ultralearning-for-pl900]] — Full study plan applying Scott Young's nine ultralearning principles to the Microsoft PL-900 Power Platform Fundamentals exam, with a 2-week sprint schedule.
 - [[wiki/analyses/ultralearning-for-pl400]] — Full study plan applying Scott Young's nine ultralearning principles to the Microsoft PL-400 Power Platform Developer exam, with a 6-week sprint schedule.
+- [[wiki/analyses/ultralearning-for-arduino-robot]] — Full study plan applying Scott Young's nine ultralearning principles to building an Arduino robot, with a 6-week hardware sprint from zero to a working obstacle-avoidance robot.
 - [[wiki/analyses/how-to-use-this-wiki]] — Operations reference: ingest/query/lint commands, session start checklist, key file locations.
 
 ## Meta
