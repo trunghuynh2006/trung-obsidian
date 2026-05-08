@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/entities/agile-robots.md",
-                "mode": "source",
+                "file": "wiki/analyses/ultralearning-for-arduino-robot.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "agile-robots"
+              "title": "ultralearning-for-arduino-robot"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ai power robot",
+                "query": "ultra learning arduino",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,17 +185,24 @@
   },
   "active": "e721efe8cec69416",
   "lastOpenFiles": [
+    "wiki/entities/arduino.md",
+    "wiki/index.md",
+    "wiki/concepts/problem-driven-learning.md.tmp.81845.18712a0a9e72",
+    "wiki/concepts/ultralearning.md.tmp.81845.9fac33ad50c2",
+    "wiki/entities/arduino.md.tmp.81845.68b51be1131b",
+    "wiki/concepts/ultralearning.md",
+    "wiki/analyses/ultralearning-for-aws-developer-associate.md",
+    "wiki/entities/microsoft-pl400.md",
+    "wiki/log.md.tmp.81845.d74c3c2710bc",
+    "wiki/index.md.tmp.81845.166b45d7e3aa",
+    "wiki/analyses/ultralearning-for-arduino-robot.md",
+    "wiki/analyses/ultralearning-for-arduino-robot.md.tmp.81845.0d4e3a3653d1",
+    "wiki/analyses/ultralearning-for-pl400.md",
+    "wiki/entities/agile-robots.md",
     "wiki/log.md.tmp.2718520.d16fcb83ded7",
     "wiki/overview.md.tmp.2718520.04fdb9fbc12e",
     "wiki/overview.md.tmp.2718520.a536b4e361f6",
     "wiki/overview.md.tmp.2718520.499c30c741d6",
-    "wiki/index.md.tmp.2718520.820e45d22dda",
-    "wiki/index.md.tmp.2718520.78a7230258d5",
-    "wiki/index.md.tmp.2718520.a2880d4bb0ec",
-    "wiki/concepts/ai-coding-agents.md.tmp.2718520.0b098af4d13c",
-    "wiki/concepts/ai-coding-agents.md.tmp.2718520.3f500a626927",
-    "wiki/concepts/ai-coding-agents.md.tmp.2718520.02d79bc53b94",
-    "wiki/concepts/ai-coding-agents.md.tmp.2718520.df9b21f3a4f3",
     "wiki/concepts/ai-development-practices.md",
     "wiki/concepts/deep-modules.md",
     "wiki/concepts/software-entropy.md",
@@ -206,20 +213,12 @@
     "wiki/entities/dfki.md",
     "wiki/entities/rory-sexton.md",
     "wiki/entities/unitree.md",
-    "wiki/entities/agile-robots.md",
     "wiki/sources/ai-powered-robots-german-factories.md",
     "raw/sources/mark-cuban-future-proof-career-ai-2026-4.md",
     "raw/sources/mark-cuban.md",
     "raw/sources/2026-04-ai-powered-robots-german-factories.md",
     "wiki/sources/ai-productivity-workplace-errors.md",
     "wiki/concepts/cqrs-event-sourcing.md",
-    "wiki/concepts/repository-pattern.md",
-    "raw/sources/seniors-home-care-tech.md",
-    "wiki/concepts/actor-model.md",
-    "wiki/concepts/backpressure.md",
-    "wiki/concepts/async-await.md",
-    "wiki/concepts/event-sourcing.md",
-    "wiki/concepts/saga-pattern.md",
-    "wiki/concepts/circuit-breaker.md"
+    "wiki/concepts/repository-pattern.md"
   ]
 }

@@ -30,18 +30,18 @@ Many people with Power Apps experience still struggle because the exam emphasize
 
 Practical weighting by importance and difficulty:
 
-| Domain | Importance | Difficulty | Need Hands-on? |
-|---|---|---|---|
-| Dataverse tables, relationships, business rules | High | Medium | Yes |
-| Security roles, field security, teams | Medium | Medium | Yes |
-| JavaScript form scripting | High | Medium | Yes |
-| Plugins (C#) | **Very High** | Hard | Yes |
-| Custom API / custom actions | High | Hard | Yes |
-| Azure Functions / Service Bus / webhooks | **Very High** | Hard | Yes |
-| Custom connectors | High | Medium | Yes |
-| ALM / managed vs. unmanaged solutions | **Very High** | Medium | Yes |
-| Environment variables / connection references | **Very High** | Medium | Yes |
-| Power Platform CLI / pipelines | Medium | Medium | Nice-to-have |
+| Domain                                          | Importance    | Difficulty | Need Hands-on? |
+| ----------------------------------------------- | ------------- | ---------- | -------------- |
+| Dataverse tables, relationships, business rules | High          | Medium     | Yes            |
+| Security roles, field security, teams           | Medium        | Medium     | Yes            |
+| JavaScript form scripting                       | High          | Medium     | Yes            |
+| Plugins (C#)                                    | **Very High** | Hard       | Yes            |
+| Custom API / custom actions                     | High          | Hard       | Yes            |
+| Azure Functions / Service Bus / webhooks        | **Very High** | Hard       | Yes            |
+| Custom connectors                               | High          | Medium     | Yes            |
+| ALM / managed vs. unmanaged solutions           | **Very High** | Medium     | Yes            |
+| Environment variables / connection references   | **Very High** | Medium     | Yes            |
+| Power Platform CLI / pipelines                  | Medium        | Medium     | Nice-to-have   |
 
 ---
 
